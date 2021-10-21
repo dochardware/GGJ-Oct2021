@@ -24,3 +24,15 @@ Player - Sprite (movement phase), portrait? (discussion phase)
 NPC - 4 Sprites (movement phase), 2-4 portraits (discussion phase)
 Map - 1-2 maps [single screen?]: office furniture, doors[?], characters[?] (movement phase)
 cursor, item menu[?] (discussion phase)
+
+## Outline
+### Intro
+Thursday
+MC comes in to the office makes his coffee
+Talks with Clementine
+Setup for Clementine's problem
+Christina butts in
+Setup for Christina's problem
+Rivalry
+Two girls go to their offices
+### Gameplay (TODO)
