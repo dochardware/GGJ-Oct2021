@@ -2,33 +2,32 @@ First floor entrance to office
 
 # Chris
 
-_Leans in to whisper_ 
+(Leans in to whisper) 
 
-_Points at sleepy guy_
+(Points at sleepy guy)
 
 Oh that guy looks like they could use a cup of Jo....
 
-_nudges you_
+(nudges you)
 
 Hehehe
 
 # Jo
 
-Shh they might hear you
+Kettle down they might hear you
 
 # Chris
 
-Huh what? _winks_
+Huh what? (winks)
 
 Sooo will you proof my speech later?
 
-I'll owe you one!
+Lattes on me!
 
 # Jo
 
-_I love her..._
+(I love her...)
 
-Fake choice:
 1. Yeah after I take care of stuff.
 2. Can you pull it out?
 
@@ -42,16 +41,18 @@ Oh hey Clem!
 
 Hi...
 
-_Glances_
+(Glances)
 
 Ho- How are you two...
 
+Bean...
+
 # Jo
 Fake choice:
-1. You look nice!
+1. You look fresh!
 2. finger guns
 
-_I love her too..._
+(I love her too...)
 
 (They get in the elevator)
 
@@ -61,7 +62,7 @@ I'm off to a meeting!
 
 Come by later!
 
-_leaves_
+(leaves)
 
 # Clem
 
@@ -75,7 +76,9 @@ They said to look in
 
 the supply room...
 
-For the part 63FGLP.
+For the part with the model number
+
+.
 
 # Jo
 
@@ -99,7 +102,7 @@ I have returned!
 
 Truly amazing...
 
-_slight smile_
+(slight smile)
 
 ## 2
 
