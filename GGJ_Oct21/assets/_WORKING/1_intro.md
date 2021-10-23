@@ -86,3 +86,25 @@ another crowd to face.
 Clem. I'll brave the crowd for you.
 
 **Minigame**
+
+1. If successful, Jo comes back to Clem with the part in hand
+2. If not, Clem leaves
+
+## 1
+# Jo
+
+I have returned!
+
+# Clem
+
+Truly amazing...
+
+_slight smile_
+
+## 2
+
+# Jo
+
+Oh she left.
+
+I guess she's busy.
