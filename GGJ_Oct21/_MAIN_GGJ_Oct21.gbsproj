@@ -5,7 +5,7 @@
     "_release": "6",
     "scenes": [
         {
-            "name": "TEMPLATE",
+            "name": "SCRIPT TEMPLATE",
             "backgroundId": "1e5f9d6a-bdbc-43e6-8c34-22f5bb5dea05",
             "width": 20,
             "height": 18,
@@ -2061,7 +2061,7 @@
             "imageHeight": 144,
             "filename": "placeholder.png",
             "inode": "10696049115187654",
-            "_v": 1634945521549
+            "_v": 1634947236532
         }
     ],
     "spriteSheets": [
@@ -2072,7 +2072,7 @@
             "type": "actor",
             "filename": "actor.png",
             "inode": "8444249301513823",
-            "_v": 1634945521549
+            "_v": 1634947236532
         },
         {
             "id": "581d34d0-9591-4e6e-a609-1d94f203b0cd",
@@ -2081,7 +2081,7 @@
             "type": "actor_animated",
             "filename": "actor_animated.png",
             "inode": "18295873486386785",
-            "_v": 1634945521549
+            "_v": 1634947236532
         },
         {
             "id": "daf95270-e30d-423b-9ee7-990ae29f57f6",
@@ -2090,7 +2090,7 @@
             "type": "static",
             "filename": "static.png",
             "inode": "8162774324803170",
-            "_v": 1634945521549
+            "_v": 1634947236532
         }
     ],
     "palettes": [
@@ -2239,7 +2239,7 @@
             "filename": "template.mod",
             "settings": {},
             "inode": "23080948090467925",
-            "_v": 1634945521535
+            "_v": 1634947236523
         }
     ],
     "variables": [
@@ -2256,31 +2256,16 @@
             "name": "Multiple Choice"
         }
     ],
-    "engineFieldValues": [
-        {
-            "id": "fade_style",
-            "value": 0
-        },
-        {
-            "id": "ui_interactable",
-            "value": 1
-        }
-    ],
     "settings": {
         "startSceneId": "0aacf086-3790-4e65-8da9-74288e03b319",
-        "playerSpriteSheetId": "581d34d0-9591-4e6e-a609-1d94f203b0cd",
         "startX": 9,
         "startY": 9,
-        "startMoveSpeed": 1,
-        "startAnimSpeed": 3,
-        "startDirection": "down",
         "showCollisions": true,
         "showConnections": true,
         "worldScrollX": 0,
         "worldScrollY": 0,
         "zoom": 100,
         "customColorsEnabled": false,
-        "customHead": "",
         "defaultBackgroundPaletteIds": [
             "default-bg-1",
             "default-bg-2",
@@ -2291,13 +2276,18 @@
         ],
         "defaultSpritePaletteId": "default-sprite",
         "defaultUIPaletteId": "default-ui",
+        "defaultFadeStyle": "white",
+        "playerSpriteSheetId": "581d34d0-9591-4e6e-a609-1d94f203b0cd",
+        "startMoveSpeed": 1,
+        "startAnimSpeed": 3,
+        "startDirection": "down",
+        "customHead": "",
         "playerPaletteId": "",
         "navigatorSplitSizes": [
             735,
             245,
             245
         ],
-        "showNavigator": true,
-        "defaultFadeStyle": "white"
+        "showNavigator": true
     }
 }

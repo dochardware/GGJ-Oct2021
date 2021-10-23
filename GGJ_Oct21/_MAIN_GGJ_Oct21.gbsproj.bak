@@ -1058,7 +1058,7 @@
                             "Neeed...\nCoffee...",
                             "Ok. Machine\nlooks fine.",
                             "Water. Beans.\nGRRRIIIND",
-                            "oh hey\n\nit's clem"
+                            "oh hey\nit's clem"
                         ],
                         "avatarId": "daf95270-e30d-423b-9ee7-990ae29f57f6",
                         "__collapse": false,
@@ -1070,7 +1070,7 @@
                     "command": "EVENT_GROUP",
                     "args": {
                         "__label": "CLEM Dialog",
-                        "__collapse": true
+                        "__collapse": false
                     },
                     "children": {
                         "true": [
@@ -1129,7 +1129,7 @@
                                 "args": {
                                     "text": [
                                         "hey...\n...\n...",
-                                        "how. was. your...\n...\n...everything..."
+                                        "how..was..your...\n...everything..."
                                     ],
                                     "avatarId": "",
                                     "__collapse": false
@@ -1426,7 +1426,7 @@
                                 "id": "35e6f1ae-b523-4dd3-bb47-9ac1218d59a9",
                                 "command": "EVENT_ACTOR_SET_ANIMATION_SPEED",
                                 "args": {
-                                    "actorId": "763b9835-3703-4511-83fb-b070a2bc1fda",
+                                    "actorId": "ec4de5d0-cd5e-428b-bdae-b03485bd7205",
                                     "speed": null,
                                     "__collapse": false
                                 }
@@ -1435,7 +1435,7 @@
                                 "id": "03e76f91-fec7-4536-a8cb-ec86aa626efc",
                                 "command": "EVENT_ACTOR_SET_FRAME",
                                 "args": {
-                                    "actorId": "763b9835-3703-4511-83fb-b070a2bc1fda",
+                                    "actorId": "ec4de5d0-cd5e-428b-bdae-b03485bd7205",
                                     "frame": {
                                         "type": "number",
                                         "value": 0
@@ -2276,7 +2276,7 @@
         "startDirection": "down",
         "showCollisions": true,
         "showConnections": true,
-        "worldScrollX": 23.58490753173828,
+        "worldScrollX": 0,
         "worldScrollY": 0,
         "zoom": 100,
         "customColorsEnabled": false,
