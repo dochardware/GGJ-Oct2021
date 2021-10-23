@@ -26,20 +26,26 @@ Map - 1-2 maps [single screen?]: office furniture, doors[?], characters[?] (move
 cursor, item menu[?] (discussion phase)
 
 ## Outline
+The company is having a company wide presentation that both girls are preparing for like Apple
+
+When you walk in downstairs there are people blocking entry to the next room. Chris comments on this and you get into the elevator for the title card. You have your meet scene(s) both girls. Then when you go to talk to clementine she tells you the printer is broken and she needs a spare from downstairs 
+
+The minigame has you avoiding people in the crowd to get to the supply room. The better you do, the more impressed she is. Do poorly and she still says thanks but that locks the dating route for her for now.
+
+Other minigame is proofing Chris' speech.
+
+Each point in favor raises Doki Meter (visible or no? to what degree)
+
 ### Intro
-Thursday
+Player picks which girl to interact with
 
-MC comes in to the office makes his coffee
+Minigame or discussion
 
-Talks with Clementine
+Interact with other girl
 
-Setup for Clementine's problem
+Discussion or minigame
 
-Christina butts in
+Move to second stage where they swap
 
-Setup for Christina's problem
-
-Rivalry
-
-Two girls go to their offices
-### Gameplay (TODO)
+### Ending
+Affinity tally, and thats the one you feel comfy asking out

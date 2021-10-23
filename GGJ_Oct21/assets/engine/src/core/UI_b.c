@@ -69,7 +69,7 @@ void UIInit_b() __banked {
 }
 
 void UIReset_b() __banked {
-  UISetPos(0, 144);
+  UISetPos(0, 150);
 }
 
 void UIUpdate_b() __banked {
@@ -114,7 +114,7 @@ void UIUpdate_b() __banked {
   }
 
   WX_REG = win_pos_x + 7;
-  WY_REG = win_pos_y;
+  WY_REG = win_pos_y - 8;
 }
 
 void UIDrawFrame_b(UBYTE x, UBYTE y, UBYTE width, UBYTE height) __banked {
@@ -130,7 +130,7 @@ void UIDrawFrame_b(UBYTE x, UBYTE y, UBYTE width, UBYTE height) __banked {
 }
 
 void UIDrawDialogueFrame_b(UBYTE h) __banked {
-  UIDrawFrame_b(0, 0, 19, h);
+  UIDrawFrame_b(-1, 0, 21, h);
 }
 
 void UISetColor_b(UBYTE color) __banked {
@@ -197,7 +197,7 @@ void UIShowText_b() __banked {
     UISetPos(MENU_LAYOUT_INITIAL_X, MENU_CLOSED_Y);
     UIMoveTo(MENU_LAYOUT_INITIAL_X, MENU_CLOSED_Y - ((text_num_lines + 2) << 3), text_in_speed);
   } else {
-    text_num_lines = MIN(tmp_text_lines[0], 4);
+    text_num_lines = MIN(tmp_text_lines[4], 4);
     UIDrawDialogueFrame(text_num_lines);
     UISetPos(0, MENU_CLOSED_Y);
     UIMoveTo(0, MENU_CLOSED_Y - ((text_num_lines + 2) << 3), text_in_speed);

@@ -26,7 +26,7 @@ void UIShowMenu_b(UWORD flag_index,
 
 UBYTE ui_block = FALSE;
 UBYTE win_pos_x;
-UBYTE win_pos_y;
+UBYTE win_pos_y ;
 UBYTE win_dest_pos_x;
 UBYTE win_dest_pos_y;
 UBYTE win_speed;
