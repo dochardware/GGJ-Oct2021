@@ -6865,9 +6865,404 @@
             "backgroundId": "7e238a07-91b9-4560-9dd3-a61de09fb9af",
             "width": 20,
             "height": 18,
-            "collisions": [],
+            "collisions": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                15,
+                15,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                15,
+                15,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
             "tileColors": [],
             "script": [
+                {
+                    "id": "6c1b4813-7f48-49a7-be76-e15767a8b3a2",
+                    "command": "ACTOR_SET_BITS",
+                    "args": {
+                        "actorId": "9def9e86-45d6-41de-b680-44b1fc50f3af",
+                        "cpal": {
+                            "type": "number",
+                            "value": 0
+                        },
+                        "pal": 0,
+                        "flipX": true,
+                        "flipY": false,
+                        "bank": 0,
+                        "priority": false,
+                        "__collapse": true
+                    }
+                },
+                {
+                    "id": "3140055f-ba00-4f50-ba0b-15028838e8c5",
+                    "command": "ACTOR_SET_BITS",
+                    "args": {
+                        "actorId": "8d126859-1932-4306-867c-7806a23bbc57",
+                        "cpal": {
+                            "type": "number",
+                            "value": 0
+                        },
+                        "pal": 0,
+                        "flipX": true,
+                        "flipY": false,
+                        "bank": 0,
+                        "priority": false,
+                        "__collapse": true
+                    }
+                },
                 {
                     "id": "16fb64c4-5ed8-4218-a609-1b20e09faa16",
                     "command": "EVENT_ACTOR_SET_ANIMATE",
@@ -6978,24 +7373,6 @@
                                 "command": "EVENT_END"
                             }
                         ]
-                    }
-                },
-                {
-                    "id": "425a8b5d-c8ae-4671-ac65-efeffe52c7e1",
-                    "command": "ACTOR_GET_BIT",
-                    "args": {
-                        "actorId": "9def9e86-45d6-41de-b680-44b1fc50f3af",
-                        "bit": "5",
-                        "__collapse": true
-                    }
-                },
-                {
-                    "id": "8bf4706a-3043-43af-a91f-220b201fd767",
-                    "command": "ACTOR_GET_BIT",
-                    "args": {
-                        "actorId": "8d126859-1932-4306-867c-7806a23bbc57",
-                        "bit": "5",
-                        "__collapse": true
                     }
                 },
                 {
@@ -7143,8 +7520,8 @@
                                         "id": "fabd92b4-83c2-410c-94ec-892b1684bea1",
                                         "command": "EVENT_GROUP",
                                         "args": {
-                                            "__label": "NPC Dialog",
-                                            "__collapse": false
+                                            "__label": "Chris Dialog",
+                                            "__collapse": true
                                         },
                                         "children": {
                                             "true": [
@@ -7234,6 +7611,22 @@
                                                     }
                                                 },
                                                 {
+                                                    "id": "fbe08fb5-bd52-4f5d-b1aa-216ed0b9cb46",
+                                                    "command": "EVENT_END"
+                                                }
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "id": "40d36bed-79fc-4bdb-aa43-c3d7e1b3d475",
+                                        "command": "EVENT_GROUP",
+                                        "args": {
+                                            "__label": "Clem Dialog",
+                                            "__collapse": true
+                                        },
+                                        "children": {
+                                            "true": [
+                                                {
                                                     "id": "1b1e1de0-d842-4546-86f1-22bf06da2710",
                                                     "command": "EVENT_GROUP",
                                                     "args": {
@@ -7278,7 +7671,7 @@
                                                             "PLACEHOLDER"
                                                         ],
                                                         "avatarId": "",
-                                                        "__collapse": false
+                                                        "__collapse": true
                                                     }
                                                 },
                                                 {
@@ -7319,10 +7712,22 @@
                                                     }
                                                 },
                                                 {
-                                                    "id": "fbe08fb5-bd52-4f5d-b1aa-216ed0b9cb46",
+                                                    "id": "23e27939-ae9d-4365-8ff0-9522bd98fb92",
                                                     "command": "EVENT_END"
                                                 }
                                             ]
+                                        }
+                                    },
+                                    {
+                                        "id": "c3500da1-3c4a-4163-be53-d93dd13b8478",
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "PLACEHOLDER"
+                                            ],
+                                            "avatarId": "daf95270-e30d-423b-9ee7-990ae29f57f6",
+                                            "__collapse": true,
+                                            "__label": "Player Dialog"
                                         }
                                     },
                                     {
@@ -8267,7 +8672,7 @@
                     "height": 1
                 }
             ],
-            "type": "0"
+            "type": "1"
         }
     ],
     "backgrounds": [
@@ -8279,8 +8684,8 @@
             "imageWidth": 160,
             "imageHeight": 144,
             "filename": "BGTemplate.png",
-            "inode": "5066549581010391",
-            "_v": 1635009825293
+            "inode": "26280937",
+            "_v": 1635011077218
         },
         {
             "id": "df2d53fc-6b6f-476a-9a36-cb3540384198",
@@ -8290,8 +8695,8 @@
             "imageWidth": 160,
             "imageHeight": 144,
             "filename": "BG_Clem.png",
-            "inode": "5066549581010392",
-            "_v": 1635009825293
+            "inode": "26280949",
+            "_v": 1635011077218
         },
         {
             "id": "22bf7c2c-7ea5-458d-92fd-5fd1ab28f06b",
@@ -8301,8 +8706,8 @@
             "imageWidth": 160,
             "imageHeight": 144,
             "filename": "ChrisBG.png",
-            "inode": "14355223812495211",
-            "_v": 1635009825293
+            "inode": "26313113",
+            "_v": 1635011077218
         },
         {
             "id": "7e238a07-91b9-4560-9dd3-a61de09fb9af",
@@ -8312,8 +8717,8 @@
             "imageWidth": 160,
             "imageHeight": 144,
             "filename": "GirlsBG.png",
-            "inode": "12384898975520622",
-            "_v": 1635009825293
+            "inode": "26313311",
+            "_v": 1635011077218
         },
         {
             "id": "eb5e4998-82c7-470a-8106-25408e95647a",
@@ -8323,8 +8728,8 @@
             "imageWidth": 160,
             "imageHeight": 144,
             "filename": "Portrait_Client01.png",
-            "inode": "23362423067177717",
-            "_v": 1635009825293
+            "inode": "26280328",
+            "_v": 1635011077218
         },
         {
             "id": "1e5f9d6a-bdbc-43e6-8c34-22f5bb5dea05",
@@ -8334,8 +8739,8 @@
             "imageWidth": 160,
             "imageHeight": 144,
             "filename": "placeholder.png",
-            "inode": "10696049115187654",
-            "_v": 1635009825293
+            "inode": "26254473",
+            "_v": 1635011077218
         }
     ],
     "spriteSheets": [
@@ -8345,8 +8750,8 @@
             "numFrames": 4,
             "type": "animated",
             "filename": "Cursor.png",
-            "inode": "5066549581010395",
-            "_v": 1635009825293
+            "inode": "26281871",
+            "_v": 1635011077218
         },
         {
             "id": "11b5452b-187c-43a3-afb1-a1f4f74ffda2",
@@ -8354,8 +8759,8 @@
             "numFrames": 3,
             "type": "actor",
             "filename": "actor.png",
-            "inode": "8444249301513823",
-            "_v": 1635009825293
+            "inode": "26254479",
+            "_v": 1635011077218
         },
         {
             "id": "581d34d0-9591-4e6e-a609-1d94f203b0cd",
@@ -8363,8 +8768,8 @@
             "numFrames": 6,
             "type": "actor_animated",
             "filename": "actor_animated.png",
-            "inode": "18295873486386785",
-            "_v": 1635009825293
+            "inode": "26254481",
+            "_v": 1635011077218
         },
         {
             "id": "9304c7c0-147a-4a4f-b827-5c2bcacc4cf3",
@@ -8372,8 +8777,8 @@
             "numFrames": 2,
             "type": "animated",
             "filename": "chris_mouth.png",
-            "inode": "14355223812495220",
-            "_v": 1635009825293
+            "inode": "26312942",
+            "_v": 1635011077218
         },
         {
             "id": "0d4af66d-860c-4fc2-89b3-cdf2212decd3",
@@ -8381,8 +8786,8 @@
             "numFrames": 2,
             "type": "animated",
             "filename": "clem_mouth.png",
-            "inode": "5066549581010397",
-            "_v": 1635009825293
+            "inode": "26280428",
+            "_v": 1635011077218
         },
         {
             "id": "86c5625f-0b34-480a-bc95-180fe62d66ad",
@@ -8390,8 +8795,8 @@
             "numFrames": 2,
             "type": "animated",
             "filename": "mom_mouth.png",
-            "inode": "29554872554812150",
-            "_v": 1635009825300
+            "inode": "26267235",
+            "_v": 1635011077218
         },
         {
             "id": "daf95270-e30d-423b-9ee7-990ae29f57f6",
@@ -8399,8 +8804,8 @@
             "numFrames": 1,
             "type": "static",
             "filename": "static.png",
-            "inode": "8162774324803170",
-            "_v": 1635009825300
+            "inode": "26254483",
+            "_v": 1635011077218
         }
     ],
     "palettes": [
@@ -8548,8 +8953,8 @@
             "name": "template",
             "filename": "template.mod",
             "settings": {},
-            "inode": "23080948090467925",
-            "_v": 1635009825261
+            "inode": "26254476",
+            "_v": 1635011077208
         }
     ],
     "variables": [
@@ -8578,16 +8983,27 @@
             "name": "Multiple Choice"
         }
     ],
+    "engineFieldValues": [
+        {
+            "id": "ui_interactable",
+            "value": 1
+        }
+    ],
     "settings": {
         "startSceneId": "d9a05e53-0fa2-46e1-9c93-0bf42c0816cd",
+        "playerSpriteSheetId": "05a64a1a-1153-4c46-9119-467c9411b74e",
         "startX": 0,
         "startY": 12,
+        "startMoveSpeed": 1,
+        "startAnimSpeed": 2,
+        "startDirection": "right",
         "showCollisions": true,
         "showConnections": true,
-        "worldScrollX": 261.3207702636719,
+        "worldScrollX": 1067,
         "worldScrollY": 0,
-        "zoom": 199.57630805671215,
+        "zoom": 197.22841230034828,
         "customColorsEnabled": false,
+        "customHead": "",
         "defaultBackgroundPaletteIds": [
             "default-bg-1",
             "default-bg-2",
@@ -8598,18 +9014,13 @@
         ],
         "defaultSpritePaletteId": "default-sprite",
         "defaultUIPaletteId": "default-ui",
-        "defaultFadeStyle": "white",
-        "playerSpriteSheetId": "05a64a1a-1153-4c46-9119-467c9411b74e",
-        "startMoveSpeed": 1,
-        "startAnimSpeed": 2,
-        "startDirection": "right",
-        "customHead": "",
         "playerPaletteId": "",
         "navigatorSplitSizes": [
             452,
             150,
             150
         ],
-        "showNavigator": true
+        "showNavigator": true,
+        "defaultFadeStyle": "white"
     }
 }
