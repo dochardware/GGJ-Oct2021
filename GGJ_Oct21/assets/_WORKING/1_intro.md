@@ -14,7 +14,7 @@ Hehehe
 
 # Jo
 
-Shh they might hear you
+Kettle down they might hear you
 
 # Chris
 
@@ -22,13 +22,12 @@ Huh what? _winks_
 
 Sooo will you proof my speech later?
 
-I'll owe you one!
+Lattes on me!
 
 # Jo
 
 _I love her..._
 
-Fake choice:
 1. Yeah after I take care of stuff.
 2. Can you pull it out?
 
@@ -46,9 +45,11 @@ _Glances_
 
 Ho- How are you two...
 
+Bean...
+
 # Jo
 Fake choice:
-1. You look nice!
+1. You look fresh!
 2. finger guns
 
 _I love her too..._
@@ -75,7 +76,9 @@ They said to look in
 
 the supply room...
 
-For the part 63FGLP.
+For the part with the model number
+
+.
 
 # Jo
 
