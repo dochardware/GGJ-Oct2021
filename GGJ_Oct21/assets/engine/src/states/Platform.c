@@ -266,23 +266,7 @@ void Update_Platform() {
     if (player.dir.x) pl_dir_x = player.dir.x;
     if (player.dir.y) pl_dir_y = player.dir.y;
   }
-  // Jump
-  if (INPUT_A_PRESSED && grounded) {
-    if (!( (((pl_pos_x >> 4) & 0x7) != 7 &&
-          TileAt(tile_x, tile_y - 1) & COLLISION_BOTTOM) ||  // Left Edge
-          (((pl_pos_x >> 4) & 0x7) != 0 &&
-           TileAt(tile_x + 1, tile_y - 1) & COLLISION_BOTTOM))) {  // Right edge
-      pl_vel_y = -plat_jump_vel;
-      grounded = FALSE;
-      if (!on_ladder) {
-        pl_dir_x = player.dir.x;
-        pl_dir_y = player.dir.y;
-        player.dir.x = 0;
-        player.rerender = TRUE;
-        jumping = TRUE;
-      } 
-    }
-  }
+  
   if (jumping) {
     if (grounded) {
       player.dir.x = pl_dir_x;
