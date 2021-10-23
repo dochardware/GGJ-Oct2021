@@ -4372,6 +4372,19 @@
                     }
                 },
                 {
+                    "id": "5459dbde-bc00-4808-b03b-7b195542a14a",
+                    "command": "EVENT_MUSIC_STOP",
+                    "args": {}
+                },
+                {
+                    "id": "8ceeef2d-7390-4eca-8793-d93e107a3196",
+                    "command": "EVENT_MUSIC_PLAY",
+                    "args": {
+                        "musicId": "0000b9fd-c8d7-4676-86b8-6a0e7ac67723",
+                        "loop": true
+                    }
+                },
+                {
                     "id": "3731efbe-e1fc-467f-8661-62891ed6330f",
                     "command": "EVENT_END"
                 }
@@ -4516,16 +4529,6 @@
                                         "command": "EVENT_ACTOR_SHOW",
                                         "args": {
                                             "actorId": "$self$"
-                                        }
-                                    },
-                                    {
-                                        "id": "fa83adbd-aa94-4180-a850-325a2e9a7ab2",
-                                        "command": "EVENT_TEXT",
-                                        "args": {
-                                            "text": [
-                                                "PLACEHOLDER"
-                                            ],
-                                            "avatarId": ""
                                         }
                                     },
                                     {
@@ -5046,8 +5049,8 @@
             "imageWidth": 160,
             "imageHeight": 144,
             "filename": "BGTemplate.png",
-            "inode": "5066549581010391",
-            "_v": 1635025120735
+            "inode": "26280937",
+            "_v": 1635029196182
         },
         {
             "id": "6a036d64-6f9a-4ff5-b903-3485b56885a8",
@@ -5057,8 +5060,8 @@
             "imageWidth": 160,
             "imageHeight": 144,
             "filename": "BG_Clem.png",
-            "inode": "5066549581010392",
-            "_v": 1635025120735
+            "inode": "26280949",
+            "_v": 1635029196182
         },
         {
             "id": "34bb721c-fe40-410e-bae6-b027f047781e",
@@ -5068,8 +5071,8 @@
             "imageWidth": 160,
             "imageHeight": 144,
             "filename": "ChrisBG.png",
-            "inode": "14355223812495211",
-            "_v": 1635025120735
+            "inode": "26313113",
+            "_v": 1635029196182
         },
         {
             "id": "13a0e36e-f867-4896-a612-8a640a64e76d",
@@ -5079,8 +5082,8 @@
             "imageWidth": 160,
             "imageHeight": 144,
             "filename": "GirlsBG.png",
-            "inode": "12384898975520622",
-            "_v": 1635025120735
+            "inode": "26313311",
+            "_v": 1635029196182
         },
         {
             "id": "58e8765d-7f08-4d99-bc09-75dd12ccc651",
@@ -5090,8 +5093,8 @@
             "imageWidth": 552,
             "imageHeight": 504,
             "filename": "Map - ver1.png",
-            "inode": "18014398509695052",
-            "_v": 1635025120735
+            "inode": "26325720",
+            "_v": 1635029196182
         },
         {
             "id": "6818254a-4a3d-4839-8765-140d5f9b7bbb",
@@ -5101,8 +5104,8 @@
             "imageWidth": 552,
             "imageHeight": 504,
             "filename": "Map.png",
-            "inode": "25051272927409674",
-            "_v": 1635025120735
+            "inode": "26317897",
+            "_v": 1635029196182
         },
         {
             "id": "b0f8acd6-4bca-469c-bd12-7a84962e348e",
@@ -5112,8 +5115,8 @@
             "imageWidth": 160,
             "imageHeight": 144,
             "filename": "Portrait_Client01.png",
-            "inode": "23362423067177717",
-            "_v": 1635025120735
+            "inode": "26280328",
+            "_v": 1635029196183
         },
         {
             "id": "1e5f9d6a-bdbc-43e6-8c34-22f5bb5dea05",
@@ -5123,8 +5126,8 @@
             "imageWidth": 160,
             "imageHeight": 144,
             "filename": "placeholder.png",
-            "inode": "10696049115187654",
-            "_v": 1635025120735
+            "inode": "26254473",
+            "_v": 1635029196182
         }
     ],
     "spriteSheets": [
@@ -5134,8 +5137,8 @@
             "numFrames": 4,
             "type": "animated",
             "filename": "Cursor.png",
-            "inode": "5066549581010395",
-            "_v": 1635025120735
+            "inode": "26281871",
+            "_v": 1635029196183
         },
         {
             "id": "11b5452b-187c-43a3-afb1-a1f4f74ffda2",
@@ -5143,8 +5146,8 @@
             "numFrames": 3,
             "type": "actor",
             "filename": "actor.png",
-            "inode": "8444249301513823",
-            "_v": 1635025120735
+            "inode": "26254479",
+            "_v": 1635029196183
         },
         {
             "id": "581d34d0-9591-4e6e-a609-1d94f203b0cd",
@@ -5152,8 +5155,8 @@
             "numFrames": 6,
             "type": "actor_animated",
             "filename": "actor_animated.png",
-            "inode": "18295873486386785",
-            "_v": 1635025120735
+            "inode": "26254481",
+            "_v": 1635029196183
         },
         {
             "id": "0231d8d0-ce6a-49fc-b509-855d078a4fc7",
@@ -5161,8 +5164,17 @@
             "numFrames": 2,
             "type": "animated",
             "filename": "chris_mouth.png",
-            "inode": "14355223812495220",
-            "_v": 1635025120735
+            "inode": "26312942",
+            "_v": 1635029196183
+        },
+        {
+            "id": "a2827768-3efa-44ac-9f99-45972cbc042f",
+            "name": "clem",
+            "numFrames": 6,
+            "type": "actor_animated",
+            "filename": "clem.png",
+            "inode": "26327832",
+            "_v": 1635029360542
         },
         {
             "id": "3f1c9edb-857b-4f17-83e7-66b5cc194c68",
@@ -5170,8 +5182,8 @@
             "numFrames": 2,
             "type": "animated",
             "filename": "clem_mouth.png",
-            "inode": "5066549581010397",
-            "_v": 1635025120735
+            "inode": "26280428",
+            "_v": 1635029196183
         },
         {
             "id": "f7ed0f76-b047-428a-af35-940fd1783479",
@@ -5179,8 +5191,8 @@
             "numFrames": 2,
             "type": "animated",
             "filename": "mom_mouth.png",
-            "inode": "29554872554812150",
-            "_v": 1635025120735
+            "inode": "26267235",
+            "_v": 1635029196183
         },
         {
             "id": "daf95270-e30d-423b-9ee7-990ae29f57f6",
@@ -5188,8 +5200,8 @@
             "numFrames": 1,
             "type": "static",
             "filename": "static.png",
-            "inode": "8162774324803170",
-            "_v": 1635025120735
+            "inode": "26254483",
+            "_v": 1635029196183
         }
     ],
     "palettes": [
@@ -5337,63 +5349,63 @@
             "name": "Couple or End theme v1",
             "filename": "Couple or End theme v1.mod",
             "settings": {},
-            "inode": "8444249301536206",
-            "_v": 1635025120713
+            "inode": "26324665",
+            "_v": 1635029196175
         },
         {
             "id": "4631cc13-0c49-453b-a18d-d2cb72641ccc",
             "name": "Puzzle theme 1",
             "filename": "Puzzle theme 1.mod",
             "settings": {},
-            "inode": "7881299348114898",
-            "_v": 1635025120713
+            "inode": "26324666",
+            "_v": 1635029196175
         },
         {
             "id": "0000b9fd-c8d7-4676-86b8-6a0e7ac67723",
             "name": "RomCom 1",
             "filename": "RomCom 1.mod",
             "settings": {},
-            "inode": "7599824371404243",
-            "_v": 1635025120714
+            "inode": "26324667",
+            "_v": 1635029196175
         },
         {
             "id": "69a079ff-272c-44cc-8984-dedc44af8be5",
             "name": "Title theme v1",
             "filename": "Title theme v1.mod",
             "settings": {},
-            "inode": "7318349394693588",
-            "_v": 1635025120714
+            "inode": "26324668",
+            "_v": 1635029196176
         },
         {
             "id": "9f18f982-5115-47b2-80db-ad35e65284f4",
             "name": "Walkin Music 1-Talkin",
             "filename": "Walkin Music 1-Talkin.mod",
             "settings": {},
-            "inode": "7318349394693589",
-            "_v": 1635025120714
+            "inode": "26324669",
+            "_v": 1635029196176
         },
         {
             "id": "b9e74024-5a50-4cae-a17e-9d067363c510",
             "name": "Walkin Music 1",
             "filename": "Walkin Music 1.mod",
             "settings": {},
-            "inode": "8162774324825558",
-            "_v": 1635025120714
+            "inode": "26324670",
+            "_v": 1635029196176
         },
         {
             "id": "f50428ab-a084-4591-9bba-2ba10fe7b1c6",
             "name": "template",
             "filename": "template.mod",
             "settings": {},
-            "inode": "23080948090467925",
-            "_v": 1635025120714
+            "inode": "26254476",
+            "_v": 1635029196176
         }
     ],
     "variables": [],
     "engineFieldValues": [],
     "settings": {
         "startSceneId": "fb1cf392-bf10-4463-8c10-97b093cb6771",
-        "playerSpriteSheetId": "581d34d0-9591-4e6e-a609-1d94f203b0cd",
+        "playerSpriteSheetId": "a2827768-3efa-44ac-9f99-45972cbc042f",
         "startX": 5,
         "startY": 51,
         "startMoveSpeed": 1,
@@ -5401,8 +5413,8 @@
         "startDirection": "right",
         "showCollisions": true,
         "showConnections": true,
-        "worldScrollX": 244.33963012695312,
-        "worldScrollY": 166.98114013671875,
+        "worldScrollX": 331,
+        "worldScrollY": 649,
         "zoom": 191.37725733220577,
         "customColorsEnabled": false,
         "customHead": "",
@@ -5418,9 +5430,9 @@
         "defaultUIPaletteId": "default-ui",
         "playerPaletteId": "",
         "navigatorSplitSizes": [
-            737,
-            244,
-            244
+            454,
+            149,
+            149
         ],
         "showNavigator": true,
         "defaultFadeStyle": "white"

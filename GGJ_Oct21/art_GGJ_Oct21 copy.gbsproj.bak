@@ -4849,16 +4849,6 @@
                                         }
                                     },
                                     {
-                                        "id": "43ecc46e-138d-45ab-a169-2cc0cefc550a",
-                                        "command": "EVENT_TEXT",
-                                        "args": {
-                                            "text": [
-                                                "PLACEHOLDER"
-                                            ],
-                                            "avatarId": ""
-                                        }
-                                    },
-                                    {
                                         "id": "d1ad3fb7-6186-4f06-aa6a-804929524117",
                                         "command": "EVENT_END"
                                     }
