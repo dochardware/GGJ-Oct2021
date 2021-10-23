@@ -3204,7 +3204,7 @@
                     "id": "1430644a-3bc1-4723-b888-5227fa4c4e1d",
                     "command": "EVENT_SWITCH_SCENE",
                     "args": {
-                        "sceneId": "4071e85a-3b3d-4f73-ab11-a28c22e49bc3",
+                        "sceneId": "c6ff58c4-2f87-4676-9e76-769579178471",
                         "x": 0,
                         "y": 0,
                         "direction": "",
@@ -4087,7 +4087,7 @@
         }
     ],
     "settings": {
-        "startSceneId": "feef169b-1291-4de7-a7e1-ef48e2941911",
+        "startSceneId": "",
         "startX": 9,
         "startY": 9,
         "showCollisions": true,
