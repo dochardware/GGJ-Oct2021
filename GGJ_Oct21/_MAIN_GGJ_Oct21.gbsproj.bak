@@ -9128,8 +9128,8 @@
             "playerHit2Script": [],
             "playerHit3Script": [],
             "id": "565520ff-4e62-479d-bc65-d91b615191fb",
-            "x": 356.007347100583,
-            "y": 242.94047041627874,
+            "x": 1157.8702758061681,
+            "y": 248.042461479093,
             "actors": [
                 {
                     "name": "Chris Mouth",
@@ -9539,7 +9539,7 @@
                                         "command": "EVENT_SWITCH_SCENE",
                                         "args": {
                                             "sceneId": "af5486a4-d396-4690-86b2-3a28565a6eda",
-                                            "x": 33,
+                                            "x": 9,
                                             "y": 51,
                                             "direction": "right",
                                             "fadeSpeed": "2"
@@ -15356,8 +15356,8 @@
             "playerHit2Script": [],
             "playerHit3Script": [],
             "id": "a23134a9-6e43-4623-ab4d-1c984447702f",
-            "x": 942.0404493670051,
-            "y": 41.06621719599983,
+            "x": 1158.8750695365945,
+            "y": 453.47716144012475,
             "actors": [
                 {
                     "name": "Chris Mouth",
@@ -17580,8 +17580,8 @@
             "playerHit2Script": [],
             "playerHit3Script": [],
             "id": "d68c551e-fa48-4b27-a292-c81e2ed41034",
-            "x": 1142.792537247849,
-            "y": 37.98428501598033,
+            "x": 1161.4998378115001,
+            "y": 656.1755354602667,
             "actors": [
                 {
                     "name": "Clem Mouth",
@@ -19167,9 +19167,9 @@
         "startDirection": "right",
         "showCollisions": true,
         "showConnections": true,
-        "worldScrollX": 1549,
-        "worldScrollY": 429,
-        "zoom": 267.60114680974766,
+        "worldScrollX": 354,
+        "worldScrollY": 163,
+        "zoom": 117.60114680974766,
         "customColorsEnabled": false,
         "customHead": "",
         "defaultBackgroundPaletteIds": [
