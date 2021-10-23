@@ -3651,7 +3651,7 @@
             "imageHeight": 144,
             "filename": "BGTemplate.png",
             "inode": "26280937",
-            "_v": 1634971298694
+            "_v": 1634973053172
         },
         {
             "id": "df2d53fc-6b6f-476a-9a36-cb3540384198",
@@ -3662,7 +3662,7 @@
             "imageHeight": 144,
             "filename": "BG_Clem.png",
             "inode": "26280949",
-            "_v": 1634971298694
+            "_v": 1634973053172
         },
         {
             "id": "eb5e4998-82c7-470a-8106-25408e95647a",
@@ -3673,7 +3673,7 @@
             "imageHeight": 144,
             "filename": "Portrait_Client01.png",
             "inode": "26280328",
-            "_v": 1634971298697
+            "_v": 1634973053172
         },
         {
             "id": "1e5f9d6a-bdbc-43e6-8c34-22f5bb5dea05",
@@ -3684,7 +3684,7 @@
             "imageHeight": 144,
             "filename": "placeholder.png",
             "inode": "26254473",
-            "_v": 1634971298694
+            "_v": 1634973053172
         }
     ],
     "spriteSheets": [
@@ -3695,7 +3695,7 @@
             "type": "animated",
             "filename": "Cursor.png",
             "inode": "26281871",
-            "_v": 1634971298694
+            "_v": 1634973053172
         },
         {
             "id": "11b5452b-187c-43a3-afb1-a1f4f74ffda2",
@@ -3704,7 +3704,7 @@
             "type": "actor",
             "filename": "actor.png",
             "inode": "26254479",
-            "_v": 1634971298694
+            "_v": 1634973053172
         },
         {
             "id": "581d34d0-9591-4e6e-a609-1d94f203b0cd",
@@ -3713,7 +3713,7 @@
             "type": "actor_animated",
             "filename": "actor_animated.png",
             "inode": "26254481",
-            "_v": 1634971298694
+            "_v": 1634973053172
         },
         {
             "id": "0d4af66d-860c-4fc2-89b3-cdf2212decd3",
@@ -3722,7 +3722,7 @@
             "type": "animated",
             "filename": "clem_mouth.png",
             "inode": "26280428",
-            "_v": 1634971298697
+            "_v": 1634973053172
         },
         {
             "id": "86c5625f-0b34-480a-bc95-180fe62d66ad",
@@ -3731,7 +3731,7 @@
             "type": "animated",
             "filename": "mom_mouth.png",
             "inode": "26267235",
-            "_v": 1634971298694
+            "_v": 1634973053172
         },
         {
             "id": "daf95270-e30d-423b-9ee7-990ae29f57f6",
@@ -3740,7 +3740,7 @@
             "type": "static",
             "filename": "static.png",
             "inode": "26254483",
-            "_v": 1634971298694
+            "_v": 1634973053172
         }
     ],
     "palettes": [
@@ -3889,7 +3889,7 @@
             "filename": "template.mod",
             "settings": {},
             "inode": "26254476",
-            "_v": 1634971298687
+            "_v": 1634973053161
         }
     ],
     "variables": [
@@ -3919,8 +3919,8 @@
     "settings": {
         "startSceneId": "83df6a14-c8f9-41b7-96f1-538d021f1c4d",
         "playerSpriteSheetId": "05a64a1a-1153-4c46-9119-467c9411b74e",
-        "startX": 3,
-        "startY": 9,
+        "startX": 0,
+        "startY": 12,
         "startMoveSpeed": 1,
         "startAnimSpeed": 2,
         "startDirection": "right",

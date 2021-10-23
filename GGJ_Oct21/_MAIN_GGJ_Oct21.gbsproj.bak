@@ -449,131 +449,6 @@
                     }
                 },
                 {
-                    "id": "40d2e495-46c5-46c4-be9e-0a254fdbee4c",
-                    "command": "EVENT_AWAIT_INPUT",
-                    "args": {
-                        "input": [
-                            "a",
-                            "b"
-                        ],
-                        "__collapse": true,
-                        "__comment": true
-                    }
-                },
-                {
-                    "id": "b25751b8-60bb-4396-afa6-b0bd1483a3f8",
-                    "command": "EVENT_GROUP",
-                    "args": {
-                        "__label": "NPC Dialog",
-                        "__collapse": true
-                    },
-                    "children": {
-                        "true": [
-                            {
-                                "id": "b0d9f3ef-ed74-4b5a-baeb-b2d8097ba349",
-                                "command": "EVENT_GROUP",
-                                "args": {
-                                    "__label": "Clem Talking",
-                                    "__collapse": true
-                                },
-                                "children": {
-                                    "true": [
-                                        {
-                                            "id": "44b46bf7-8c99-45ca-ab3c-c974af7cc1b3",
-                                            "command": "EVENT_ACTOR_SET_ANIMATION_SPEED",
-                                            "args": {
-                                                "actorId": "a2aaafd1-477d-4f9f-9813-50b1161f1d7c",
-                                                "speed": 3,
-                                                "__collapse": true
-                                            }
-                                        },
-                                        {
-                                            "id": "65d58961-6c4f-4e17-a21d-5de4984b5708",
-                                            "command": "EVENT_ACTOR_SET_FRAME",
-                                            "args": {
-                                                "actorId": "a2aaafd1-477d-4f9f-9813-50b1161f1d7c",
-                                                "frame": {
-                                                    "type": "number",
-                                                    "value": 0
-                                                },
-                                                "__collapse": true
-                                            }
-                                        },
-                                        {
-                                            "id": "ede710a0-6158-4c67-aa5c-d71c36424d48",
-                                            "command": "EVENT_END"
-                                        }
-                                    ]
-                                }
-                            },
-                            {
-                                "id": "3bb25ec9-36b9-4ff1-8fa3-4731bff1318b",
-                                "command": "EVENT_TEXT",
-                                "args": {
-                                    "text": [
-                                        "hey...",
-                                        "...\n",
-                                        "how was your...\neverything..."
-                                    ],
-                                    "avatarId": "",
-                                    "__collapse": false
-                                }
-                            },
-                            {
-                                "id": "09b4828f-b1a4-4612-88df-7c6a33eda9e6",
-                                "command": "EVENT_GROUP",
-                                "args": {
-                                    "__label": "Clem Stop Talking",
-                                    "__collapse": true
-                                },
-                                "children": {
-                                    "true": [
-                                        {
-                                            "id": "9ee711c6-f599-4c05-839e-0695d364b581",
-                                            "command": "EVENT_ACTOR_SET_ANIMATION_SPEED",
-                                            "args": {
-                                                "actorId": "a2aaafd1-477d-4f9f-9813-50b1161f1d7c",
-                                                "speed": null,
-                                                "__collapse": false
-                                            }
-                                        },
-                                        {
-                                            "id": "a5bff7b6-5519-4382-8103-71015c810cd8",
-                                            "command": "EVENT_ACTOR_SET_FRAME",
-                                            "args": {
-                                                "actorId": "a2aaafd1-477d-4f9f-9813-50b1161f1d7c",
-                                                "frame": {
-                                                    "type": "number",
-                                                    "value": 0
-                                                },
-                                                "__collapse": false
-                                            }
-                                        },
-                                        {
-                                            "id": "77559d75-6351-4594-af9e-32d60603e244",
-                                            "command": "EVENT_END"
-                                        }
-                                    ]
-                                }
-                            },
-                            {
-                                "id": "127a40e1-3e40-4416-8de1-3ab2e04b3e6b",
-                                "command": "EVENT_END"
-                            }
-                        ]
-                    }
-                },
-                {
-                    "id": "3990f69c-361f-4f96-8a9e-b68e9edb126f",
-                    "command": "EVENT_OVERLAY_MOVE_TO",
-                    "args": {
-                        "x": 0,
-                        "y": 0,
-                        "speed": "0",
-                        "__collapse": true
-                    }
-                },
-                {
                     "id": "37d48218-d2f8-4e37-ad45-f81292e137df",
                     "command": "EVENT_END"
                 }
@@ -641,7 +516,7 @@
                                 "__collapseElse": false,
                                 "__comment": false,
                                 "__disableElse": true,
-                                "__collapse": true,
+                                "__collapse": false,
                                 "__label": "A"
                             },
                             "children": {
@@ -658,7 +533,7 @@
                                         "id": "57561033-cf2b-4561-a50c-146e43e15e87",
                                         "command": "EVENT_GROUP",
                                         "args": {
-                                            "__label": "Confirm",
+                                            "__label": "Confirm Sound",
                                             "__collapse": true
                                         },
                                         "children": {
@@ -699,7 +574,7 @@
                                         "command": "EVENT_GROUP",
                                         "args": {
                                             "__label": "NPC Dialog",
-                                            "__collapse": true
+                                            "__collapse": false
                                         },
                                         "children": {
                                             "true": [
@@ -798,6 +673,32 @@
                                         }
                                     },
                                     {
+                                        "id": "af96ccad-cd2b-4d40-ae9e-46818efb412d",
+                                        "command": "EVENT_OVERLAY_MOVE_TO",
+                                        "args": {
+                                            "x": 0,
+                                            "y": 0,
+                                            "speed": "0",
+                                            "__collapse": true
+                                        }
+                                    },
+                                    {
+                                        "id": "a66fce24-3188-4fe3-8f9a-66eddc668e4c",
+                                        "command": "EVENT_ACTOR_SHOW",
+                                        "args": {
+                                            "actorId": "$self$",
+                                            "__collapse": true
+                                        }
+                                    },
+                                    {
+                                        "id": "5696e5e7-68f0-47a9-8ad7-db615a417af7",
+                                        "command": "EVENT_GOTO_LABEL",
+                                        "args": {
+                                            "label": "TalkMenu",
+                                            "__collapse": true
+                                        }
+                                    },
+                                    {
                                         "id": "9832e09b-810e-4af8-8485-4ee3eda4ee53",
                                         "command": "EVENT_END"
                                     }
@@ -820,7 +721,7 @@
                                 "__collapseElse": false,
                                 "__comment": false,
                                 "__disableElse": true,
-                                "__collapse": false,
+                                "__collapse": true,
                                 "__label": "UP"
                             },
                             "children": {
@@ -850,7 +751,7 @@
                                                 "type": "number",
                                                 "value": 15
                                             },
-                                            "__collapse": false
+                                            "__collapse": true
                                         }
                                     },
                                     {
@@ -966,7 +867,7 @@
                                 "__collapseElse": false,
                                 "__comment": false,
                                 "__disableElse": true,
-                                "__collapse": true,
+                                "__collapse": false,
                                 "__label": "A"
                             },
                             "children": {
@@ -1547,7 +1448,7 @@
                                                 "It would be\nkinda\nrude to leave\nright now."
                                             ],
                                             "avatarId": "daf95270-e30d-423b-9ee7-990ae29f57f6",
-                                            "__collapse": false
+                                            "__collapse": true
                                         }
                                     },
                                     {
@@ -1599,7 +1500,7 @@
                                 "__collapseElse": false,
                                 "__comment": false,
                                 "__disableElse": true,
-                                "__collapse": true,
+                                "__collapse": false,
                                 "__label": "UP"
                             },
                             "children": {
@@ -1627,9 +1528,9 @@
                                             },
                                             "y": {
                                                 "type": "number",
-                                                "value": 12
+                                                "value": 14
                                             },
-                                            "__collapse": true
+                                            "__collapse": false
                                         }
                                     },
                                     {
@@ -4018,16 +3919,16 @@
     "settings": {
         "startSceneId": "83df6a14-c8f9-41b7-96f1-538d021f1c4d",
         "playerSpriteSheetId": "05a64a1a-1153-4c46-9119-467c9411b74e",
-        "startX": 0,
-        "startY": 12,
+        "startX": 3,
+        "startY": 9,
         "startMoveSpeed": 1,
         "startAnimSpeed": 2,
         "startDirection": "right",
         "showCollisions": true,
         "showConnections": true,
-        "worldScrollX": 582,
-        "worldScrollY": 150,
-        "zoom": 331.56951762735844,
+        "worldScrollX": 343,
+        "worldScrollY": 0,
+        "zoom": 252.57630424201488,
         "customColorsEnabled": false,
         "customHead": "",
         "defaultBackgroundPaletteIds": [
