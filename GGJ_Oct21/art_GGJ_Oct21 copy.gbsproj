@@ -6,7 +6,7 @@
     "scenes": [
         {
             "name": "Scene 1",
-            "backgroundId": "6071a213-c9cc-4b56-9cc0-5dd6ea7f0891",
+            "backgroundId": "58e8765d-7f08-4d99-bc09-75dd12ccc651",
             "width": 69,
             "height": 63,
             "type": "1",
@@ -774,7 +774,6 @@
                 0,
                 0,
                 0,
-                15,
                 0,
                 0,
                 0,
@@ -791,12 +790,10 @@
                 0,
                 0,
                 0,
-                15,
                 0,
                 0,
                 0,
                 0,
-                15,
                 0,
                 0,
                 0,
@@ -813,12 +810,10 @@
                 0,
                 0,
                 0,
-                15,
                 0,
                 0,
                 0,
                 0,
-                15,
                 0,
                 0,
                 0,
@@ -835,7 +830,6 @@
                 0,
                 0,
                 0,
-                15,
                 0,
                 0,
                 0,
@@ -844,66 +838,18 @@
                 0,
                 0,
                 0,
-                15,
-                15,
-                15,
-                15,
-                15,
-                15,
-                15,
-                15,
-                15,
-                15,
-                15,
-                15,
-                15,
-                15,
-                15,
-                15,
                 0,
                 0,
                 0,
                 0,
                 0,
                 0,
-                15,
-                15,
-                15,
-                15,
-                15,
-                15,
-                15,
-                15,
-                15,
-                15,
-                15,
-                15,
-                15,
-                15,
-                15,
-                15,
                 0,
                 0,
                 0,
                 0,
                 0,
                 0,
-                15,
-                15,
-                15,
-                15,
-                15,
-                15,
-                15,
-                15,
-                15,
-                15,
-                15,
-                15,
-                15,
-                15,
-                15,
-                15,
                 0,
                 0,
                 0,
@@ -3534,7 +3480,6 @@
                 0,
                 0,
                 0,
-                15,
                 0,
                 0,
                 0,
@@ -3551,12 +3496,10 @@
                 0,
                 0,
                 0,
-                15,
                 0,
                 0,
                 0,
                 0,
-                15,
                 0,
                 0,
                 0,
@@ -3569,11 +3512,6 @@
                 0,
                 0,
                 0,
-                15,
-                15,
-                15,
-                15,
-                15,
                 0,
                 0,
                 0,
@@ -3604,44 +3542,106 @@
                 0,
                 0,
                 0,
-                15,
-                15,
-                15,
-                15,
-                15,
-                15,
-                15,
-                15,
-                15,
-                15,
-                15,
-                15,
-                15,
-                15,
-                15,
-                15,
                 0,
                 0,
                 0,
                 0,
                 0,
                 0,
-                15,
-                15,
-                15,
-                15,
-                15,
-                15,
-                15,
-                15,
-                15,
-                15,
-                15,
-                15,
-                15,
-                15,
-                15,
-                15,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
                 0,
                 0,
                 0,
@@ -4629,9 +4629,9 @@
                         }
                     ],
                     "id": "eb47754d-a8c5-40a7-940c-b5bac2f4c763",
-                    "x": 30,
+                    "x": 29,
                     "y": 50,
-                    "width": 2,
+                    "width": 3,
                     "height": 2
                 },
                 {
@@ -5002,8 +5002,8 @@
             "imageWidth": 160,
             "imageHeight": 144,
             "filename": "BGTemplate.png",
-            "inode": "26280937",
-            "_v": 1635016149205
+            "inode": "5066549581010391",
+            "_v": 1635024420062
         },
         {
             "id": "6a036d64-6f9a-4ff5-b903-3485b56885a8",
@@ -5013,8 +5013,8 @@
             "imageWidth": 160,
             "imageHeight": 144,
             "filename": "BG_Clem.png",
-            "inode": "26280949",
-            "_v": 1635016149205
+            "inode": "5066549581010392",
+            "_v": 1635024420062
         },
         {
             "id": "34bb721c-fe40-410e-bae6-b027f047781e",
@@ -5024,8 +5024,8 @@
             "imageWidth": 160,
             "imageHeight": 144,
             "filename": "ChrisBG.png",
-            "inode": "26313113",
-            "_v": 1635016149205
+            "inode": "14355223812495211",
+            "_v": 1635024420062
         },
         {
             "id": "13a0e36e-f867-4896-a612-8a640a64e76d",
@@ -5035,19 +5035,30 @@
             "imageWidth": 160,
             "imageHeight": 144,
             "filename": "GirlsBG.png",
-            "inode": "26313311",
-            "_v": 1635016149205
+            "inode": "12384898975520622",
+            "_v": 1635024420062
         },
         {
-            "id": "6071a213-c9cc-4b56-9cc0-5dd6ea7f0891",
+            "id": "58e8765d-7f08-4d99-bc09-75dd12ccc651",
+            "name": "Map - ver1",
+            "width": 69,
+            "height": 63,
+            "imageWidth": 552,
+            "imageHeight": 504,
+            "filename": "Map - ver1.png",
+            "inode": "18014398509695052",
+            "_v": 1635024706076
+        },
+        {
+            "id": "6818254a-4a3d-4839-8765-140d5f9b7bbb",
             "name": "Map",
             "width": 69,
             "height": 63,
             "imageWidth": 552,
             "imageHeight": 504,
             "filename": "Map.png",
-            "inode": "26317897",
-            "_v": 1635016149206
+            "inode": "25051272927409674",
+            "_v": 1635024600150
         },
         {
             "id": "b0f8acd6-4bca-469c-bd12-7a84962e348e",
@@ -5057,8 +5068,8 @@
             "imageWidth": 160,
             "imageHeight": 144,
             "filename": "Portrait_Client01.png",
-            "inode": "26280328",
-            "_v": 1635016149206
+            "inode": "23362423067177717",
+            "_v": 1635024420062
         },
         {
             "id": "1e5f9d6a-bdbc-43e6-8c34-22f5bb5dea05",
@@ -5068,8 +5079,8 @@
             "imageWidth": 160,
             "imageHeight": 144,
             "filename": "placeholder.png",
-            "inode": "26254473",
-            "_v": 1635016149206
+            "inode": "10696049115187654",
+            "_v": 1635024420062
         }
     ],
     "spriteSheets": [
@@ -5079,8 +5090,8 @@
             "numFrames": 4,
             "type": "animated",
             "filename": "Cursor.png",
-            "inode": "26281871",
-            "_v": 1635016149206
+            "inode": "5066549581010395",
+            "_v": 1635024420062
         },
         {
             "id": "11b5452b-187c-43a3-afb1-a1f4f74ffda2",
@@ -5088,8 +5099,8 @@
             "numFrames": 3,
             "type": "actor",
             "filename": "actor.png",
-            "inode": "26254479",
-            "_v": 1635016149206
+            "inode": "8444249301513823",
+            "_v": 1635024420062
         },
         {
             "id": "581d34d0-9591-4e6e-a609-1d94f203b0cd",
@@ -5097,8 +5108,8 @@
             "numFrames": 6,
             "type": "actor_animated",
             "filename": "actor_animated.png",
-            "inode": "26254481",
-            "_v": 1635016149206
+            "inode": "18295873486386785",
+            "_v": 1635024420062
         },
         {
             "id": "0231d8d0-ce6a-49fc-b509-855d078a4fc7",
@@ -5106,8 +5117,8 @@
             "numFrames": 2,
             "type": "animated",
             "filename": "chris_mouth.png",
-            "inode": "26312942",
-            "_v": 1635016149206
+            "inode": "14355223812495220",
+            "_v": 1635024420062
         },
         {
             "id": "3f1c9edb-857b-4f17-83e7-66b5cc194c68",
@@ -5115,8 +5126,8 @@
             "numFrames": 2,
             "type": "animated",
             "filename": "clem_mouth.png",
-            "inode": "26280428",
-            "_v": 1635016149206
+            "inode": "5066549581010397",
+            "_v": 1635024420062
         },
         {
             "id": "f7ed0f76-b047-428a-af35-940fd1783479",
@@ -5124,8 +5135,8 @@
             "numFrames": 2,
             "type": "animated",
             "filename": "mom_mouth.png",
-            "inode": "26267235",
-            "_v": 1635016149206
+            "inode": "29554872554812150",
+            "_v": 1635024420062
         },
         {
             "id": "daf95270-e30d-423b-9ee7-990ae29f57f6",
@@ -5133,8 +5144,8 @@
             "numFrames": 1,
             "type": "static",
             "filename": "static.png",
-            "inode": "26254483",
-            "_v": 1635016149206
+            "inode": "8162774324803170",
+            "_v": 1635024420062
         }
     ],
     "palettes": [
@@ -5278,68 +5289,73 @@
     "customEvents": [],
     "music": [
         {
+            "id": "a6f3e85d-76d5-4fcd-8493-646981ece65f",
+            "name": "Couple or End theme v1",
+            "filename": "Couple or End theme v1.mod",
+            "settings": {},
+            "inode": "8444249301536206",
+            "_v": 1635024420013
+        },
+        {
+            "id": "4631cc13-0c49-453b-a18d-d2cb72641ccc",
+            "name": "Puzzle theme 1",
+            "filename": "Puzzle theme 1.mod",
+            "settings": {},
+            "inode": "7881299348114898",
+            "_v": 1635024420013
+        },
+        {
+            "id": "0000b9fd-c8d7-4676-86b8-6a0e7ac67723",
+            "name": "RomCom 1",
+            "filename": "RomCom 1.mod",
+            "settings": {},
+            "inode": "7599824371404243",
+            "_v": 1635024420014
+        },
+        {
+            "id": "69a079ff-272c-44cc-8984-dedc44af8be5",
+            "name": "Title theme v1",
+            "filename": "Title theme v1.mod",
+            "settings": {},
+            "inode": "7318349394693588",
+            "_v": 1635024420014
+        },
+        {
+            "id": "9f18f982-5115-47b2-80db-ad35e65284f4",
+            "name": "Walkin Music 1-Talkin",
+            "filename": "Walkin Music 1-Talkin.mod",
+            "settings": {},
+            "inode": "7318349394693589",
+            "_v": 1635024420014
+        },
+        {
+            "id": "b9e74024-5a50-4cae-a17e-9d067363c510",
+            "name": "Walkin Music 1",
+            "filename": "Walkin Music 1.mod",
+            "settings": {},
+            "inode": "8162774324825558",
+            "_v": 1635024420014
+        },
+        {
             "id": "f50428ab-a084-4591-9bba-2ba10fe7b1c6",
             "name": "template",
             "filename": "template.mod",
             "settings": {},
-            "inode": "26254476",
-            "_v": 1635016149197
+            "inode": "23080948090467925",
+            "_v": 1635024420014
         }
     ],
     "variables": [],
-    "engineFieldValues": [
-        {
-            "id": "fade_style",
-            "value": 0
-        },
-        {
-            "id": "ui_interactable",
-            "value": 1
-        },
-        {
-            "id": "pl_vel_x",
-            "value": -29552
-        },
-        {
-            "id": "plat_hold_grav",
-            "value": 8192
-        },
-        {
-            "id": "plat_grav",
-            "value": 2189
-        },
-        {
-            "id": "plat_jump_vel",
-            "value": 0
-        },
-        {
-            "id": "plat_walk_vel",
-            "value": 4975
-        },
-        {
-            "id": "plat_run_vel",
-            "value": 2815
-        },
-        {
-            "id": "plat_dec",
-            "value": 610
-        }
-    ],
     "settings": {
         "startSceneId": "fb1cf392-bf10-4463-8c10-97b093cb6771",
-        "playerSpriteSheetId": "581d34d0-9591-4e6e-a609-1d94f203b0cd",
         "startX": 4,
         "startY": 51,
-        "startMoveSpeed": 1,
-        "startAnimSpeed": 3,
-        "startDirection": "right",
         "showCollisions": true,
         "showConnections": true,
-        "worldScrollX": 38,
-        "worldScrollY": 0,
-        "zoom": 85.3772649616003,
+        "worldScrollX": 244.33963012695312,
+        "worldScrollY": 166.98114013671875,
+        "zoom": 191.37725733220577,
         "customColorsEnabled": false,
-        "customHead": "",
         "defaultBackgroundPaletteIds": [
             "default-bg-1",
             "default-bg-2",
@@ -5350,13 +5366,18 @@
         ],
         "defaultSpritePaletteId": "default-sprite",
         "defaultUIPaletteId": "default-ui",
+        "defaultFadeStyle": "white",
+        "playerSpriteSheetId": "581d34d0-9591-4e6e-a609-1d94f203b0cd",
+        "startMoveSpeed": 1,
+        "startAnimSpeed": 3,
+        "startDirection": "right",
+        "customHead": "",
         "playerPaletteId": "",
         "navigatorSplitSizes": [
             452,
             150,
             150
         ],
-        "showNavigator": true,
-        "defaultFadeStyle": "white"
+        "showNavigator": true
     }
 }
