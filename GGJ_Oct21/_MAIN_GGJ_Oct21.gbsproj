@@ -1813,6 +1813,2052 @@
             ],
             "triggers": [],
             "type": "0"
+        },
+        {
+            "name": "(script)_intro2",
+            "backgroundId": "1e5f9d6a-bdbc-43e6-8c34-22f5bb5dea05",
+            "width": 20,
+            "height": 18,
+            "collisions": [],
+            "tileColors": [],
+            "script": [
+                {
+                    "id": "a65931a8-140a-4f80-9dd5-ef550222eb72",
+                    "command": "EVENT_ACTOR_HIDE",
+                    "args": {
+                        "actorId": "$self$",
+                        "__collapse": true,
+                        "__label": "Hide Player"
+                    }
+                },
+                {
+                    "id": "f522d209-3c14-4ad2-89c6-4c26de1ab3a9",
+                    "command": "EVENT_GROUP",
+                    "args": {
+                        "__label": "CHRIS Stop Talking",
+                        "__collapse": true
+                    },
+                    "children": {
+                        "true": [
+                            {
+                                "id": "68076fe6-dbe5-4129-abe3-2300214497bb",
+                                "command": "EVENT_ACTOR_SET_ANIMATION_SPEED",
+                                "args": {
+                                    "actorId": "2c491d88-755e-4603-bee8-f5f96387088d",
+                                    "speed": null,
+                                    "__collapse": false
+                                }
+                            },
+                            {
+                                "id": "e161d00e-69cf-4cf2-9ac7-f09c3fb68624",
+                                "command": "EVENT_ACTOR_SET_FRAME",
+                                "args": {
+                                    "actorId": "2c491d88-755e-4603-bee8-f5f96387088d",
+                                    "frame": {
+                                        "type": "number",
+                                        "value": 0
+                                    },
+                                    "__collapse": false
+                                }
+                            },
+                            {
+                                "id": "719f0f27-3d17-4c70-a2a2-81cbf43fb8ff",
+                                "command": "EVENT_END"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "8a04c934-0d01-4c39-9150-909029ee89bb",
+                    "command": "EVENT_GROUP",
+                    "args": {
+                        "__label": "CLEM Stop Talking",
+                        "__collapse": true
+                    },
+                    "children": {
+                        "true": [
+                            {
+                                "id": "ff3f7331-6dc0-4e29-a732-ea9b27fee584",
+                                "command": "EVENT_ACTOR_SET_ANIMATION_SPEED",
+                                "args": {
+                                    "actorId": "79892599-5829-445c-b213-d41955a0cc09",
+                                    "speed": null,
+                                    "__collapse": false
+                                }
+                            },
+                            {
+                                "id": "41b9a159-f3c3-400e-b969-eacdf4b6b5be",
+                                "command": "EVENT_ACTOR_SET_FRAME",
+                                "args": {
+                                    "actorId": "79892599-5829-445c-b213-d41955a0cc09",
+                                    "frame": {
+                                        "type": "number",
+                                        "value": 0
+                                    },
+                                    "__collapse": false
+                                }
+                            },
+                            {
+                                "id": "3c03839f-dd81-4e17-b898-3a240b9d56a2",
+                                "command": "EVENT_END"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "f17bbfac-46b3-46d7-8c5c-8dc47584747d",
+                    "command": "EVENT_GROUP",
+                    "args": {
+                        "__label": "CHRIS Dialog",
+                        "__collapse": true
+                    },
+                    "children": {
+                        "true": [
+                            {
+                                "id": "527eba0d-744e-4f27-9499-573548305849",
+                                "command": "EVENT_GROUP",
+                                "args": {
+                                    "__label": "CHRIS Talking",
+                                    "__collapse": true
+                                },
+                                "children": {
+                                    "true": [
+                                        {
+                                            "id": "9b80cbb5-1e54-4953-a239-50061eb095e6",
+                                            "command": "EVENT_ACTOR_SET_ANIMATION_SPEED",
+                                            "args": {
+                                                "actorId": "2c491d88-755e-4603-bee8-f5f96387088d",
+                                                "speed": 3,
+                                                "__collapse": false
+                                            }
+                                        },
+                                        {
+                                            "id": "04cc34e8-ea24-4696-b39b-535b2ed34cbd",
+                                            "command": "EVENT_ACTOR_SET_FRAME",
+                                            "args": {
+                                                "actorId": "2c491d88-755e-4603-bee8-f5f96387088d",
+                                                "frame": {
+                                                    "type": "number",
+                                                    "value": 0
+                                                },
+                                                "__collapse": false
+                                            }
+                                        },
+                                        {
+                                            "id": "117a1eab-ad2f-4474-93f3-8d108624bed4",
+                                            "command": "EVENT_END"
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "id": "230c2216-d80f-48b8-b19e-be3db8c0d519",
+                                "command": "EVENT_TEXT",
+                                "args": {
+                                    "text": [
+                                        "Oooooh my lovelies\nJust to cheer me\nup!",
+                                        "Joan."
+                                    ],
+                                    "avatarId": "",
+                                    "__collapse": false
+                                }
+                            },
+                            {
+                                "id": "0b9bc679-2520-4cd6-9feb-745eab18f991",
+                                "command": "EVENT_GROUP",
+                                "args": {
+                                    "__label": "CHRIS Stop Talking",
+                                    "__collapse": true
+                                },
+                                "children": {
+                                    "true": [
+                                        {
+                                            "id": "1dbf70f0-7857-4196-90b7-9ef74b44faa5",
+                                            "command": "EVENT_ACTOR_SET_ANIMATION_SPEED",
+                                            "args": {
+                                                "actorId": "2c491d88-755e-4603-bee8-f5f96387088d",
+                                                "speed": null,
+                                                "__collapse": false
+                                            }
+                                        },
+                                        {
+                                            "id": "3cf1742c-345a-4471-9897-2628797b4fcf",
+                                            "command": "EVENT_ACTOR_SET_FRAME",
+                                            "args": {
+                                                "actorId": "2c491d88-755e-4603-bee8-f5f96387088d",
+                                                "frame": {
+                                                    "type": "number",
+                                                    "value": 0
+                                                },
+                                                "__collapse": false
+                                            }
+                                        },
+                                        {
+                                            "id": "2fcca4a1-cf43-451a-b41e-0c6f2a42fd21",
+                                            "command": "EVENT_END"
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "id": "f4310d2f-139c-4e10-bc2c-428dacae7ea2",
+                                "command": "EVENT_END"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "a0a66cee-d564-4b60-84c8-50cfd60d3f94",
+                    "command": "EVENT_TEXT",
+                    "args": {
+                        "text": [
+                            "Christina.",
+                            "(what a lady)"
+                        ],
+                        "avatarId": "daf95270-e30d-423b-9ee7-990ae29f57f6",
+                        "__collapse": true,
+                        "__label": "JOAN Dialog"
+                    }
+                },
+                {
+                    "id": "4ea57632-fbcf-4579-a400-539f5d80736a",
+                    "command": "EVENT_GROUP",
+                    "args": {
+                        "__label": "CHRIS Dialog",
+                        "__collapse": true
+                    },
+                    "children": {
+                        "true": [
+                            {
+                                "id": "a87b81df-5aa2-41f0-b817-b9392c3b435d",
+                                "command": "EVENT_GROUP",
+                                "args": {
+                                    "__label": "CHRIS Talking",
+                                    "__collapse": true
+                                },
+                                "children": {
+                                    "true": [
+                                        {
+                                            "id": "97999cb0-b2f7-46e4-8f0c-a4b505a09878",
+                                            "command": "EVENT_ACTOR_SET_ANIMATION_SPEED",
+                                            "args": {
+                                                "actorId": "2c491d88-755e-4603-bee8-f5f96387088d",
+                                                "speed": 3,
+                                                "__collapse": false
+                                            }
+                                        },
+                                        {
+                                            "id": "56e75372-af11-432d-9af7-4c0edcae4454",
+                                            "command": "EVENT_ACTOR_SET_FRAME",
+                                            "args": {
+                                                "actorId": "2c491d88-755e-4603-bee8-f5f96387088d",
+                                                "frame": {
+                                                    "type": "number",
+                                                    "value": 0
+                                                },
+                                                "__collapse": false
+                                            }
+                                        },
+                                        {
+                                            "id": "a65c21ca-2959-4c7a-843c-96e33f1d364f",
+                                            "command": "EVENT_END"
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "id": "d1ac2845-b7c1-41f3-9ba5-b8f1ec5abbcd",
+                                "command": "EVENT_TEXT",
+                                "args": {
+                                    "text": [
+                                        "You. Look.\nGorgeous. Clem.",
+                                        "That. Dress."
+                                    ],
+                                    "avatarId": "",
+                                    "__collapse": false
+                                }
+                            },
+                            {
+                                "id": "4c6c3544-85a4-4401-928f-a7e6fb6cefaf",
+                                "command": "EVENT_GROUP",
+                                "args": {
+                                    "__label": "CHRIS Stop Talking",
+                                    "__collapse": true
+                                },
+                                "children": {
+                                    "true": [
+                                        {
+                                            "id": "c794a897-5a06-4ba8-ae6d-810579f11303",
+                                            "command": "EVENT_ACTOR_SET_ANIMATION_SPEED",
+                                            "args": {
+                                                "actorId": "2c491d88-755e-4603-bee8-f5f96387088d",
+                                                "speed": null,
+                                                "__collapse": false
+                                            }
+                                        },
+                                        {
+                                            "id": "e261ee41-a89a-4542-b0e4-81d7aa93e2d3",
+                                            "command": "EVENT_ACTOR_SET_FRAME",
+                                            "args": {
+                                                "actorId": "2c491d88-755e-4603-bee8-f5f96387088d",
+                                                "frame": {
+                                                    "type": "number",
+                                                    "value": 0
+                                                },
+                                                "__collapse": false
+                                            }
+                                        },
+                                        {
+                                            "id": "c924d3a5-7829-4988-865a-5a108e63dcf2",
+                                            "command": "EVENT_END"
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "id": "0f6ca006-15c8-4fd3-aa95-2ab0b41af4e6",
+                                "command": "EVENT_END"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "808b6b61-3562-48ac-9044-f03e18922416",
+                    "command": "EVENT_GROUP",
+                    "args": {
+                        "__label": "CLEM Dialog",
+                        "__collapse": true
+                    },
+                    "children": {
+                        "true": [
+                            {
+                                "id": "a6071396-e220-401b-8a77-cf399da27602",
+                                "command": "EVENT_TEXT",
+                                "args": {
+                                    "text": [
+                                        "..."
+                                    ],
+                                    "avatarId": "",
+                                    "__collapse": false
+                                }
+                            },
+                            {
+                                "id": "ada2a85e-ab92-4297-b5ab-52d7d06a6be7",
+                                "command": "EVENT_GROUP",
+                                "args": {
+                                    "__label": "CLEM Talking",
+                                    "__collapse": true
+                                },
+                                "children": {
+                                    "true": [
+                                        {
+                                            "id": "831e55b9-2157-4a8b-ae45-68d0f9fa7083",
+                                            "command": "EVENT_ACTOR_SET_ANIMATION_SPEED",
+                                            "args": {
+                                                "actorId": "79892599-5829-445c-b213-d41955a0cc09",
+                                                "speed": 3,
+                                                "__collapse": false
+                                            }
+                                        },
+                                        {
+                                            "id": "067befe0-1c42-41ab-b63e-2f5e211e90c4",
+                                            "command": "EVENT_ACTOR_SET_FRAME",
+                                            "args": {
+                                                "actorId": "79892599-5829-445c-b213-d41955a0cc09",
+                                                "frame": {
+                                                    "type": "number",
+                                                    "value": 0
+                                                },
+                                                "__collapse": false
+                                            }
+                                        },
+                                        {
+                                            "id": "f33c185c-91a2-44bc-a8da-7cd444fada84",
+                                            "command": "EVENT_END"
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "id": "a307b84d-73d8-4302-b70d-efe63f0cb18d",
+                                "command": "EVENT_TEXT",
+                                "args": {
+                                    "text": [
+                                        "_thnk somuch you\nhair prtty_"
+                                    ],
+                                    "avatarId": "",
+                                    "__collapse": false
+                                }
+                            },
+                            {
+                                "id": "e956e6e8-4ea5-4003-b30d-8e78374708a3",
+                                "command": "EVENT_GROUP",
+                                "args": {
+                                    "__label": "CLEM Stop Talking",
+                                    "__collapse": true
+                                },
+                                "children": {
+                                    "true": [
+                                        {
+                                            "id": "4f978244-bba7-4a5c-94e2-e38f103ca945",
+                                            "command": "EVENT_ACTOR_SET_ANIMATION_SPEED",
+                                            "args": {
+                                                "actorId": "79892599-5829-445c-b213-d41955a0cc09",
+                                                "speed": null,
+                                                "__collapse": false
+                                            }
+                                        },
+                                        {
+                                            "id": "fc3b7e93-28cd-4535-b4fb-b6191cc615cd",
+                                            "command": "EVENT_ACTOR_SET_FRAME",
+                                            "args": {
+                                                "actorId": "79892599-5829-445c-b213-d41955a0cc09",
+                                                "frame": {
+                                                    "type": "number",
+                                                    "value": 0
+                                                },
+                                                "__collapse": false
+                                            }
+                                        },
+                                        {
+                                            "id": "3229b33a-6c0b-4bcb-a25e-fcf0045cbb75",
+                                            "command": "EVENT_END"
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "id": "2f09b461-1f2c-4239-bba6-3c84210c1262",
+                                "command": "EVENT_END"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "3d281464-0b5b-41a7-ade1-5126d096d2c9",
+                    "command": "EVENT_GROUP",
+                    "args": {
+                        "__label": "CHRIS Dialog",
+                        "__collapse": true
+                    },
+                    "children": {
+                        "true": [
+                            {
+                                "id": "1b5904b6-3230-4a4f-9e8f-d046b831b694",
+                                "command": "EVENT_GROUP",
+                                "args": {
+                                    "__label": "CHRIS Talking",
+                                    "__collapse": true
+                                },
+                                "children": {
+                                    "true": [
+                                        {
+                                            "id": "0db72517-b9de-4ab1-a74a-04c4e987b1a1",
+                                            "command": "EVENT_ACTOR_SET_ANIMATION_SPEED",
+                                            "args": {
+                                                "actorId": "2c491d88-755e-4603-bee8-f5f96387088d",
+                                                "speed": 3,
+                                                "__collapse": false
+                                            }
+                                        },
+                                        {
+                                            "id": "1ecc241a-e51f-4a10-a3fc-737ab3ec57ff",
+                                            "command": "EVENT_ACTOR_SET_FRAME",
+                                            "args": {
+                                                "actorId": "2c491d88-755e-4603-bee8-f5f96387088d",
+                                                "frame": {
+                                                    "type": "number",
+                                                    "value": 0
+                                                },
+                                                "__collapse": false
+                                            }
+                                        },
+                                        {
+                                            "id": "5933f09d-41a6-45ce-80c5-a5bd64447483",
+                                            "command": "EVENT_END"
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "id": "70acf2b9-1a70-49fd-8689-dde4bae785a5",
+                                "command": "EVENT_TEXT",
+                                "args": {
+                                    "text": [
+                                        "Joan. Please do\nsomething for\nmeeeee"
+                                    ],
+                                    "avatarId": "",
+                                    "__collapse": false
+                                }
+                            },
+                            {
+                                "id": "db6450d0-6162-417f-b328-f12839763ef4",
+                                "command": "EVENT_GROUP",
+                                "args": {
+                                    "__label": "CHRIS Stop Talking",
+                                    "__collapse": true
+                                },
+                                "children": {
+                                    "true": [
+                                        {
+                                            "id": "c6fa840a-57cc-47be-9ae7-e581a3c09746",
+                                            "command": "EVENT_ACTOR_SET_ANIMATION_SPEED",
+                                            "args": {
+                                                "actorId": "2c491d88-755e-4603-bee8-f5f96387088d",
+                                                "speed": null,
+                                                "__collapse": false
+                                            }
+                                        },
+                                        {
+                                            "id": "22627ee7-5bfd-41c7-9e8f-a5c7e6a92473",
+                                            "command": "EVENT_ACTOR_SET_FRAME",
+                                            "args": {
+                                                "actorId": "2c491d88-755e-4603-bee8-f5f96387088d",
+                                                "frame": {
+                                                    "type": "number",
+                                                    "value": 0
+                                                },
+                                                "__collapse": false
+                                            }
+                                        },
+                                        {
+                                            "id": "cf8c0a02-a7aa-477c-a43d-d47095cda7f8",
+                                            "command": "EVENT_END"
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "id": "bf662ac8-5e8c-49a6-babf-e1a301cbccb5",
+                                "command": "EVENT_END"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "29bfff38-b9eb-44a7-93b6-f9a806f37c3b",
+                    "command": "EVENT_TEXT",
+                    "args": {
+                        "text": [
+                            "Yes _heehee_"
+                        ],
+                        "avatarId": "daf95270-e30d-423b-9ee7-990ae29f57f6",
+                        "__collapse": true,
+                        "__label": "JOAN Dialog"
+                    }
+                },
+                {
+                    "id": "cb5944c8-f8da-467e-a527-d8e91f787865",
+                    "command": "EVENT_GROUP",
+                    "args": {
+                        "__label": "CHRIS Dialog",
+                        "__collapse": true
+                    },
+                    "children": {
+                        "true": [
+                            {
+                                "id": "90145b3f-8838-41a9-b80a-260f70264d58",
+                                "command": "EVENT_GROUP",
+                                "args": {
+                                    "__label": "CHRIS Talking",
+                                    "__collapse": true
+                                },
+                                "children": {
+                                    "true": [
+                                        {
+                                            "id": "15c1abd7-9e77-41d8-9d54-13192b5ce0ac",
+                                            "command": "EVENT_ACTOR_SET_ANIMATION_SPEED",
+                                            "args": {
+                                                "actorId": "2c491d88-755e-4603-bee8-f5f96387088d",
+                                                "speed": 3,
+                                                "__collapse": false
+                                            }
+                                        },
+                                        {
+                                            "id": "9589ec0e-0358-40a6-ac22-d030fa82b7c2",
+                                            "command": "EVENT_ACTOR_SET_FRAME",
+                                            "args": {
+                                                "actorId": "2c491d88-755e-4603-bee8-f5f96387088d",
+                                                "frame": {
+                                                    "type": "number",
+                                                    "value": 0
+                                                },
+                                                "__collapse": false
+                                            }
+                                        },
+                                        {
+                                            "id": "72cdccc6-549b-4b21-960c-c27bb09a2eeb",
+                                            "command": "EVENT_END"
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "id": "cf42359d-a056-4d85-af63-b8192d22a773",
+                                "command": "EVENT_TEXT",
+                                "args": {
+                                    "text": [
+                                        "I need you to get\nthe guys to shoot\nan ad",
+                                        "They'll do\nanything if you\nget them [OPTIMAL]",
+                                        "They'll be ok with\n[LESS OPTIMAL]"
+                                    ],
+                                    "avatarId": "",
+                                    "__collapse": false
+                                }
+                            },
+                            {
+                                "id": "aba2e288-42c7-4e55-89eb-8f41f1a39087",
+                                "command": "EVENT_GROUP",
+                                "args": {
+                                    "__label": "CHRIS Stop Talking",
+                                    "__collapse": true
+                                },
+                                "children": {
+                                    "true": [
+                                        {
+                                            "id": "9b815509-27d0-4048-b2fc-b9d7044ff94f",
+                                            "command": "EVENT_ACTOR_SET_ANIMATION_SPEED",
+                                            "args": {
+                                                "actorId": "2c491d88-755e-4603-bee8-f5f96387088d",
+                                                "speed": null,
+                                                "__collapse": false
+                                            }
+                                        },
+                                        {
+                                            "id": "883df17f-4b05-4a39-a543-00ec68e9b8c7",
+                                            "command": "EVENT_ACTOR_SET_FRAME",
+                                            "args": {
+                                                "actorId": "2c491d88-755e-4603-bee8-f5f96387088d",
+                                                "frame": {
+                                                    "type": "number",
+                                                    "value": 0
+                                                },
+                                                "__collapse": false
+                                            }
+                                        },
+                                        {
+                                            "id": "51beb73d-d719-496f-a33c-76703d0c8776",
+                                            "command": "EVENT_END"
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "id": "6df9eaea-391e-497f-8cfc-50001329f6a6",
+                                "command": "EVENT_END"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "68822980-d334-453c-b561-550924625149",
+                    "command": "EVENT_END"
+                }
+            ],
+            "playerHit1Script": [],
+            "playerHit2Script": [],
+            "playerHit3Script": [],
+            "id": "4071e85a-3b3d-4f73-ab11-a28c22e49bc3",
+            "x": 309,
+            "y": 502.0135612487793,
+            "actors": [
+                {
+                    "name": "CHRIS Mouth",
+                    "frame": 0,
+                    "animate": true,
+                    "spriteSheetId": "581d34d0-9591-4e6e-a609-1d94f203b0cd",
+                    "spriteType": "static",
+                    "direction": "down",
+                    "moveSpeed": 1,
+                    "animSpeed": 3,
+                    "script": [],
+                    "startScript": [],
+                    "updateScript": [],
+                    "hit1Script": [],
+                    "hit2Script": [],
+                    "hit3Script": [],
+                    "id": "2c491d88-755e-4603-bee8-f5f96387088d",
+                    "x": 6,
+                    "y": 9,
+                    "collisionGroup": ""
+                },
+                {
+                    "name": "CLEM Mouth",
+                    "frame": 0,
+                    "animate": true,
+                    "spriteSheetId": "581d34d0-9591-4e6e-a609-1d94f203b0cd",
+                    "spriteType": "static",
+                    "direction": "down",
+                    "moveSpeed": 1,
+                    "animSpeed": 3,
+                    "script": [],
+                    "startScript": [],
+                    "updateScript": [],
+                    "hit1Script": [],
+                    "hit2Script": [],
+                    "hit3Script": [],
+                    "id": "79892599-5829-445c-b213-d41955a0cc09",
+                    "x": 11,
+                    "y": 9,
+                    "collisionGroup": ""
+                }
+            ],
+            "triggers": []
+        },
+        {
+            "name": "(script)_intro1",
+            "backgroundId": "1e5f9d6a-bdbc-43e6-8c34-22f5bb5dea05",
+            "width": 20,
+            "height": 18,
+            "collisions": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "tileColors": [],
+            "script": [
+                {
+                    "id": "79283323-72b2-43f2-b737-e456768d7c42",
+                    "command": "EVENT_ACTOR_HIDE",
+                    "args": {
+                        "actorId": "$self$",
+                        "__collapse": true,
+                        "__label": "Hide Player"
+                    }
+                },
+                {
+                    "id": "11a6ddad-2e94-4c9c-85a5-ad6009dbe184",
+                    "command": "EVENT_MUSIC_STOP",
+                    "args": {
+                        "__comment": false,
+                        "__collapse": true
+                    }
+                },
+                {
+                    "id": "1286475e-ade5-44e6-a887-587d1eda5c46",
+                    "command": "EVENT_MUSIC_PLAY",
+                    "args": {
+                        "musicId": "f50428ab-a084-4591-9bba-2ba10fe7b1c6",
+                        "loop": true,
+                        "__comment": false,
+                        "__collapse": false
+                    }
+                },
+                {
+                    "id": "7f35d46f-83c3-491f-af53-879f82817674",
+                    "command": "EVENT_GROUP",
+                    "args": {
+                        "__label": "CLEM Stop Talking",
+                        "__collapse": true
+                    },
+                    "children": {
+                        "true": [
+                            {
+                                "id": "f5467128-4d9a-4469-972d-0d618974eaa1",
+                                "command": "EVENT_ACTOR_SET_ANIMATION_SPEED",
+                                "args": {
+                                    "actorId": "d3c8e0b0-7900-48ee-81ca-8bc00e44449e",
+                                    "speed": null,
+                                    "__collapse": false
+                                }
+                            },
+                            {
+                                "id": "5ad551b6-98d8-45ef-9886-bcd526e7252f",
+                                "command": "EVENT_ACTOR_SET_FRAME",
+                                "args": {
+                                    "actorId": "d3c8e0b0-7900-48ee-81ca-8bc00e44449e",
+                                    "frame": {
+                                        "type": "number",
+                                        "value": 0
+                                    },
+                                    "__collapse": false
+                                }
+                            },
+                            {
+                                "id": "2d06d5b8-b776-4bf2-bc3c-4fa4e74b4e62",
+                                "command": "EVENT_END"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "d0cab978-f0b7-4f88-b80d-7d651226b204",
+                    "command": "EVENT_TEXT",
+                    "args": {
+                        "text": [
+                            "Neeed...\nCoffee...",
+                            "Ok. Machine\nlooks fine.",
+                            "Water. Beans.\nGRRRIIIND",
+                            "oh hey\nit's clem"
+                        ],
+                        "avatarId": "daf95270-e30d-423b-9ee7-990ae29f57f6",
+                        "__collapse": false,
+                        "__label": "JOAN Dialog"
+                    }
+                },
+                {
+                    "id": "6b265d68-4a36-40b0-9d6b-f8b2e7b3530b",
+                    "command": "EVENT_GROUP",
+                    "args": {
+                        "__label": "CLEM Dialog",
+                        "__collapse": false
+                    },
+                    "children": {
+                        "true": [
+                            {
+                                "id": "852e2d57-b69d-4659-be99-574d69441f59",
+                                "command": "EVENT_TEXT",
+                                "args": {
+                                    "text": [
+                                        "...\n...\n...",
+                                        "...\n...\n..."
+                                    ],
+                                    "avatarId": "",
+                                    "__collapse": false
+                                }
+                            },
+                            {
+                                "id": "2af580b7-08f8-4bfd-a9a3-c22fd3de5884",
+                                "command": "EVENT_GROUP",
+                                "args": {
+                                    "__label": "CLEM Talking",
+                                    "__collapse": false
+                                },
+                                "children": {
+                                    "true": [
+                                        {
+                                            "id": "769e9f8d-7046-42e1-817f-a5b29e8805bc",
+                                            "command": "EVENT_ACTOR_SET_ANIMATION_SPEED",
+                                            "args": {
+                                                "actorId": "d3c8e0b0-7900-48ee-81ca-8bc00e44449e",
+                                                "speed": 3,
+                                                "__collapse": false
+                                            }
+                                        },
+                                        {
+                                            "id": "57802ee9-5c47-442c-801e-79c36753550b",
+                                            "command": "EVENT_ACTOR_SET_FRAME",
+                                            "args": {
+                                                "actorId": "d3c8e0b0-7900-48ee-81ca-8bc00e44449e",
+                                                "frame": {
+                                                    "type": "number",
+                                                    "value": 0
+                                                },
+                                                "__collapse": false
+                                            }
+                                        },
+                                        {
+                                            "id": "ce249738-b37f-48e7-b4ab-aff5336a90cf",
+                                            "command": "EVENT_END"
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "id": "5e3c260d-a32a-4af0-ad4c-f204914be8d9",
+                                "command": "EVENT_TEXT",
+                                "args": {
+                                    "text": [
+                                        "hey...\n...\n...",
+                                        "how..was..your...\n...everything..."
+                                    ],
+                                    "avatarId": "",
+                                    "__collapse": false
+                                }
+                            },
+                            {
+                                "id": "53e99fdd-c857-4cfc-96e4-e9f6850c9cfc",
+                                "command": "EVENT_GROUP",
+                                "args": {
+                                    "__label": "CLEM Stop Talking",
+                                    "__collapse": false
+                                },
+                                "children": {
+                                    "true": [
+                                        {
+                                            "id": "1d5a6b88-1782-4fa2-8375-f30a34e115d5",
+                                            "command": "EVENT_ACTOR_SET_ANIMATION_SPEED",
+                                            "args": {
+                                                "actorId": "d3c8e0b0-7900-48ee-81ca-8bc00e44449e",
+                                                "speed": null,
+                                                "__collapse": false
+                                            }
+                                        },
+                                        {
+                                            "id": "1ea9b1a4-deb9-4146-81f8-cc470a58643f",
+                                            "command": "EVENT_ACTOR_SET_FRAME",
+                                            "args": {
+                                                "actorId": "d3c8e0b0-7900-48ee-81ca-8bc00e44449e",
+                                                "frame": {
+                                                    "type": "number",
+                                                    "value": 0
+                                                },
+                                                "__collapse": false
+                                            }
+                                        },
+                                        {
+                                            "id": "e21ae66b-f81b-4bb8-ab33-40efb11500e1",
+                                            "command": "EVENT_END"
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "id": "3dd2524f-372e-47fe-a203-22f85c3291aa",
+                                "command": "EVENT_END"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "cf129c8f-a814-4aa0-9fe4-9a59c1152b7d",
+                    "command": "EVENT_TEXT",
+                    "args": {
+                        "text": [
+                            "Oh it was great!\nI went for\nkaraoke.",
+                            "Sang my heart\nout.",
+                            "(Should I ask\nher out?)",
+                            "(Next time?)",
+                            "(No, I wouldn't\nwant to cause a\npanic attack)"
+                        ],
+                        "avatarId": "daf95270-e30d-423b-9ee7-990ae29f57f6",
+                        "__collapse": true,
+                        "__label": "JOAN Dialog"
+                    }
+                },
+                {
+                    "id": "da994e03-8f73-4598-bf89-c1c0aba96245",
+                    "command": "EVENT_GROUP",
+                    "args": {
+                        "__label": "CLEM Dialog",
+                        "__collapse": true
+                    },
+                    "children": {
+                        "true": [
+                            {
+                                "id": "c53eeb19-9837-4048-b784-9348bdf01b04",
+                                "command": "EVENT_TEXT",
+                                "args": {
+                                    "text": [
+                                        "...\n"
+                                    ],
+                                    "avatarId": "",
+                                    "__collapse": false
+                                }
+                            },
+                            {
+                                "id": "ab5c123e-30b5-4f0f-91f7-b13f5b0a8bc4",
+                                "command": "EVENT_GROUP",
+                                "args": {
+                                    "__label": "CLEM Talking",
+                                    "__collapse": false
+                                },
+                                "children": {
+                                    "true": [
+                                        {
+                                            "id": "a39c3e32-41d1-40ac-96bf-a02ed764f3a3",
+                                            "command": "EVENT_ACTOR_SET_ANIMATION_SPEED",
+                                            "args": {
+                                                "actorId": "d3c8e0b0-7900-48ee-81ca-8bc00e44449e",
+                                                "speed": 3,
+                                                "__collapse": false
+                                            }
+                                        },
+                                        {
+                                            "id": "9d759656-9e43-4643-b045-bff0e6a70f87",
+                                            "command": "EVENT_ACTOR_SET_FRAME",
+                                            "args": {
+                                                "actorId": "d3c8e0b0-7900-48ee-81ca-8bc00e44449e",
+                                                "frame": {
+                                                    "type": "number",
+                                                    "value": 0
+                                                },
+                                                "__collapse": false
+                                            }
+                                        },
+                                        {
+                                            "id": "9350681d-4258-49ca-b2e0-98b256782622",
+                                            "command": "EVENT_END"
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "id": "6141b37b-768d-4ab8-96fd-fabedb6804c2",
+                                "command": "EVENT_TEXT",
+                                "args": {
+                                    "text": [
+                                        "so...",
+                                        "You know...\nThe latest\nmodel...",
+                                        "I need a new\ndesign...\nBut...",
+                                        "Something is\nmissing...\nI need...",
+                                        "A spark...\nLike a [SOLUTION\nHINT HERE]",
+                                        "Or just a...\n...[LESS OPTIMAL\nSOLUTION HINT]"
+                                    ],
+                                    "avatarId": "",
+                                    "__collapse": false
+                                }
+                            },
+                            {
+                                "id": "e5cc2d17-080d-4612-94b9-22ff3488b5b5",
+                                "command": "EVENT_GROUP",
+                                "args": {
+                                    "__label": "CLEM Stop Talking",
+                                    "__collapse": false
+                                },
+                                "children": {
+                                    "true": [
+                                        {
+                                            "id": "91244f42-9813-4e31-854f-28c27cd257a1",
+                                            "command": "EVENT_ACTOR_SET_ANIMATION_SPEED",
+                                            "args": {
+                                                "actorId": "d3c8e0b0-7900-48ee-81ca-8bc00e44449e",
+                                                "speed": null,
+                                                "__collapse": false
+                                            }
+                                        },
+                                        {
+                                            "id": "553b932b-7f68-46fd-b34d-ca68deb656a0",
+                                            "command": "EVENT_ACTOR_SET_FRAME",
+                                            "args": {
+                                                "actorId": "d3c8e0b0-7900-48ee-81ca-8bc00e44449e",
+                                                "frame": {
+                                                    "type": "number",
+                                                    "value": 0
+                                                },
+                                                "__collapse": false
+                                            }
+                                        },
+                                        {
+                                            "id": "9579527a-af7d-498a-849a-8f9fccb3109d",
+                                            "command": "EVENT_END"
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "id": "16ec0a63-8f6d-4f3c-b6d3-4ea7ec7c704f",
+                                "command": "EVENT_END"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "1430644a-3bc1-4723-b888-5227fa4c4e1d",
+                    "command": "EVENT_SWITCH_SCENE",
+                    "args": {
+                        "sceneId": "4071e85a-3b3d-4f73-ab11-a28c22e49bc3",
+                        "x": 0,
+                        "y": 0,
+                        "direction": "",
+                        "fadeSpeed": "1"
+                    }
+                },
+                {
+                    "id": "2e8fcedb-5834-43a4-bf5a-be936d9531ac",
+                    "command": "EVENT_END"
+                }
+            ],
+            "playerHit1Script": [],
+            "playerHit2Script": [],
+            "playerHit3Script": [],
+            "id": "feef169b-1291-4de7-a7e1-ef48e2941911",
+            "x": 132,
+            "y": 501.0135612487793,
+            "actors": [
+                {
+                    "name": "CLEM Mouth",
+                    "frame": 0,
+                    "animate": true,
+                    "spriteSheetId": "581d34d0-9591-4e6e-a609-1d94f203b0cd",
+                    "spriteType": "static",
+                    "direction": "down",
+                    "moveSpeed": 1,
+                    "animSpeed": 3,
+                    "script": [],
+                    "startScript": [],
+                    "updateScript": [],
+                    "hit1Script": [],
+                    "hit2Script": [],
+                    "hit3Script": [],
+                    "id": "d3c8e0b0-7900-48ee-81ca-8bc00e44449e",
+                    "x": 12,
+                    "y": 9,
+                    "collisionGroup": ""
+                }
+            ],
+            "triggers": [],
+            "type": "0"
+        },
+        {
+            "name": "SCRIPT TEMPLATE",
+            "backgroundId": "1e5f9d6a-bdbc-43e6-8c34-22f5bb5dea05",
+            "width": 20,
+            "height": 18,
+            "collisions": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "tileColors": [],
+            "script": [
+                {
+                    "id": "75b85695-77d6-4e54-9f7a-d07437dfeba0",
+                    "command": "EVENT_ACTOR_HIDE",
+                    "args": {
+                        "actorId": "$self$",
+                        "__collapse": true,
+                        "__label": "Hide Player"
+                    }
+                },
+                {
+                    "id": "e8059642-1cdd-477c-a7ba-3aaad226e8bd",
+                    "command": "EVENT_MUSIC_STOP",
+                    "args": {
+                        "__comment": false,
+                        "__collapse": true
+                    }
+                },
+                {
+                    "id": "40f24afe-3203-48ec-af87-479b798c82b4",
+                    "command": "EVENT_MUSIC_PLAY",
+                    "args": {
+                        "musicId": "c8235788-4988-4d76-ae06-d287b0ef4285",
+                        "loop": true,
+                        "__comment": false,
+                        "__collapse": true
+                    }
+                },
+                {
+                    "id": "f846bbc2-57e9-4617-8989-853072b97465",
+                    "command": "EVENT_GROUP",
+                    "args": {
+                        "__label": "NPC Stop Talking",
+                        "__collapse": false
+                    },
+                    "children": {
+                        "true": [
+                            {
+                                "id": "38746ec5-450c-496e-88a4-0dff6dc21355",
+                                "command": "EVENT_ACTOR_SET_ANIMATION_SPEED",
+                                "args": {
+                                    "actorId": "61ef02ce-4a65-4354-ab01-b5b160f3ea62",
+                                    "speed": null,
+                                    "__collapse": false
+                                }
+                            },
+                            {
+                                "id": "0f733bbf-8b3d-48e6-8cf2-14e595dff270",
+                                "command": "EVENT_ACTOR_SET_FRAME",
+                                "args": {
+                                    "actorId": "61ef02ce-4a65-4354-ab01-b5b160f3ea62",
+                                    "frame": {
+                                        "type": "number",
+                                        "value": 0
+                                    },
+                                    "__collapse": false
+                                }
+                            },
+                            {
+                                "id": "40b41649-53eb-4c97-8515-029cd2ca32a7",
+                                "command": "EVENT_END"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "969a8415-3b71-4709-bfec-677a3732d3e1",
+                    "command": "EVENT_TEXT",
+                    "args": {
+                        "text": [
+                            "PLACEHOLDER PC\nTEXT"
+                        ],
+                        "avatarId": "daf95270-e30d-423b-9ee7-990ae29f57f6",
+                        "__collapse": false
+                    }
+                },
+                {
+                    "id": "c1203b6a-9049-4b01-94d3-5d0f715e2455",
+                    "command": "EVENT_GROUP",
+                    "args": {
+                        "__label": "NPC Dialog"
+                    },
+                    "children": {
+                        "true": [
+                            {
+                                "id": "9e31c776-165e-4283-86ac-716f5c354afe",
+                                "command": "EVENT_GROUP",
+                                "args": {
+                                    "__label": "NPC Talking",
+                                    "__collapse": false
+                                },
+                                "children": {
+                                    "true": [
+                                        {
+                                            "id": "575590bd-8b7a-4cf2-9278-d27b56e40452",
+                                            "command": "EVENT_ACTOR_SET_ANIMATION_SPEED",
+                                            "args": {
+                                                "actorId": "61ef02ce-4a65-4354-ab01-b5b160f3ea62",
+                                                "speed": 3,
+                                                "__collapse": false
+                                            }
+                                        },
+                                        {
+                                            "id": "838df1a1-c96f-452b-8bfe-3c1baffb95d7",
+                                            "command": "EVENT_ACTOR_SET_FRAME",
+                                            "args": {
+                                                "actorId": "61ef02ce-4a65-4354-ab01-b5b160f3ea62",
+                                                "frame": {
+                                                    "type": "number",
+                                                    "value": 0
+                                                },
+                                                "__collapse": false
+                                            }
+                                        },
+                                        {
+                                            "id": "371e28a9-a763-42ae-9861-d309d1cb6fa2",
+                                            "command": "EVENT_END"
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "id": "ab527b3d-b3aa-44ce-9b34-3826b9d5a0a4",
+                                "command": "EVENT_TEXT",
+                                "args": {
+                                    "text": [
+                                        "PLACEHOLDER NPC\nTEXT"
+                                    ],
+                                    "avatarId": "",
+                                    "__collapse": false
+                                }
+                            },
+                            {
+                                "id": "6c8deef5-97a6-4161-8236-656937587f4d",
+                                "command": "EVENT_GROUP",
+                                "args": {
+                                    "__label": "NPC Stop Talking",
+                                    "__collapse": false
+                                },
+                                "children": {
+                                    "true": [
+                                        {
+                                            "id": "ad5a8291-2448-47b8-b675-3ec0c4c58de8",
+                                            "command": "EVENT_ACTOR_SET_ANIMATION_SPEED",
+                                            "args": {
+                                                "actorId": "61ef02ce-4a65-4354-ab01-b5b160f3ea62",
+                                                "speed": null,
+                                                "__collapse": false
+                                            }
+                                        },
+                                        {
+                                            "id": "91631248-06b2-425b-ba0c-9e3e13624933",
+                                            "command": "EVENT_ACTOR_SET_FRAME",
+                                            "args": {
+                                                "actorId": "61ef02ce-4a65-4354-ab01-b5b160f3ea62",
+                                                "frame": {
+                                                    "type": "number",
+                                                    "value": 0
+                                                },
+                                                "__collapse": false
+                                            }
+                                        },
+                                        {
+                                            "id": "5af23261-ee4c-4a99-bd78-feee0ca4c86c",
+                                            "command": "EVENT_END"
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "id": "8e276c9e-a9ae-4ac1-8f66-9cdb6403d191",
+                                "command": "EVENT_END"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "94013343-aebe-4bd9-ae72-b48110ec9a45",
+                    "command": "EVENT_CHOICE",
+                    "args": {
+                        "variable": "L0",
+                        "trueText": "TRUE",
+                        "falseText": "FALSE",
+                        "__collapse": false
+                    }
+                },
+                {
+                    "id": "5d90bf37-e95d-42ea-ab40-0ff07ddc5329",
+                    "command": "EVENT_IF_TRUE",
+                    "args": {
+                        "variable": "L0",
+                        "__collapseElse": false,
+                        "__collapse": false
+                    },
+                    "children": {
+                        "true": [
+                            {
+                                "id": "5f9a3928-a9dd-4e76-86cc-d29d3313d4d4",
+                                "command": "EVENT_END"
+                            }
+                        ],
+                        "false": [
+                            {
+                                "id": "b603168b-c4e1-426f-b307-b4ee908280e0",
+                                "command": "EVENT_END"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "bd7c2de5-0185-4fd0-a621-b9986f661b48",
+                    "command": "EVENT_END"
+                }
+            ],
+            "playerHit1Script": [],
+            "playerHit2Script": [],
+            "playerHit3Script": [],
+            "id": "fd4c47fa-272b-4af0-99a4-5a73b2b95363",
+            "x": 135,
+            "y": 301.0135612487793,
+            "actors": [
+                {
+                    "name": "NPC Mouth",
+                    "frame": 0,
+                    "animate": true,
+                    "spriteSheetId": "581d34d0-9591-4e6e-a609-1d94f203b0cd",
+                    "spriteType": "static",
+                    "direction": "down",
+                    "moveSpeed": 1,
+                    "animSpeed": 3,
+                    "script": [],
+                    "startScript": [],
+                    "updateScript": [],
+                    "hit1Script": [],
+                    "hit2Script": [],
+                    "hit3Script": [],
+                    "id": "61ef02ce-4a65-4354-ab01-b5b160f3ea62",
+                    "x": 7,
+                    "y": 9,
+                    "collisionGroup": ""
+                }
+            ],
+            "triggers": [],
+            "type": "0"
         }
     ],
     "backgrounds": [
@@ -1824,8 +3870,8 @@
             "imageWidth": 160,
             "imageHeight": 144,
             "filename": "Portrait_Client01.png",
-            "inode": "26267105",
-            "_v": 1634941137194
+            "inode": "23080948090467061",
+            "_v": 1634948138327
         },
         {
             "id": "1e5f9d6a-bdbc-43e6-8c34-22f5bb5dea05",
@@ -1835,8 +3881,8 @@
             "imageWidth": 160,
             "imageHeight": 144,
             "filename": "placeholder.png",
-            "inode": "26254473",
-            "_v": 1634941137194
+            "inode": "10696049115187654",
+            "_v": 1634948138326
         }
     ],
     "spriteSheets": [
@@ -1846,8 +3892,8 @@
             "numFrames": 3,
             "type": "actor",
             "filename": "actor.png",
-            "inode": "26254479",
-            "_v": 1634941137195
+            "inode": "8444249301513823",
+            "_v": 1634948138327
         },
         {
             "id": "581d34d0-9591-4e6e-a609-1d94f203b0cd",
@@ -1855,8 +3901,8 @@
             "numFrames": 6,
             "type": "actor_animated",
             "filename": "actor_animated.png",
-            "inode": "26254481",
-            "_v": 1634941137194
+            "inode": "18295873486386785",
+            "_v": 1634948138327
         },
         {
             "id": "86c5625f-0b34-480a-bc95-180fe62d66ad",
@@ -1864,8 +3910,8 @@
             "numFrames": 2,
             "type": "animated",
             "filename": "mom_mouth.png",
-            "inode": "26267235",
-            "_v": 1634941137195
+            "inode": "29554872554812150",
+            "_v": 1634948138327
         },
         {
             "id": "daf95270-e30d-423b-9ee7-990ae29f57f6",
@@ -1873,8 +3919,8 @@
             "numFrames": 1,
             "type": "static",
             "filename": "static.png",
-            "inode": "26254483",
-            "_v": 1634941137195
+            "inode": "8162774324803170",
+            "_v": 1634948138327
         }
     ],
     "palettes": [
@@ -2022,18 +4068,26 @@
             "name": "template",
             "filename": "template.mod",
             "settings": {},
-            "inode": "26254476",
-            "_v": 1634941137189
+            "inode": "23080948090467925",
+            "_v": 1634948138309
         }
     ],
     "variables": [
         {
             "id": "83df6a14-c8f9-41b7-96f1-538d021f1c4d__L0",
             "name": "Multiple Choice"
+        },
+        {
+            "id": "feef169b-1291-4de7-a7e1-ef48e2941911__L0",
+            "name": "Multiple Choice"
+        },
+        {
+            "id": "fd4c47fa-272b-4af0-99a4-5a73b2b95363__L0",
+            "name": "Multiple Choice"
         }
     ],
     "settings": {
-        "startSceneId": "",
+        "startSceneId": "feef169b-1291-4de7-a7e1-ef48e2941911",
         "startX": 9,
         "startY": 9,
         "showCollisions": true,
