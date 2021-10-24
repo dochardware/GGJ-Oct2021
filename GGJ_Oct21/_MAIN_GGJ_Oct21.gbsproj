@@ -24363,7 +24363,7 @@
             "playerHit3Script": [],
             "id": "70006cc0-683a-4204-b2de-c82cbecde12b",
             "x": 950.494140625,
-            "y": 30.666666666666668,
+            "y": 30,
             "actors": [
                 {
                     "name": "Clem Mouth",
@@ -30893,8 +30893,8 @@
         "startDirection": "right",
         "showCollisions": true,
         "showConnections": true,
-        "worldScrollX": 1216.800048828125,
-        "worldScrollY": 25.600000381469727,
+        "worldScrollX": 1240,
+        "worldScrollY": 0,
         "zoom": 150,
         "customColorsEnabled": false,
         "customHead": "",

@@ -17948,8 +17948,12 @@
                             "command": "EVENT_IF_TRUE",
                             "args": {
                                 "variable": "2",
+<<<<<<< HEAD
                                 "__collapseElse": false,
                                 "__collapse": true
+=======
+                                "__collapseElse": false
+>>>>>>> 0dbf6d0e0a4800dd84b9cb95af46ac8e063a5898
                             },
                             "children": {
                                 "true": [
@@ -18343,6 +18347,7 @@
                                         }
                                     },
                                     {
+<<<<<<< HEAD
                                         "id": "2da3a9a9-2992-4d61-b93d-40dbf18e2142",
                                         "command": "EVENT_ACTOR_SHOW",
                                         "args": {
@@ -18351,6 +18356,8 @@
                                         }
                                     },
                                     {
+=======
+>>>>>>> 0dbf6d0e0a4800dd84b9cb95af46ac8e063a5898
                                         "id": "ab58e264-1b42-4419-a89f-5af5ab14681d",
                                         "command": "EVENT_END"
                                     }
@@ -24362,7 +24369,11 @@
             "playerHit3Script": [],
             "id": "70006cc0-683a-4204-b2de-c82cbecde12b",
             "x": 950.494140625,
+<<<<<<< HEAD
             "y": 30.666666666666668,
+=======
+            "y": 30,
+>>>>>>> 0dbf6d0e0a4800dd84b9cb95af46ac8e063a5898
             "actors": [
                 {
                     "name": "Clem Mouth",
@@ -24524,7 +24535,11 @@
                                                     "command": "EVENT_TEXT",
                                                     "args": {
                                                         "text": [
+<<<<<<< HEAD
                                                             ""
+=======
+                                                            "PLACEHOLDER"
+>>>>>>> 0dbf6d0e0a4800dd84b9cb95af46ac8e063a5898
                                                         ],
                                                         "avatarId": "",
                                                         "__collapse": false
@@ -30892,8 +30907,13 @@
         "startDirection": "right",
         "showCollisions": true,
         "showConnections": true,
+<<<<<<< HEAD
         "worldScrollX": 697.5999755859375,
         "worldScrollY": 424,
+=======
+        "worldScrollX": 725.5999755859375,
+        "worldScrollY": 521.5999755859375,
+>>>>>>> 0dbf6d0e0a4800dd84b9cb95af46ac8e063a5898
         "zoom": 150,
         "customColorsEnabled": false,
         "customHead": "",
