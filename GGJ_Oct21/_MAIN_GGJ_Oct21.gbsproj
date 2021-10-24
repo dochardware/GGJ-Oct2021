@@ -9347,7 +9347,7 @@
                                             "text": [
                                                 "Clem!"
                                             ],
-                                            "avatarId": "daf95270-e30d-423b-9ee7-990ae29f57f6",
+                                            "avatarId": "6ed6d52f-e987-43ae-8843-8bee03dbb6e4",
                                             "__collapse": false
                                         }
                                     },
@@ -11682,8 +11682,8 @@
                                                 "I will brave\nthat crowd for\nyou.",
                                                 "Wait here."
                                             ],
-                                            "avatarId": "daf95270-e30d-423b-9ee7-990ae29f57f6",
-                                            "__collapse": true
+                                            "avatarId": "6ed6d52f-e987-43ae-8843-8bee03dbb6e4",
+                                            "__collapse": false
                                         }
                                     },
                                     {
@@ -17707,7 +17707,7 @@
                                         "Well there's\nsunshine in my\nbeans. Coffee\nbeans.",
                                         "I got two\ntickets and a\ndate to find!"
                                     ],
-                                    "avatarId": "daf95270-e30d-423b-9ee7-990ae29f57f6",
+                                    "avatarId": "6ed6d52f-e987-43ae-8843-8bee03dbb6e4",
                                     "__collapse": false
                                 }
                             },
@@ -18287,7 +18287,7 @@
                                     "up"
                                 ],
                                 "__collapseElse": false,
-                                "__collapse": true
+                                "__collapse": false
                             },
                             "children": {
                                 "true": [
@@ -19687,7 +19687,8 @@
                                                     "command": "EVENT_ACTOR_EMOTE",
                                                     "args": {
                                                         "actorId": "4678ecba-069d-4c88-ac70-310b6c1fca44",
-                                                        "emoteId": "2"
+                                                        "emoteId": "2",
+                                                        "__collapse": true
                                                     }
                                                 },
                                                 {
@@ -19932,7 +19933,7 @@
                                                 "So...uh.",
                                                 "How was your\nweekend?"
                                             ],
-                                            "avatarId": "daf95270-e30d-423b-9ee7-990ae29f57f6",
+                                            "avatarId": "6ed6d52f-e987-43ae-8843-8bee03dbb6e4",
                                             "__collapse": false
                                         }
                                     },
@@ -20066,8 +20067,8 @@
                                                         "text": [
                                                             "Wow! You're as\nstrong as our\ncoffee grinder!"
                                                         ],
-                                                        "avatarId": "daf95270-e30d-423b-9ee7-990ae29f57f6",
-                                                        "__collapse": true
+                                                        "avatarId": "6ed6d52f-e987-43ae-8843-8bee03dbb6e4",
+                                                        "__collapse": false
                                                     }
                                                 },
                                                 {
@@ -20178,10 +20179,10 @@
                                                     "args": {
                                                         "text": [
                                                             "[...]",
-                                                            "I'll let you enjoy\nyour coffee."
+                                                            "I'll let you\nenjoy\nyour coffee."
                                                         ],
-                                                        "avatarId": "",
-                                                        "__collapse": true
+                                                        "avatarId": "6ed6d52f-e987-43ae-8843-8bee03dbb6e4",
+                                                        "__collapse": false
                                                     }
                                                 },
                                                 {
@@ -20230,7 +20231,7 @@
                                                             "Like a\nfresh-press.",
                                                             "Well, I'll let\nyou enjoy your\ncoffee."
                                                         ],
-                                                        "avatarId": "daf95270-e30d-423b-9ee7-990ae29f57f6",
+                                                        "avatarId": "6ed6d52f-e987-43ae-8843-8bee03dbb6e4",
                                                         "__collapse": false
                                                     }
                                                 },
@@ -21975,7 +21976,7 @@
                                             "text": [
                                                 "Hiya Christina!"
                                             ],
-                                            "avatarId": "daf95270-e30d-423b-9ee7-990ae29f57f6",
+                                            "avatarId": "6ed6d52f-e987-43ae-8843-8bee03dbb6e4",
                                             "__collapse": false
                                         }
                                     },
@@ -22089,7 +22090,7 @@
                                                 "(nudges you)"
                                             ],
                                             "avatarId": "",
-                                            "__collapse": true
+                                            "__collapse": false
                                         }
                                     },
                                     {
@@ -22100,7 +22101,7 @@
                                                 "Oh kettle\ndown.",
                                                 "(I love her...)"
                                             ],
-                                            "avatarId": "daf95270-e30d-423b-9ee7-990ae29f57f6",
+                                            "avatarId": "6ed6d52f-e987-43ae-8843-8bee03dbb6e4",
                                             "__collapse": false
                                         }
                                     },
@@ -22213,7 +22214,7 @@
                                             "variable": "L0",
                                             "trueText": "Yes",
                                             "falseText": "No",
-                                            "__collapse": true
+                                            "__collapse": false
                                         }
                                     },
                                     {
@@ -22221,7 +22222,7 @@
                                         "command": "EVENT_IF_TRUE",
                                         "args": {
                                             "variable": "L0",
-                                            "__collapseElse": true,
+                                            "__collapseElse": false,
                                             "__collapse": false,
                                             "__disableElse": false,
                                             "__comment": false
@@ -22235,7 +22236,7 @@
                                                         "text": [
                                                             "Absolutely!"
                                                         ],
-                                                        "avatarId": ""
+                                                        "avatarId": "6ed6d52f-e987-43ae-8843-8bee03dbb6e4"
                                                     }
                                                 },
                                                 {
@@ -22264,20 +22265,10 @@
                                                     "command": "EVENT_TEXT",
                                                     "args": {
                                                         "text": [
-                                                            "No that would be\nmean."
-                                                        ],
-                                                        "avatarId": "daf95270-e30d-423b-9ee7-990ae29f57f6",
-                                                        "__collapse": false
-                                                    }
-                                                },
-                                                {
-                                                    "id": "33cad8c2-5ecb-4ad0-b6b7-0162f70f462b",
-                                                    "command": "EVENT_TEXT",
-                                                    "args": {
-                                                        "text": [
+                                                            "(No that would\nbe\nmean.)",
                                                             "I'll think about\nit."
                                                         ],
-                                                        "avatarId": "daf95270-e30d-423b-9ee7-990ae29f57f6",
+                                                        "avatarId": "6ed6d52f-e987-43ae-8843-8bee03dbb6e4",
                                                         "__collapse": false
                                                     }
                                                 },
@@ -22293,7 +22284,7 @@
                                         "command": "EVENT_GROUP",
                                         "args": {
                                             "__label": "NPC Dialog",
-                                            "__collapse": false
+                                            "__collapse": true
                                         },
                                         "children": {
                                             "true": [
@@ -24354,6 +24345,107 @@
                     }
                 },
                 {
+                    "id": "69f2c1cf-d1e1-41e2-9199-eccbba45d4f8",
+                    "command": "EVENT_GROUP",
+                    "args": {
+                        "__label": "NPC Dialog",
+                        "__collapse": false
+                    },
+                    "children": {
+                        "true": [
+                            {
+                                "id": "205db4fc-8673-48c8-83a0-2bcd4f5c57f3",
+                                "command": "EVENT_GROUP",
+                                "args": {
+                                    "__label": "Clem Talking",
+                                    "__collapse": true
+                                },
+                                "children": {
+                                    "true": [
+                                        {
+                                            "id": "4b7ea666-64ca-4e90-84e5-0fd7b820d57d",
+                                            "command": "EVENT_ACTOR_SET_ANIMATION_SPEED",
+                                            "args": {
+                                                "actorId": "a309ff44-1fa5-46e7-b771-9b8d147e8fc3",
+                                                "speed": 3,
+                                                "__collapse": true
+                                            }
+                                        },
+                                        {
+                                            "id": "472ab3aa-d53e-4244-a459-a6dc7ad23d00",
+                                            "command": "EVENT_ACTOR_SET_FRAME",
+                                            "args": {
+                                                "actorId": "a309ff44-1fa5-46e7-b771-9b8d147e8fc3",
+                                                "frame": {
+                                                    "type": "number",
+                                                    "value": 0
+                                                },
+                                                "__collapse": true
+                                            }
+                                        },
+                                        {
+                                            "id": "3823d143-0404-4efd-a787-fe44dc0fb17c",
+                                            "command": "EVENT_END"
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "id": "c4ad9ee7-5ae7-42e5-a1fc-405fe05d3b22",
+                                "command": "EVENT_TEXT",
+                                "args": {
+                                    "text": [
+                                        "PLACEHOLDER"
+                                    ],
+                                    "avatarId": "",
+                                    "__collapse": false
+                                }
+                            },
+                            {
+                                "id": "92f47a11-9d69-472e-b5dc-8bffec8fec09",
+                                "command": "EVENT_GROUP",
+                                "args": {
+                                    "__label": "Clem Stop Talking",
+                                    "__collapse": true
+                                },
+                                "children": {
+                                    "true": [
+                                        {
+                                            "id": "aa56b5b6-b9f9-47a0-9607-2779b5389d0a",
+                                            "command": "EVENT_ACTOR_SET_ANIMATION_SPEED",
+                                            "args": {
+                                                "actorId": "a309ff44-1fa5-46e7-b771-9b8d147e8fc3",
+                                                "speed": null,
+                                                "__collapse": false
+                                            }
+                                        },
+                                        {
+                                            "id": "595edd5e-c5d0-4330-ab90-07c6c11b5221",
+                                            "command": "EVENT_ACTOR_SET_FRAME",
+                                            "args": {
+                                                "actorId": "a309ff44-1fa5-46e7-b771-9b8d147e8fc3",
+                                                "frame": {
+                                                    "type": "number",
+                                                    "value": 0
+                                                },
+                                                "__collapse": false
+                                            }
+                                        },
+                                        {
+                                            "id": "6313f61e-98be-4b82-a80e-22ddcf645a09",
+                                            "command": "EVENT_END"
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "id": "b30e0d5e-6e63-4a30-b190-990d064cec18",
+                                "command": "EVENT_END"
+                            }
+                        ]
+                    }
+                },
+                {
                     "id": "4eef42e6-4bbe-4a78-9428-a7fa1fe3bee5",
                     "command": "EVENT_END"
                 }
@@ -24525,10 +24617,10 @@
                                                     "command": "EVENT_TEXT",
                                                     "args": {
                                                         "text": [
-                                                            "Thanks for your\nhelp."
+                                                            "PLACEHOLDER"
                                                         ],
                                                         "avatarId": "",
-                                                        "__collapse": false
+                                                        "__collapse": true
                                                     }
                                                 },
                                                 {
@@ -30362,7 +30454,7 @@
             "imageHeight": 144,
             "filename": "BGTemplate.png",
             "inode": "7599824371356651",
-            "_v": 1635080891969
+            "_v": 1635086097677
         },
         {
             "id": "df2d53fc-6b6f-476a-9a36-cb3540384198",
@@ -30373,7 +30465,7 @@
             "imageHeight": 144,
             "filename": "BG_Clem.png",
             "inode": "4503599627539633",
-            "_v": 1635080891968
+            "_v": 1635086097677
         },
         {
             "id": "22bf7c2c-7ea5-458d-92fd-5fd1ab28f06b",
@@ -30384,7 +30476,7 @@
             "imageHeight": 144,
             "filename": "ChrisBG.png",
             "inode": "8444249301493107",
-            "_v": 1635080891968
+            "_v": 1635086097677
         },
         {
             "id": "7e238a07-91b9-4560-9dd3-a61de09fb9af",
@@ -30395,7 +30487,7 @@
             "imageHeight": 144,
             "filename": "GirlsBG.png",
             "inode": "34902897112134866",
-            "_v": 1635080891969
+            "_v": 1635086097677
         },
         {
             "id": "b0228351-cbbc-4089-999e-200032f835a3",
@@ -30406,7 +30498,7 @@
             "imageHeight": 504,
             "filename": "Map - ver1.png",
             "inode": "1970324837381156",
-            "_v": 1635080891969
+            "_v": 1635086097677
         },
         {
             "id": "c70d189b-e76c-4c8e-8c17-d4e3b7e72255",
@@ -30417,7 +30509,7 @@
             "imageHeight": 504,
             "filename": "Map.png",
             "inode": "30680772461475600",
-            "_v": 1635080891969
+            "_v": 1635086097677
         },
         {
             "id": "eb5e4998-82c7-470a-8106-25408e95647a",
@@ -30428,7 +30520,7 @@
             "imageHeight": 144,
             "filename": "Portrait_Client01.png",
             "inode": "7318349394646247",
-            "_v": 1635080891969
+            "_v": 1635086097677
         },
         {
             "id": "6f3b23c1-b1d8-4c79-b702-0fae563e3737",
@@ -30439,7 +30531,7 @@
             "imageHeight": 144,
             "filename": "marketing.png",
             "inode": "1688849860670503",
-            "_v": 1635080891969
+            "_v": 1635086097677
         },
         {
             "id": "1e5f9d6a-bdbc-43e6-8c34-22f5bb5dea05",
@@ -30450,7 +30542,7 @@
             "imageHeight": 144,
             "filename": "placeholder.png",
             "inode": "4222124651040067",
-            "_v": 1635080891969
+            "_v": 1635086097677
         }
     ],
     "spriteSheets": [
@@ -30461,7 +30553,7 @@
             "type": "animated",
             "filename": "Cursor.png",
             "inode": "11258999068595480",
-            "_v": 1635080891969
+            "_v": 1635086097677
         },
         {
             "id": "11b5452b-187c-43a3-afb1-a1f4f74ffda2",
@@ -30470,7 +30562,7 @@
             "type": "actor",
             "filename": "actor.png",
             "inode": "3940649674337602",
-            "_v": 1635080891969
+            "_v": 1635086097677
         },
         {
             "id": "581d34d0-9591-4e6e-a609-1d94f203b0cd",
@@ -30479,7 +30571,7 @@
             "type": "actor_animated",
             "filename": "actor_animated.png",
             "inode": "6755399441444201",
-            "_v": 1635080891969
+            "_v": 1635086097677
         },
         {
             "id": "13aee7b2-5de8-433d-8eab-8b88795ed18d",
@@ -30488,7 +30580,7 @@
             "type": "actor_animated",
             "filename": "chris.png",
             "inode": "1688849860670530",
-            "_v": 1635080891969
+            "_v": 1635086097677
         },
         {
             "id": "9304c7c0-147a-4a4f-b827-5c2bcacc4cf3",
@@ -30497,7 +30589,7 @@
             "type": "animated",
             "filename": "chris_mouth.png",
             "inode": "3377699720701381",
-            "_v": 1635080891969
+            "_v": 1635086097681
         },
         {
             "id": "0a6b1853-3a39-4989-93fa-c1816e9571c5",
@@ -30506,7 +30598,7 @@
             "type": "actor_animated",
             "filename": "clem.png",
             "inode": "1970324837381189",
-            "_v": 1635080891969
+            "_v": 1635086097677
         },
         {
             "id": "0d4af66d-860c-4fc2-89b3-cdf2212decd3",
@@ -30515,7 +30607,7 @@
             "type": "animated",
             "filename": "clem_mouth.png",
             "inode": "10977524091884869",
-            "_v": 1635080891969
+            "_v": 1635086097681
         },
         {
             "id": "0ff6fde5-00ed-4e3f-96dd-0ac2d06f90a3",
@@ -30524,7 +30616,7 @@
             "type": "actor_animated",
             "filename": "jo.png",
             "inode": "1688849860671524",
-            "_v": 1635080891969
+            "_v": 1635086097677
         },
         {
             "id": "6ed6d52f-e987-43ae-8843-8bee03dbb6e4",
@@ -30533,7 +30625,7 @@
             "type": "static",
             "filename": "jo_icon.png",
             "inode": "8725724278186088",
-            "_v": 1635080891969
+            "_v": 1635086097677
         },
         {
             "id": "86c5625f-0b34-480a-bc95-180fe62d66ad",
@@ -30542,7 +30634,7 @@
             "type": "animated",
             "filename": "mom_mouth.png",
             "inode": "11821949022016905",
-            "_v": 1635080891969
+            "_v": 1635086097677
         },
         {
             "id": "daf95270-e30d-423b-9ee7-990ae29f57f6",
@@ -30551,7 +30643,7 @@
             "type": "static",
             "filename": "static.png",
             "inode": "5348024557890925",
-            "_v": 1635080891969
+            "_v": 1635086097677
         }
     ],
     "palettes": [
@@ -30700,7 +30792,7 @@
             "filename": "Another One (no intro).mod",
             "settings": {},
             "inode": "1688849860670507",
-            "_v": 1635080891963
+            "_v": 1635086097668
         },
         {
             "id": "9ab32d21-2a63-45f5-9b80-60d7a5962ffd",
@@ -30708,7 +30800,7 @@
             "filename": "Another One.mod",
             "settings": {},
             "inode": "1688849860670513",
-            "_v": 1635080891963
+            "_v": 1635086097669
         },
         {
             "id": "df57e976-cc4b-4c18-969d-bea8ad82eb72",
@@ -30716,7 +30808,7 @@
             "filename": "Couple or End theme v1.mod",
             "settings": {},
             "inode": "5629499534456509",
-            "_v": 1635080891963
+            "_v": 1635086097669
         },
         {
             "id": "fac77afb-0725-4c16-80dd-9693875899cf",
@@ -30724,7 +30816,7 @@
             "filename": "Puzzle theme 1.mod",
             "settings": {},
             "inode": "9851624185116413",
-            "_v": 1635080891964
+            "_v": 1635086097669
         },
         {
             "id": "8a1be7c2-f110-42e4-b0a7-dbc73790212c",
@@ -30732,7 +30824,7 @@
             "filename": "RomCom 1.mod",
             "settings": {},
             "inode": "10133099161827140",
-            "_v": 1635080891964
+            "_v": 1635086097669
         },
         {
             "id": "54c0bc32-b958-4c14-837d-e7bbce043a56",
@@ -30740,7 +30832,7 @@
             "filename": "Title theme v1 (no intro).mod",
             "settings": {},
             "inode": "1688849860670518",
-            "_v": 1635080891964
+            "_v": 1635086097669
         },
         {
             "id": "6be0cd5b-1439-40e5-a11b-23e6bc99d5bf",
@@ -30748,7 +30840,7 @@
             "filename": "Title theme v1.mod",
             "settings": {},
             "inode": "8725724278273861",
-            "_v": 1635080891964
+            "_v": 1635086097669
         },
         {
             "id": "81b5e52d-0792-4458-a3c1-c41832487819",
@@ -30756,7 +30848,7 @@
             "filename": "Walkin Music 1-Talkin.mod",
             "settings": {},
             "inode": "6192449487877960",
-            "_v": 1635080891964
+            "_v": 1635086097669
         },
         {
             "id": "b5687ef6-ecc6-4baf-bdd0-1575c7d487cd",
@@ -30764,7 +30856,7 @@
             "filename": "Walkin Music 1.mod",
             "settings": {},
             "inode": "8162774324852649",
-            "_v": 1635080891964
+            "_v": 1635086097669
         },
         {
             "id": "db7cccbe-45c7-4881-83ab-772a96d3ed39",
@@ -30772,7 +30864,7 @@
             "filename": "Walkin Music 2.mod",
             "settings": {},
             "inode": "1688849860670525",
-            "_v": 1635080891964
+            "_v": 1635086097670
         },
         {
             "id": "f50428ab-a084-4591-9bba-2ba10fe7b1c6",
@@ -30780,7 +30872,7 @@
             "filename": "template.mod",
             "settings": {},
             "inode": "3377699720915618",
-            "_v": 1635080891964
+            "_v": 1635086097669
         }
     ],
     "variables": [
@@ -30893,7 +30985,7 @@
         "startDirection": "right",
         "showCollisions": true,
         "showConnections": true,
-        "worldScrollX": 1240,
+        "worldScrollX": 1117.5999755859375,
         "worldScrollY": 0,
         "zoom": 150,
         "customColorsEnabled": false,
@@ -30910,7 +31002,7 @@
         "defaultUIPaletteId": "default-ui",
         "playerPaletteId": "",
         "navigatorSplitSizes": [
-            448,
+            449,
             146,
             146
         ],
