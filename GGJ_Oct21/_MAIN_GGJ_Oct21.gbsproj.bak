@@ -11357,6 +11357,164 @@
                             "children": {
                                 "true": [
                                     {
+                                        "id": "fe5818cc-4383-46ed-9dba-ae7147f4215e",
+                                        "command": "EVENT_IF_TRUE",
+                                        "args": {
+                                            "variable": "2",
+                                            "__collapseElse": false
+                                        },
+                                        "children": {
+                                            "true": [
+                                                {
+                                                    "id": "712e7e6d-6274-494f-9c52-b9d246ff349f",
+                                                    "command": "EVENT_ACTOR_HIDE",
+                                                    "args": {
+                                                        "actorId": "$self$",
+                                                        "__collapse": true
+                                                    }
+                                                },
+                                                {
+                                                    "id": "4637fd0c-e756-46b3-ab0e-d433d2e6cd01",
+                                                    "command": "EVENT_GROUP",
+                                                    "args": {
+                                                        "__label": "NPC Dialog",
+                                                        "__collapse": false
+                                                    },
+                                                    "children": {
+                                                        "true": [
+                                                            {
+                                                                "id": "64f40011-f858-4b64-8e2b-695b567166fd",
+                                                                "command": "EVENT_GROUP",
+                                                                "args": {
+                                                                    "__label": "Clem Talking",
+                                                                    "__collapse": true
+                                                                },
+                                                                "children": {
+                                                                    "true": [
+                                                                        {
+                                                                            "id": "938b9697-cc02-4481-985e-7ca7158ed0e0",
+                                                                            "command": "EVENT_ACTOR_SET_ANIMATION_SPEED",
+                                                                            "args": {
+                                                                                "actorId": "7b22ed8c-f8db-4f41-89a5-694403d18c5c",
+                                                                                "speed": 3,
+                                                                                "__collapse": false
+                                                                            }
+                                                                        },
+                                                                        {
+                                                                            "id": "8dc749a3-12c1-4884-ac80-e2fc57c077c8",
+                                                                            "command": "EVENT_ACTOR_SET_FRAME",
+                                                                            "args": {
+                                                                                "actorId": "a3a43f04-5e4a-4a88-b043-b05c86b03949",
+                                                                                "frame": {
+                                                                                    "type": "number",
+                                                                                    "value": 0
+                                                                                },
+                                                                                "__collapse": true
+                                                                            }
+                                                                        },
+                                                                        {
+                                                                            "id": "7430aa8f-1bb5-4ae8-9743-b96123927425",
+                                                                            "command": "EVENT_END"
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            },
+                                                            {
+                                                                "id": "f24bc7b3-2384-4cd6-80e3-b7f48823fa3d",
+                                                                "command": "EVENT_TEXT",
+                                                                "args": {
+                                                                    "text": [
+                                                                        "I'll be waiting\nhere.",
+                                                                        "Thanks again...",
+                                                                        "Teehee"
+                                                                    ],
+                                                                    "avatarId": "",
+                                                                    "__collapse": true
+                                                                }
+                                                            },
+                                                            {
+                                                                "id": "1af164a7-75f4-4fe1-9168-6acbf2531ea2",
+                                                                "command": "EVENT_GROUP",
+                                                                "args": {
+                                                                    "__label": "Clem Stop Talking",
+                                                                    "__collapse": true
+                                                                },
+                                                                "children": {
+                                                                    "true": [
+                                                                        {
+                                                                            "id": "18488817-adce-4069-ae79-05acbaeeff8e",
+                                                                            "command": "EVENT_ACTOR_SET_ANIMATION_SPEED",
+                                                                            "args": {
+                                                                                "actorId": "7b22ed8c-f8db-4f41-89a5-694403d18c5c",
+                                                                                "speed": null,
+                                                                                "__collapse": false
+                                                                            }
+                                                                        },
+                                                                        {
+                                                                            "id": "39a64d2f-74eb-4b99-8841-189fa27fe27d",
+                                                                            "command": "EVENT_ACTOR_SET_FRAME",
+                                                                            "args": {
+                                                                                "actorId": "7b22ed8c-f8db-4f41-89a5-694403d18c5c",
+                                                                                "frame": {
+                                                                                    "type": "number",
+                                                                                    "value": 0
+                                                                                },
+                                                                                "__collapse": false
+                                                                            }
+                                                                        },
+                                                                        {
+                                                                            "id": "24f66db3-3972-46cb-aec0-6ccd74f242c6",
+                                                                            "command": "EVENT_END"
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            },
+                                                            {
+                                                                "id": "fbd6c8e8-42b6-4904-8b2a-358375d2ccdb",
+                                                                "command": "EVENT_END"
+                                                            }
+                                                        ]
+                                                    }
+                                                },
+                                                {
+                                                    "id": "21bbd786-a3a3-4122-9b1d-932fcee6fa3e",
+                                                    "command": "EVENT_OVERLAY_MOVE_TO",
+                                                    "args": {
+                                                        "x": 0,
+                                                        "y": 0,
+                                                        "speed": "0",
+                                                        "__collapse": true
+                                                    }
+                                                },
+                                                {
+                                                    "id": "694e8965-18a3-4f89-9ef9-dbf574220c8b",
+                                                    "command": "EVENT_ACTOR_SHOW",
+                                                    "args": {
+                                                        "actorId": "$self$",
+                                                        "__collapse": true
+                                                    }
+                                                },
+                                                {
+                                                    "id": "12bfc134-f72e-41e4-8345-d2d8beddab9b",
+                                                    "command": "EVENT_GOTO_LABEL",
+                                                    "args": {
+                                                        "label": "TalkMenu"
+                                                    }
+                                                },
+                                                {
+                                                    "id": "9d7fa874-1963-4df8-9718-0c42f08abb33",
+                                                    "command": "EVENT_END"
+                                                }
+                                            ],
+                                            "false": [
+                                                {
+                                                    "id": "7ebb7ba2-85a4-474c-abf6-1374540e0b73",
+                                                    "command": "EVENT_END"
+                                                }
+                                            ]
+                                        }
+                                    },
+                                    {
                                         "id": "9ada3044-3700-42f8-9713-3de23eea714c",
                                         "command": "EVENT_ACTOR_HIDE",
                                         "args": {
@@ -11413,7 +11571,7 @@
                                                 "How was your\nweekend?"
                                             ],
                                             "avatarId": "daf95270-e30d-423b-9ee7-990ae29f57f6",
-                                            "__collapse": false
+                                            "__collapse": true
                                         }
                                     },
                                     {
@@ -11421,7 +11579,7 @@
                                         "command": "EVENT_GROUP",
                                         "args": {
                                             "__label": "NPC Dialog",
-                                            "__collapse": false
+                                            "__collapse": true
                                         },
                                         "children": {
                                             "true": [
@@ -11535,7 +11693,7 @@
                                         "args": {
                                             "variable": "L0",
                                             "__collapseElse": false,
-                                            "__collapse": false
+                                            "__collapse": true
                                         },
                                         "children": {
                                             "true": [
@@ -11702,7 +11860,7 @@
                                         "command": "EVENT_GROUP",
                                         "args": {
                                             "__label": "NPC Dialog",
-                                            "__collapse": false
+                                            "__collapse": true
                                         },
                                         "children": {
                                             "true": [
@@ -11835,6 +11993,14 @@
                                         "command": "EVENT_ACTOR_SHOW",
                                         "args": {
                                             "actorId": "$self$",
+                                            "__collapse": true
+                                        }
+                                    },
+                                    {
+                                        "id": "4c45fe1e-35cc-4242-a360-81d6bb7c1685",
+                                        "command": "EVENT_SET_TRUE",
+                                        "args": {
+                                            "variable": "2",
                                             "__collapse": true
                                         }
                                     },
@@ -12541,6 +12707,39 @@
                             "children": {
                                 "true": [
                                     {
+                                        "id": "ae8895ca-8bb1-4fd9-b9c8-0d749efd4947",
+                                        "command": "EVENT_IF_TRUE",
+                                        "args": {
+                                            "variable": "2",
+                                            "__collapseElse": false
+                                        },
+                                        "children": {
+                                            "true": [
+                                                {
+                                                    "id": "20ea129c-a696-4377-be4d-d122f70898c5",
+                                                    "command": "EVENT_SWITCH_SCENE",
+                                                    "args": {
+                                                        "sceneId": "72b343a1-ef8b-42e3-b11d-4128eb3d5817",
+                                                        "x": 54,
+                                                        "y": 11,
+                                                        "direction": "right",
+                                                        "fadeSpeed": "2"
+                                                    }
+                                                },
+                                                {
+                                                    "id": "3f35ab62-7e46-4784-b56f-a9f3bba7ad92",
+                                                    "command": "EVENT_END"
+                                                }
+                                            ],
+                                            "false": [
+                                                {
+                                                    "id": "918cc030-e772-4694-a0dd-1fc0186084e6",
+                                                    "command": "EVENT_END"
+                                                }
+                                            ]
+                                        }
+                                    },
+                                    {
                                         "id": "36d8d09a-cdb5-470b-b06e-577aed8fc38c",
                                         "command": "EVENT_ACTOR_HIDE",
                                         "args": {
@@ -12596,7 +12795,7 @@
                                                 "It would be\nkinda\nrude to leave\nright now."
                                             ],
                                             "avatarId": "daf95270-e30d-423b-9ee7-990ae29f57f6",
-                                            "__collapse": false
+                                            "__collapse": true
                                         }
                                     },
                                     {
@@ -17299,7 +17498,7 @@
                             "args": {
                                 "variable": "1",
                                 "__collapseElse": false,
-                                "__collapse": true
+                                "__collapse": false
                             },
                             "children": {
                                 "true": [
@@ -23661,6 +23860,10 @@
         {
             "id": "66721ba8-9397-4cd0-abae-9744173b7b7b__L0",
             "name": "Multiple Choice"
+        },
+        {
+            "id": "2",
+            "name": "HelpClem"
         }
     ],
     "engineFieldValues": [
@@ -23679,9 +23882,9 @@
         "startDirection": "right",
         "showCollisions": true,
         "showConnections": true,
-        "worldScrollX": 534,
-        "worldScrollY": 247,
-        "zoom": 106.96195343136787,
+        "worldScrollX": 1228,
+        "worldScrollY": 133,
+        "zoom": 144.9984201937914,
         "customColorsEnabled": false,
         "customHead": "",
         "defaultBackgroundPaletteIds": [
