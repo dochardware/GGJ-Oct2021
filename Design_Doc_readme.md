@@ -37,15 +37,37 @@ Other minigame is proofing Chris' speech.
 Each point in favor raises Doki Meter (visible or no? to what degree)
 
 ### Intro
-Player picks which girl to interact with
+Jo dialogue
 
-Minigame or discussion
+Talk to crowd
 
-Interact with other girl
+Elevator
 
-Discussion or minigame
+Clem good morning
+- Possible doki (2x)
 
-Move to second stage where they swap
+Chris good morning
+- Favor
+- Doki
+- Clem asks you to come see her
+
+Clem favor
+- Flag for crowd minigame
+
+Go back downstairs to crowd
+
+Crowd minigame
+- disable flag
+
+Go back up to Clem
+- If success, increment doki with Clem
+- Trigger flag with Chris for proofing
+
+Go talk to Chris for proofing minigame
+- If success, increment doki with Clem
+- disable flag
+
+Day's done
 
 ### Ending
-Affinity tally, and thats the one you feel comfy asking out
+Affinity tally, and the girl with the most doki points is the one for the ending
