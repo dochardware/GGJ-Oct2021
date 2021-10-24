@@ -18014,7 +18014,7 @@
                             "args": {
                                 "variable": "3",
                                 "__collapseElse": false,
-                                "__collapse": true,
+                                "__collapse": false,
                                 "__comment": false
                             },
                             "children": {
@@ -18027,7 +18027,7 @@
                                                 "Whew...\nGlad I made it\nout of there."
                                             ],
                                             "avatarId": "daf95270-e30d-423b-9ee7-990ae29f57f6",
-                                            "__collapse": true
+                                            "__collapse": false
                                         }
                                     },
                                     {
@@ -18086,7 +18086,7 @@
                                                             "I guess I should\ntake the\nelevator."
                                                         ],
                                                         "avatarId": "daf95270-e30d-423b-9ee7-990ae29f57f6",
-                                                        "__collapse": true
+                                                        "__collapse": false
                                                     }
                                                 },
                                                 {
@@ -18111,22 +18111,6 @@
                                         "command": "EVENT_END"
                                     }
                                 ]
-                            }
-                        },
-                        {
-                            "id": "a99f0456-82db-4c7f-be88-bcab78ccfb91",
-                            "command": "EVENT_TEXT",
-                            "args": {
-                                "text": [
-                                    "Oh, right...",
-                                    "There's a\ncompany event\nhappening today.",
-                                    "We're rolling\nout a new\ncoffee machine.",
-                                    "I think\nChristina's\ngiving the\nspeech.",
-                                    "I should check\nin on her.",
-                                    "I guess I should\ntake the\nelevator."
-                                ],
-                                "avatarId": "daf95270-e30d-423b-9ee7-990ae29f57f6",
-                                "__collapse": true
                             }
                         },
                         {
@@ -35374,8 +35358,8 @@
             "imageWidth": 160,
             "imageHeight": 144,
             "filename": "BGTemplate.png",
-            "inode": "26280937",
-            "_v": 1635090810230
+            "inode": "10977524092055721",
+            "_v": 1635096422984
         },
         {
             "id": "df2d53fc-6b6f-476a-9a36-cb3540384198",
@@ -35385,8 +35369,8 @@
             "imageWidth": 160,
             "imageHeight": 144,
             "filename": "BG_Clem.png",
-            "inode": "26280949",
-            "_v": 1635090810234
+            "inode": "5066549581132104",
+            "_v": 1635096422984
         },
         {
             "id": "22bf7c2c-7ea5-458d-92fd-5fd1ab28f06b",
@@ -35396,8 +35380,8 @@
             "imageWidth": 160,
             "imageHeight": 144,
             "filename": "ChrisBG.png",
-            "inode": "26313113",
-            "_v": 1635090810234
+            "inode": "5348024557842767",
+            "_v": 1635096422984
         },
         {
             "id": "7e238a07-91b9-4560-9dd3-a61de09fb9af",
@@ -35407,8 +35391,8 @@
             "imageWidth": 160,
             "imageHeight": 144,
             "filename": "GirlsBG.png",
-            "inode": "26313311",
-            "_v": 1635090810234
+            "inode": "8162774324949398",
+            "_v": 1635096422985
         },
         {
             "id": "cbbf0720-698b-45b2-8f86-57a7424b7bf2",
@@ -35418,8 +35402,8 @@
             "imageWidth": 160,
             "imageHeight": 144,
             "filename": "JoBG.png",
-            "inode": "26351889",
-            "_v": 1635090810230
+            "inode": "26458647810826957",
+            "_v": 1635096422984
         },
         {
             "id": "b0228351-cbbc-4089-999e-200032f835a3",
@@ -35429,8 +35413,8 @@
             "imageWidth": 552,
             "imageHeight": 504,
             "filename": "Map - ver1.png",
-            "inode": "26332082",
-            "_v": 1635090810230
+            "inode": "5348024557842846",
+            "_v": 1635096422984
         },
         {
             "id": "c70d189b-e76c-4c8e-8c17-d4e3b7e72255",
@@ -35440,8 +35424,8 @@
             "imageWidth": 552,
             "imageHeight": 504,
             "filename": "Map.png",
-            "inode": "26317897",
-            "_v": 1635090810230
+            "inode": "11540474045477300",
+            "_v": 1635096422985
         },
         {
             "id": "eb5e4998-82c7-470a-8106-25408e95647a",
@@ -35451,8 +35435,8 @@
             "imageWidth": 160,
             "imageHeight": 144,
             "filename": "Portrait_Client01.png",
-            "inode": "26280328",
-            "_v": 1635090810230
+            "inode": "10977524092056015",
+            "_v": 1635096422985
         },
         {
             "id": "6f3b23c1-b1d8-4c79-b702-0fae563e3737",
@@ -35462,8 +35446,8 @@
             "imageWidth": 160,
             "imageHeight": 144,
             "filename": "marketing.png",
-            "inode": "26338246",
-            "_v": 1635090810230
+            "inode": "1688849861340365",
+            "_v": 1635096422985
         },
         {
             "id": "1e5f9d6a-bdbc-43e6-8c34-22f5bb5dea05",
@@ -35473,8 +35457,8 @@
             "imageWidth": 160,
             "imageHeight": 144,
             "filename": "placeholder.png",
-            "inode": "26254473",
-            "_v": 1635090810230
+            "inode": "7599824371481964",
+            "_v": 1635096422985
         }
     ],
     "spriteSheets": [
@@ -35484,8 +35468,8 @@
             "numFrames": 4,
             "type": "animated",
             "filename": "Cursor.png",
-            "inode": "26281871",
-            "_v": 1635090810230
+            "inode": "8725724278371200",
+            "_v": 1635096422985
         },
         {
             "id": "11b5452b-187c-43a3-afb1-a1f4f74ffda2",
@@ -35493,8 +35477,8 @@
             "numFrames": 3,
             "type": "actor",
             "filename": "actor.png",
-            "inode": "26254479",
-            "_v": 1635090810230
+            "inode": "5066549581132109",
+            "_v": 1635096422985
         },
         {
             "id": "581d34d0-9591-4e6e-a609-1d94f203b0cd",
@@ -35502,8 +35486,8 @@
             "numFrames": 6,
             "type": "actor_animated",
             "filename": "actor_animated.png",
-            "inode": "26254481",
-            "_v": 1635090810230
+            "inode": "5066549581132110",
+            "_v": 1635096422985
         },
         {
             "id": "4922883e-d920-46b1-9197-c650b999c396",
@@ -35511,8 +35495,8 @@
             "numFrames": 1,
             "type": "static",
             "filename": "blank.png",
-            "inode": "26352777",
-            "_v": 1635090810230
+            "inode": "35747322042278990",
+            "_v": 1635096422985
         },
         {
             "id": "13aee7b2-5de8-433d-8eab-8b88795ed18d",
@@ -35520,8 +35504,8 @@
             "numFrames": 6,
             "type": "actor_animated",
             "filename": "chris.png",
-            "inode": "26338126",
-            "_v": 1635090810230
+            "inode": "1407374884629724",
+            "_v": 1635096422985
         },
         {
             "id": "9304c7c0-147a-4a4f-b827-5c2bcacc4cf3",
@@ -35529,8 +35513,8 @@
             "numFrames": 2,
             "type": "animated",
             "filename": "chris_mouth.png",
-            "inode": "26312942",
-            "_v": 1635090810230
+            "inode": "7036874418107265",
+            "_v": 1635096422985
         },
         {
             "id": "0a6b1853-3a39-4989-93fa-c1816e9571c5",
@@ -35538,8 +35522,8 @@
             "numFrames": 6,
             "type": "actor_animated",
             "filename": "clem.png",
-            "inode": "26327832",
-            "_v": 1635090810230
+            "inode": "6473924464809453",
+            "_v": 1635096422985
         },
         {
             "id": "0d4af66d-860c-4fc2-89b3-cdf2212decd3",
@@ -35547,8 +35531,8 @@
             "numFrames": 2,
             "type": "animated",
             "filename": "clem_mouth.png",
-            "inode": "26280428",
-            "_v": 1635090810230
+            "inode": "8162774325073644",
+            "_v": 1635096422985
         },
         {
             "id": "0ff6fde5-00ed-4e3f-96dd-0ac2d06f90a3",
@@ -35556,8 +35540,8 @@
             "numFrames": 6,
             "type": "actor_animated",
             "filename": "jo.png",
-            "inode": "26346053",
-            "_v": 1635090810230
+            "inode": "55169095435315061",
+            "_v": 1635096422985
         },
         {
             "id": "6ed6d52f-e987-43ae-8843-8bee03dbb6e4",
@@ -35565,8 +35549,8 @@
             "numFrames": 1,
             "type": "static",
             "filename": "jo_icon.png",
-            "inode": "26347788",
-            "_v": 1635090810230
+            "inode": "28710447624513554",
+            "_v": 1635096422985
         },
         {
             "id": "d57f08d1-9f7f-449e-8f28-4eada205da1f",
@@ -35574,8 +35558,8 @@
             "numFrames": 4,
             "type": "animated",
             "filename": "jo_minigame.png",
-            "inode": "26352524",
-            "_v": 1635090810230
+            "inode": "14918173765691659",
+            "_v": 1635096422985
         },
         {
             "id": "86c5625f-0b34-480a-bc95-180fe62d66ad",
@@ -35583,8 +35567,8 @@
             "numFrames": 2,
             "type": "animated",
             "filename": "mom_mouth.png",
-            "inode": "26267235",
-            "_v": 1635090810230
+            "inode": "7599824371652369",
+            "_v": 1635096422985
         },
         {
             "id": "cbed4fe3-1673-4853-a935-2d5cb4858cd2",
@@ -35592,8 +35576,8 @@
             "numFrames": 10,
             "type": "animated",
             "filename": "numbers.png",
-            "inode": "26357489",
-            "_v": 1635090810230
+            "inode": "45880421203864496",
+            "_v": 1635096422985
         },
         {
             "id": "daf95270-e30d-423b-9ee7-990ae29f57f6",
@@ -35601,8 +35585,8 @@
             "numFrames": 1,
             "type": "static",
             "filename": "static.png",
-            "inode": "26254483",
-            "_v": 1635090810230
+            "inode": "7318349394817373",
+            "_v": 1635096422985
         }
     ],
     "palettes": [
@@ -35750,88 +35734,88 @@
             "name": "Another One (no intro)",
             "filename": "Another One (no intro).mod",
             "settings": {},
-            "inode": "26341503",
-            "_v": 1635090810223
+            "inode": "1688849861340368",
+            "_v": 1635096422980
         },
         {
             "id": "9ab32d21-2a63-45f5-9b80-60d7a5962ffd",
             "name": "Another One",
             "filename": "Another One.mod",
             "settings": {},
-            "inode": "26339112",
-            "_v": 1635090810223
+            "inode": "1688849861340371",
+            "_v": 1635096422980
         },
         {
             "id": "df57e976-cc4b-4c18-969d-bea8ad82eb72",
             "name": "Couple or End theme v1",
             "filename": "Couple or End theme v1.mod",
             "settings": {},
-            "inode": "26324665",
-            "_v": 1635090810223
+            "inode": "8162774324949469",
+            "_v": 1635096422980
         },
         {
             "id": "fac77afb-0725-4c16-80dd-9693875899cf",
             "name": "Puzzle theme 1",
             "filename": "Puzzle theme 1.mod",
             "settings": {},
-            "inode": "26324666",
-            "_v": 1635090810223
+            "inode": "5629499534553797",
+            "_v": 1635096422980
         },
         {
             "id": "8a1be7c2-f110-42e4-b0a7-dbc73790212c",
             "name": "RomCom 1",
             "filename": "RomCom 1.mod",
             "settings": {},
-            "inode": "26337003",
-            "_v": 1635090810223
+            "inode": "6473924464685797",
+            "_v": 1635096422980
         },
         {
             "id": "54c0bc32-b958-4c14-837d-e7bbce043a56",
             "name": "Title theme v1 (no intro)",
             "filename": "Title theme v1 (no intro).mod",
             "settings": {},
-            "inode": "26341504",
-            "_v": 1635090810223
+            "inode": "1407374884629718",
+            "_v": 1635096422981
         },
         {
             "id": "6be0cd5b-1439-40e5-a11b-23e6bc99d5bf",
             "name": "Title theme v1",
             "filename": "Title theme v1.mod",
             "settings": {},
-            "inode": "26324668",
-            "_v": 1635090810223
+            "inode": "6192449487975224",
+            "_v": 1635096422981
         },
         {
             "id": "81b5e52d-0792-4458-a3c1-c41832487819",
             "name": "Walkin Music 1-Talkin",
             "filename": "Walkin Music 1-Talkin.mod",
             "settings": {},
-            "inode": "26324669",
-            "_v": 1635090810223
+            "inode": "13792273859162998",
+            "_v": 1635096422981
         },
         {
             "id": "b5687ef6-ecc6-4baf-bdd0-1575c7d487cd",
             "name": "Walkin Music 1",
             "filename": "Walkin Music 1.mod",
             "settings": {},
-            "inode": "26337004",
-            "_v": 1635090810223
+            "inode": "9851624185213820",
+            "_v": 1635096422981
         },
         {
             "id": "db7cccbe-45c7-4881-83ab-772a96d3ed39",
             "name": "Walkin Music 2",
             "filename": "Walkin Music 2.mod",
             "settings": {},
-            "inode": "26339113",
-            "_v": 1635090810223
+            "inode": "1407374884629721",
+            "_v": 1635096422981
         },
         {
             "id": "f50428ab-a084-4591-9bba-2ba10fe7b1c6",
             "name": "template",
             "filename": "template.mod",
             "settings": {},
-            "inode": "26254476",
-            "_v": 1635090810223
+            "inode": "10133099161923739",
+            "_v": 1635096422981
         }
     ],
     "variables": [
@@ -35952,8 +35936,8 @@
         "startDirection": "right",
         "showCollisions": true,
         "showConnections": true,
-        "worldScrollX": 1565,
-        "worldScrollY": 1363,
+        "worldScrollX": 1245,
+        "worldScrollY": 1457,
         "zoom": 250.82301004230976,
         "customColorsEnabled": false,
         "customHead": "",
@@ -35969,9 +35953,9 @@
         "defaultUIPaletteId": "default-ui",
         "playerPaletteId": "",
         "navigatorSplitSizes": [
-            458,
+            588,
             30,
-            264
+            338
         ],
         "showNavigator": true,
         "defaultFadeStyle": "white",
