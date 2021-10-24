@@ -17663,85 +17663,12 @@
                     }
                 },
                 {
-                    "id": "32c82e42-e0da-4d48-bf1a-a82f4f9e0eff",
-                    "command": "EVENT_IF_TRUE",
-                    "args": {
-                        "variable": "0",
-                        "__collapseElse": false,
-                        "__collapse": false
-                    },
-                    "children": {
-                        "true": [
-                            {
-                                "id": "5444f3d8-fd62-4356-95ce-f95a87bfe21e",
-                                "command": "EVENT_END"
-                            }
-                        ],
-                        "false": [
-                            {
-                                "id": "dad90ddb-9c80-4696-bdd4-5c61cad244bb",
-                                "command": "EVENT_MUSIC_PLAY",
-                                "args": {
-                                    "musicId": "b5687ef6-ecc6-4baf-bdd0-1575c7d487cd",
-                                    "loop": true
-                                }
-                            },
-                            {
-                                "id": "c674eddd-078d-40a1-9b45-191587da5e00",
-                                "command": "EVENT_CAMERA_MOVE_TO",
-                                "args": {
-                                    "x": 2,
-                                    "y": 43,
-                                    "speed": "0",
-                                    "__collapse": true
-                                }
-                            },
-                            {
-                                "id": "e707f2bd-0c72-4ce0-b75a-779b6ddd4236",
-                                "command": "EVENT_TEXT",
-                                "args": {
-                                    "text": [
-                                        "Whew...",
-                                        "Made it just\nbefore the rain.",
-                                        "...\n",
-                                        "Well there's\nsunshine in my\nbeans. Coffee\nbeans.",
-                                        "I got two\ntickets and a\ndate to find!"
-                                    ],
-                                    "avatarId": "6ed6d52f-e987-43ae-8843-8bee03dbb6e4",
-                                    "__collapse": false
-                                }
-                            },
-                            {
-                                "id": "1dc00c67-9507-4d34-b403-1a5113e5e53e",
-                                "command": "EVENT_SET_TRUE",
-                                "args": {
-                                    "variable": "0"
-                                }
-                            },
-                            {
-                                "id": "fb39caf0-04a2-4362-8174-8d1eebebb9e1",
-                                "command": "EVENT_OVERLAY_MOVE_TO",
-                                "args": {
-                                    "x": 0,
-                                    "y": 0,
-                                    "speed": "0",
-                                    "__collapse": true
-                                }
-                            },
-                            {
-                                "id": "b36fa8e2-5399-402a-ba04-3ac9ac49b32e",
-                                "command": "EVENT_END"
-                            }
-                        ]
-                    }
-                },
-                {
                     "id": "fe1a6cb9-efb8-4b73-8ecb-d64365876cfc",
                     "command": "EVENT_IF_TRUE",
                     "args": {
                         "variable": "1",
                         "__collapseElse": false,
-                        "__collapse": false
+                        "__collapse": true
                     },
                     "children": {
                         "true": [
@@ -17769,6 +17696,109 @@
                         "false": [
                             {
                                 "id": "405b9390-30bc-40c6-bdf1-4c1e35c00fe0",
+                                "command": "EVENT_END"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "32c82e42-e0da-4d48-bf1a-a82f4f9e0eff",
+                    "command": "EVENT_IF_TRUE",
+                    "args": {
+                        "variable": "0",
+                        "__collapseElse": false,
+                        "__collapse": true
+                    },
+                    "children": {
+                        "true": [
+                            {
+                                "id": "5444f3d8-fd62-4356-95ce-f95a87bfe21e",
+                                "command": "EVENT_END"
+                            }
+                        ],
+                        "false": [
+                            {
+                                "id": "dad90ddb-9c80-4696-bdd4-5c61cad244bb",
+                                "command": "EVENT_MUSIC_PLAY",
+                                "args": {
+                                    "musicId": "b5687ef6-ecc6-4baf-bdd0-1575c7d487cd",
+                                    "loop": true,
+                                    "__collapse": true
+                                }
+                            },
+                            {
+                                "id": "c674eddd-078d-40a1-9b45-191587da5e00",
+                                "command": "EVENT_CAMERA_MOVE_TO",
+                                "args": {
+                                    "x": 2,
+                                    "y": 43,
+                                    "speed": "0",
+                                    "__collapse": true
+                                }
+                            },
+                            {
+                                "id": "e707f2bd-0c72-4ce0-b75a-779b6ddd4236",
+                                "command": "EVENT_TEXT",
+                                "args": {
+                                    "text": [
+                                        "Whew...",
+                                        "Made it just\nbefore the rain.",
+                                        "...\n",
+                                        "Well there's\nsunshine in my\nbeans. Coffee\nbeans.",
+                                        "I got two\ntickets and a\ndate to find!"
+                                    ],
+                                    "avatarId": "6ed6d52f-e987-43ae-8843-8bee03dbb6e4",
+                                    "__collapse": true
+                                }
+                            },
+                            {
+                                "id": "1dc00c67-9507-4d34-b403-1a5113e5e53e",
+                                "command": "EVENT_SET_TRUE",
+                                "args": {
+                                    "variable": "0"
+                                }
+                            },
+                            {
+                                "id": "fb39caf0-04a2-4362-8174-8d1eebebb9e1",
+                                "command": "EVENT_OVERLAY_MOVE_TO",
+                                "args": {
+                                    "x": 0,
+                                    "y": 0,
+                                    "speed": "0",
+                                    "__collapse": true
+                                }
+                            },
+                            {
+                                "id": "b36fa8e2-5399-402a-ba04-3ac9ac49b32e",
+                                "command": "EVENT_END"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "6b462626-4f46-4637-8059-74bdd893ad44",
+                    "command": "EVENT_SET_INPUT_SCRIPT",
+                    "args": {
+                        "input": [
+                            "start"
+                        ],
+                        "persist": false,
+                        "__scriptTabs": "press"
+                    },
+                    "children": {
+                        "true": [
+                            {
+                                "id": "b92da3f6-af5d-4d57-8f54-da21c8d23b27",
+                                "command": "EVENT_TEXT",
+                                "args": {
+                                    "text": [
+                                        "$00$\n$03$"
+                                    ],
+                                    "avatarId": ""
+                                }
+                            },
+                            {
+                                "id": "7c28b566-2d81-4e07-8bf2-ff9c60b2779d",
                                 "command": "EVENT_END"
                             }
                         ]
@@ -17969,7 +17999,7 @@
                 {
                     "name": "",
                     "frame": 0,
-                    "animate": false,
+                    "animate": true,
                     "spriteSheetId": "0a6b1853-3a39-4989-93fa-c1816e9571c5",
                     "spriteType": "actor",
                     "direction": "right",
@@ -17979,72 +18009,13 @@
                     "isPinned": false,
                     "script": [
                         {
-                            "id": "4030ace7-6c8e-4d10-802c-295d3e97243a",
-                            "command": "EVENT_IF_TRUE",
-                            "args": {
-                                "variable": "2",
-                                "__collapseElse": false,
-                                "__collapse": false
-                            },
-                            "children": {
-                                "true": [
-                                    {
-                                        "id": "294a6e1f-390b-4d89-ae31-f87d4c4c78df",
-                                        "command": "EVENT_SWITCH_SCENE",
-                                        "args": {
-                                            "sceneId": "3f5478d4-196f-4b6b-a1dd-19f9e29d75ea",
-                                            "x": 0,
-                                            "y": 0,
-                                            "direction": "",
-                                            "fadeSpeed": "2"
-                                        }
-                                    },
-                                    {
-                                        "id": "8a07b1da-8737-4c49-b432-61940598fdd2",
-                                        "command": "EVENT_END"
-                                    }
-                                ],
-                                "false": [
-                                    {
-                                        "id": "a99f0456-82db-4c7f-be88-bcab78ccfb91",
-                                        "command": "EVENT_TEXT",
-                                        "args": {
-                                            "text": [
-                                                "Oh, right...",
-                                                "There's a\ncompany event\nhappening today.",
-                                                "We're rolling\nout a new\ncoffee machine.",
-                                                "I think\nChristina's\ngiving the\nspeech.",
-                                                "I should check\nin on her.",
-                                                "I guess I should\ntake the\nelevator."
-                                            ],
-                                            "avatarId": "daf95270-e30d-423b-9ee7-990ae29f57f6",
-                                            "__collapse": true
-                                        }
-                                    },
-                                    {
-                                        "id": "002be5b9-4463-4f3b-b31d-8cdcefb2e59a",
-                                        "command": "EVENT_OVERLAY_MOVE_TO",
-                                        "args": {
-                                            "x": 0,
-                                            "y": 0,
-                                            "speed": "0",
-                                            "__collapse": true
-                                        }
-                                    },
-                                    {
-                                        "id": "f047b360-62c6-4186-bb9a-540662035cac",
-                                        "command": "EVENT_END"
-                                    }
-                                ]
-                            }
-                        },
-                        {
                             "id": "89616cf7-90a2-4a0f-a172-58117e01c3d6",
                             "command": "EVENT_IF_TRUE",
                             "args": {
                                 "variable": "3",
                                 "__collapseElse": false,
-                                "__collapse": false
+                                "__collapse": true,
+                                "__comment": false
                             },
                             "children": {
                                 "true": [
@@ -18055,7 +18026,8 @@
                                             "text": [
                                                 "Whew...\nGlad I made it\nout of there."
                                             ],
-                                            "avatarId": "daf95270-e30d-423b-9ee7-990ae29f57f6"
+                                            "avatarId": "daf95270-e30d-423b-9ee7-990ae29f57f6",
+                                            "__collapse": true
                                         }
                                     },
                                     {
@@ -18065,7 +18037,7 @@
                                             "x": 0,
                                             "y": 0,
                                             "speed": "0",
-                                            "__collapse": false
+                                            "__collapse": true
                                         }
                                     },
                                     {
@@ -18075,29 +18047,63 @@
                                 ],
                                 "false": [
                                     {
-                                        "id": "47d3c36b-eefc-4f1a-afc5-9dd19d1418c1",
-                                        "command": "EVENT_TEXT",
+                                        "id": "4030ace7-6c8e-4d10-802c-295d3e97243a",
+                                        "command": "EVENT_IF_TRUE",
                                         "args": {
-                                            "text": [
-                                                "Oh, right...",
-                                                "There's a\ncompany event\nhappening today.",
-                                                "We're rolling\nout a new\ncoffee machine.",
-                                                "I think\nChristina's\ngiving the\nspeech.",
-                                                "I should check\nin on her.",
-                                                "I guess I should\ntake the\nelevator."
+                                            "variable": "2",
+                                            "__collapseElse": false,
+                                            "__collapse": false
+                                        },
+                                        "children": {
+                                            "true": [
+                                                {
+                                                    "id": "294a6e1f-390b-4d89-ae31-f87d4c4c78df",
+                                                    "command": "EVENT_SWITCH_SCENE",
+                                                    "args": {
+                                                        "sceneId": "3f5478d4-196f-4b6b-a1dd-19f9e29d75ea",
+                                                        "x": 0,
+                                                        "y": 0,
+                                                        "direction": "",
+                                                        "fadeSpeed": "2"
+                                                    }
+                                                },
+                                                {
+                                                    "id": "8a07b1da-8737-4c49-b432-61940598fdd2",
+                                                    "command": "EVENT_END"
+                                                }
                                             ],
-                                            "avatarId": "daf95270-e30d-423b-9ee7-990ae29f57f6",
-                                            "__collapse": true
-                                        }
-                                    },
-                                    {
-                                        "id": "4113d32d-b3b6-4ec3-9346-055fdeda1351",
-                                        "command": "EVENT_OVERLAY_MOVE_TO",
-                                        "args": {
-                                            "x": 0,
-                                            "y": 0,
-                                            "speed": "0",
-                                            "__collapse": true
+                                            "false": [
+                                                {
+                                                    "id": "1c6dc771-ce3a-4053-91d3-8536a6cff222",
+                                                    "command": "EVENT_TEXT",
+                                                    "args": {
+                                                        "text": [
+                                                            "Oh, right...",
+                                                            "There's a\ncompany event\nhappening today.",
+                                                            "We're rolling\nout a new\ncoffee machine.",
+                                                            "I think\nChristina's\ngiving the\nspeech.",
+                                                            "I should check\nin on her.",
+                                                            "I guess I should\ntake the\nelevator."
+                                                        ],
+                                                        "avatarId": "daf95270-e30d-423b-9ee7-990ae29f57f6",
+                                                        "__collapse": true
+                                                    }
+                                                },
+                                                {
+                                                    "id": "002be5b9-4463-4f3b-b31d-8cdcefb2e59a",
+                                                    "command": "EVENT_OVERLAY_MOVE_TO",
+                                                    "args": {
+                                                        "x": 0,
+                                                        "y": 0,
+                                                        "speed": "0",
+                                                        "__collapse": true
+                                                    }
+                                                },
+                                                {
+                                                    "id": "f047b360-62c6-4186-bb9a-540662035cac",
+                                                    "command": "EVENT_END"
+                                                }
+                                            ]
                                         }
                                     },
                                     {
@@ -18105,6 +18111,32 @@
                                         "command": "EVENT_END"
                                     }
                                 ]
+                            }
+                        },
+                        {
+                            "id": "a99f0456-82db-4c7f-be88-bcab78ccfb91",
+                            "command": "EVENT_TEXT",
+                            "args": {
+                                "text": [
+                                    "Oh, right...",
+                                    "There's a\ncompany event\nhappening today.",
+                                    "We're rolling\nout a new\ncoffee machine.",
+                                    "I think\nChristina's\ngiving the\nspeech.",
+                                    "I should check\nin on her.",
+                                    "I guess I should\ntake the\nelevator."
+                                ],
+                                "avatarId": "daf95270-e30d-423b-9ee7-990ae29f57f6",
+                                "__collapse": true
+                            }
+                        },
+                        {
+                            "id": "8cb79920-b6ad-403d-812b-b0a738370d6a",
+                            "command": "EVENT_OVERLAY_MOVE_TO",
+                            "args": {
+                                "x": 0,
+                                "y": 0,
+                                "speed": "0",
+                                "__collapse": true
                             }
                         },
                         {
@@ -18124,12 +18156,12 @@
                 {
                     "name": "",
                     "frame": 0,
-                    "animate": false,
+                    "animate": true,
                     "spriteSheetId": "0a6b1853-3a39-4989-93fa-c1816e9571c5",
                     "spriteType": "actor",
                     "direction": "right",
                     "moveSpeed": 1,
-                    "animSpeed": 3,
+                    "animSpeed": 2,
                     "paletteId": "",
                     "isPinned": false,
                     "collisionGroup": "",
@@ -18151,12 +18183,12 @@
                 {
                     "name": "",
                     "frame": 0,
-                    "animate": false,
+                    "animate": true,
                     "spriteSheetId": "0a6b1853-3a39-4989-93fa-c1816e9571c5",
                     "spriteType": "actor",
                     "direction": "right",
                     "moveSpeed": 1,
-                    "animSpeed": 3,
+                    "animSpeed": 1,
                     "paletteId": "",
                     "isPinned": false,
                     "collisionGroup": "",
@@ -18330,8 +18362,8 @@
                         }
                     ],
                     "id": "98ee525a-d622-4401-ad8b-c61ea3721f63",
-                    "x": 26,
-                    "y": 51,
+                    "x": 22,
+                    "y": 58,
                     "width": 1,
                     "height": 1
                 },
@@ -18886,6 +18918,234 @@
                     "x": 27,
                     "y": 10,
                     "width": 3,
+                    "height": 2
+                },
+                {
+                    "name": "",
+                    "trigger": "walk",
+                    "script": [
+                        {
+                            "id": "75d4653d-0954-46f4-9d63-3fe8fe8f60a1",
+                            "command": "EVENT_RESET_VARIABLES",
+                            "args": {}
+                        },
+                        {
+                            "id": "f387733c-6889-4467-9eeb-45142801ff9a",
+                            "command": "EVENT_END"
+                        }
+                    ],
+                    "id": "40efebc9-133a-4da3-b702-aae15daca151",
+                    "x": 8,
+                    "y": 50,
+                    "width": 3,
+                    "height": 2
+                },
+                {
+                    "name": "",
+                    "trigger": "walk",
+                    "script": [
+                        {
+                            "id": "e17bee9a-a0bc-426e-b21e-347463497bd2",
+                            "command": "EVENT_IF_INPUT",
+                            "args": {
+                                "input": [
+                                    "a"
+                                ],
+                                "__collapseElse": false
+                            },
+                            "children": {
+                                "true": [
+                                    {
+                                        "id": "9629511f-caf8-42b0-85ad-6933294ec43a",
+                                        "command": "EVENT_IF_TRUE",
+                                        "args": {
+                                            "variable": "3",
+                                            "__collapseElse": false,
+                                            "__collapse": false,
+                                            "__comment": false
+                                        },
+                                        "children": {
+                                            "true": [
+                                                {
+                                                    "id": "5150de82-4b34-4ce9-92b2-c13060309ec7",
+                                                    "command": "EVENT_TEXT",
+                                                    "args": {
+                                                        "text": [
+                                                            "Whew...\nGlad I made it\nout of there."
+                                                        ],
+                                                        "avatarId": "daf95270-e30d-423b-9ee7-990ae29f57f6",
+                                                        "__collapse": true
+                                                    }
+                                                },
+                                                {
+                                                    "id": "17dc6255-8382-4616-aa05-036012db7bb0",
+                                                    "command": "EVENT_OVERLAY_MOVE_TO",
+                                                    "args": {
+                                                        "x": 0,
+                                                        "y": 0,
+                                                        "speed": "0",
+                                                        "__collapse": true
+                                                    }
+                                                },
+                                                {
+                                                    "id": "ad293e25-f8ac-45f6-adfc-ecce3dc39974",
+                                                    "command": "EVENT_END"
+                                                }
+                                            ],
+                                            "false": [
+                                                {
+                                                    "id": "cacd1c83-b962-41c5-9086-a25d26dfafc9",
+                                                    "command": "EVENT_IF_TRUE",
+                                                    "args": {
+                                                        "variable": "2",
+                                                        "__collapseElse": false,
+                                                        "__collapse": false
+                                                    },
+                                                    "children": {
+                                                        "true": [
+                                                            {
+                                                                "id": "ecb76cdd-4d45-469f-9e6c-9598253b2c2e",
+                                                                "command": "EVENT_SWITCH_SCENE",
+                                                                "args": {
+                                                                    "sceneId": "3f5478d4-196f-4b6b-a1dd-19f9e29d75ea",
+                                                                    "x": 0,
+                                                                    "y": 0,
+                                                                    "direction": "",
+                                                                    "fadeSpeed": "2"
+                                                                }
+                                                            },
+                                                            {
+                                                                "id": "09a1de9e-a65b-4eb3-ac4e-3b6d36d31071",
+                                                                "command": "EVENT_END"
+                                                            }
+                                                        ],
+                                                        "false": [
+                                                            {
+                                                                "id": "7b82b4c0-4f08-41db-8e61-c83bf33e0698",
+                                                                "command": "EVENT_TEXT",
+                                                                "args": {
+                                                                    "text": [
+                                                                        "Oh, right...",
+                                                                        "There's a\ncompany event\nhappening today.",
+                                                                        "We're rolling\nout a new\ncoffee machine.",
+                                                                        "I think\nChristina's\ngiving the\nspeech.",
+                                                                        "I should check\nin on her.",
+                                                                        "I guess I should\ntake the\nelevator."
+                                                                    ],
+                                                                    "avatarId": "daf95270-e30d-423b-9ee7-990ae29f57f6",
+                                                                    "__collapse": true
+                                                                }
+                                                            },
+                                                            {
+                                                                "id": "bce6584d-2b60-470f-8ed4-1fabd03b2c1e",
+                                                                "command": "EVENT_OVERLAY_MOVE_TO",
+                                                                "args": {
+                                                                    "x": 0,
+                                                                    "y": 0,
+                                                                    "speed": "0",
+                                                                    "__collapse": true
+                                                                }
+                                                            },
+                                                            {
+                                                                "id": "0f391c2e-5909-492a-ab03-bdcb8d6f4ad5",
+                                                                "command": "EVENT_ACTOR_COLLISIONS_DISABLE",
+                                                                "args": {
+                                                                    "actorId": "$self$"
+                                                                }
+                                                            },
+                                                            {
+                                                                "id": "9df2aeda-5483-4c1e-b682-34bd989f2eb1",
+                                                                "command": "EVENT_SET_TIMER_SCRIPT",
+                                                                "args": {
+                                                                    "duration": 1,
+                                                                    "__scriptTabs": "end",
+                                                                    "__collapse": true
+                                                                },
+                                                                "children": {
+                                                                    "script": [
+                                                                        {
+                                                                            "id": "0d5682a2-f251-4920-94de-7b0ebe79da69",
+                                                                            "command": "EVENT_ACTOR_COLLISIONS_ENABLE",
+                                                                            "args": {
+                                                                                "actorId": "$self$"
+                                                                            }
+                                                                        },
+                                                                        {
+                                                                            "id": "7cbde727-3a73-4bec-92c5-8a4d1b05cdab",
+                                                                            "command": "EVENT_TIMER_DISABLE",
+                                                                            "args": {}
+                                                                        },
+                                                                        {
+                                                                            "id": "c096a909-97d3-4bb8-af02-15fd761a4851",
+                                                                            "command": "EVENT_END"
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            },
+                                                            {
+                                                                "id": "bb6586c7-f25a-47a2-97ba-0da12332c6fe",
+                                                                "command": "EVENT_END"
+                                                            }
+                                                        ]
+                                                    }
+                                                },
+                                                {
+                                                    "id": "a25b2e10-b6cd-4757-97a6-110db8f4fd74",
+                                                    "command": "EVENT_TEXT",
+                                                    "args": {
+                                                        "text": [
+                                                            "Oh, right...",
+                                                            "There's a\ncompany event\nhappening today.",
+                                                            "We're rolling\nout a new\ncoffee machine.",
+                                                            "I think\nChristina's\ngiving the\nspeech.",
+                                                            "I should check\nin on her.",
+                                                            "I guess I should\ntake the\nelevator."
+                                                        ],
+                                                        "avatarId": "daf95270-e30d-423b-9ee7-990ae29f57f6",
+                                                        "__collapse": true,
+                                                        "__comment": true
+                                                    }
+                                                },
+                                                {
+                                                    "id": "338a03c0-b0e1-40bb-87cb-add229d172bc",
+                                                    "command": "EVENT_OVERLAY_MOVE_TO",
+                                                    "args": {
+                                                        "x": 0,
+                                                        "y": 0,
+                                                        "speed": "0",
+                                                        "__collapse": true,
+                                                        "__comment": true
+                                                    }
+                                                },
+                                                {
+                                                    "id": "95959368-9936-4c77-ab83-291e89e5afc6",
+                                                    "command": "EVENT_END"
+                                                }
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "id": "6309badc-8c40-40a5-8b3a-a36b25f09a6c",
+                                        "command": "EVENT_END"
+                                    }
+                                ],
+                                "false": [
+                                    {
+                                        "id": "d4a7fd35-ed8e-4cef-b9d2-f3c3686d5782",
+                                        "command": "EVENT_END"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "id": "df085b40-7a9f-40ca-acaa-441045b7c2a8",
+                            "command": "EVENT_END"
+                        }
+                    ],
+                    "id": "9aa42939-671c-42ce-8d63-b467f6060e92",
+                    "x": 36,
+                    "y": 50,
+                    "width": 2,
                     "height": 2
                 }
             ]
@@ -19516,7 +19776,7 @@
                                 "__collapseElse": false,
                                 "__comment": false,
                                 "__disableElse": true,
-                                "__collapse": false,
+                                "__collapse": true,
                                 "__label": "A"
                             },
                             "children": {
@@ -19585,7 +19845,7 @@
                                         "args": {
                                             "variable": "L0",
                                             "__collapseElse": false,
-                                            "__collapse": true
+                                            "__collapse": false
                                         },
                                         "children": {
                                             "true": [
@@ -19763,11 +20023,11 @@
                                                                 "command": "EVENT_TEXT",
                                                                 "args": {
                                                                     "text": [
-                                                                        "OH!",
+                                                                        "OH!\n",
                                                                         "...someone is...\nf-full of energy\ntoday."
                                                                     ],
                                                                     "avatarId": "",
-                                                                    "__collapse": false
+                                                                    "__collapse": true
                                                                 }
                                                             },
                                                             {
@@ -19837,7 +20097,7 @@
                                         "command": "EVENT_TEXT",
                                         "args": {
                                             "text": [
-                                                "So...uh.",
+                                                "So...uh.\n",
                                                 "How was your\nweekend?"
                                             ],
                                             "avatarId": "6ed6d52f-e987-43ae-8843-8bee03dbb6e4",
@@ -19849,7 +20109,7 @@
                                         "command": "EVENT_GROUP",
                                         "args": {
                                             "__label": "NPC Dialog",
-                                            "__collapse": true
+                                            "__collapse": false
                                         },
                                         "children": {
                                             "true": [
@@ -19896,11 +20156,11 @@
                                                     "args": {
                                                         "text": [
                                                             "My weekend?",
-                                                            "Oh, nothing\nreally...",
+                                                            "Oh, nothing\nspecial...",
                                                             "Just a little rock\nclimbing."
                                                         ],
                                                         "avatarId": "",
-                                                        "__collapse": false
+                                                        "__collapse": true
                                                     }
                                                 },
                                                 {
@@ -20154,7 +20414,7 @@
                                         "command": "EVENT_GROUP",
                                         "args": {
                                             "__label": "NPC Dialog",
-                                            "__collapse": false
+                                            "__collapse": true
                                         },
                                         "children": {
                                             "true": [
@@ -20251,6 +20511,14 @@
                                         }
                                     },
                                     {
+                                        "id": "cb4cb258-9bb1-49b9-beea-a210ec57824a",
+                                        "command": "EVENT_SET_TRUE",
+                                        "args": {
+                                            "variable": "0",
+                                            "__collapse": false
+                                        }
+                                    },
+                                    {
                                         "id": "48c51aee-7725-4dca-bd59-e4a94869b02f",
                                         "command": "EVENT_SWITCH_SCENE",
                                         "args": {
@@ -20259,14 +20527,6 @@
                                             "y": 11,
                                             "direction": "",
                                             "fadeSpeed": "2",
-                                            "__collapse": true
-                                        }
-                                    },
-                                    {
-                                        "id": "cb4cb258-9bb1-49b9-beea-a210ec57824a",
-                                        "command": "EVENT_SET_TRUE",
-                                        "args": {
-                                            "variable": "0",
                                             "__collapse": true
                                         }
                                     },
@@ -35900,9 +36160,9 @@
         "startDirection": "right",
         "showCollisions": true,
         "showConnections": true,
-        "worldScrollX": 0,
-        "worldScrollY": 0,
-        "zoom": 31.928726688027382,
+        "worldScrollX": 1565,
+        "worldScrollY": 1363,
+        "zoom": 250.82301004230976,
         "customColorsEnabled": false,
         "customHead": "",
         "defaultBackgroundPaletteIds": [
