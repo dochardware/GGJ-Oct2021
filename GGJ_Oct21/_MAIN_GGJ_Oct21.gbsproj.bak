@@ -9050,7 +9050,7 @@
                     "args": {
                         "actorId": "$self$",
                         "spriteSheetId": "05a64a1a-1153-4c46-9119-467c9411b74e",
-                        "__collapse": true
+                        "__collapse": false
                     }
                 },
                 {
@@ -12564,7 +12564,7 @@
                                                                     "text": [
                                                                         "Not at all. \nTeamwork, right?"
                                                                     ],
-                                                                    "avatarId": ""
+                                                                    "avatarId": "6ed6d52f-e987-43ae-8843-8bee03dbb6e4"
                                                                 }
                                                             },
                                                             {
@@ -12685,7 +12685,7 @@
                                                                     "text": [
                                                                         "See ya!"
                                                                     ],
-                                                                    "avatarId": "daf95270-e30d-423b-9ee7-990ae29f57f6"
+                                                                    "avatarId": "6ed6d52f-e987-43ae-8843-8bee03dbb6e4"
                                                                 }
                                                             },
                                                             {
@@ -12731,7 +12731,7 @@
                                                                     "text": [
                                                                         "No biggie. \nJust paying it\nforward."
                                                                     ],
-                                                                    "avatarId": "daf95270-e30d-423b-9ee7-990ae29f57f6"
+                                                                    "avatarId": "6ed6d52f-e987-43ae-8843-8bee03dbb6e4"
                                                                 }
                                                             },
                                                             {
@@ -12844,7 +12844,7 @@
                                                                     "text": [
                                                                         "See ya!"
                                                                     ],
-                                                                    "avatarId": "daf95270-e30d-423b-9ee7-990ae29f57f6"
+                                                                    "avatarId": "6ed6d52f-e987-43ae-8843-8bee03dbb6e4"
                                                                 }
                                                             },
                                                             {
@@ -17805,7 +17805,7 @@
                     "args": {
                         "variable": "1",
                         "__collapseElse": false,
-                        "__collapse": true
+                        "__collapse": false
                     },
                     "children": {
                         "true": [
@@ -17844,7 +17844,7 @@
                     "args": {
                         "variable": "0",
                         "__collapseElse": false,
-                        "__collapse": true
+                        "__collapse": false
                     },
                     "children": {
                         "true": [
@@ -17885,7 +17885,7 @@
                                         "I got two\ntickets and a\ndate to find!"
                                     ],
                                     "avatarId": "6ed6d52f-e987-43ae-8843-8bee03dbb6e4",
-                                    "__collapse": true
+                                    "__collapse": false
                                 }
                             },
                             {
@@ -17951,8 +17951,8 @@
             "playerHit2Script": [],
             "playerHit3Script": [],
             "id": "72b343a1-ef8b-42e3-b11d-4128eb3d5817",
-            "x": 504.1505179232319,
-            "y": 251.69989757858409,
+            "x": 497.66096666093875,
+            "y": 243.68629871300806,
             "actors": [
                 {
                     "name": "",
@@ -18114,7 +18114,7 @@
                             "args": {
                                 "variable": "1",
                                 "__collapseElse": false,
-                                "__collapse": true
+                                "__collapse": false
                             },
                             "children": {
                                 "true": [
@@ -19501,7 +19501,7 @@
                     "command": "EVENT_GROUP",
                     "args": {
                         "__label": "Clem Dialog",
-                        "__collapse": true
+                        "__collapse": false
                     },
                     "children": {
                         "true": [
@@ -19773,7 +19773,7 @@
                                             "variable": "L0",
                                             "trueText": "Good morning.",
                                             "falseText": "Heyo!",
-                                            "__collapse": true
+                                            "__collapse": false
                                         }
                                     },
                                     {
@@ -19782,7 +19782,7 @@
                                         "args": {
                                             "variable": "L0",
                                             "__collapseElse": true,
-                                            "__collapse": true
+                                            "__collapse": false
                                         },
                                         "children": {
                                             "true": [
@@ -19792,7 +19792,7 @@
                                                     "args": {
                                                         "actorId": "4678ecba-069d-4c88-ac70-310b6c1fca44",
                                                         "emoteId": "2",
-                                                        "__collapse": true
+                                                        "__collapse": false
                                                     }
                                                 },
                                                 {
@@ -20329,7 +20329,7 @@
                                         "command": "EVENT_GROUP",
                                         "args": {
                                             "__label": "NPC Dialog",
-                                            "__collapse": true
+                                            "__collapse": false
                                         },
                                         "children": {
                                             "true": [
@@ -22492,11 +22492,19 @@
                                         }
                                     },
                                     {
+                                        "id": "aca873aa-8423-4f91-a7b8-32224212e3ed",
+                                        "command": "EVENT_SET_TRUE",
+                                        "args": {
+                                            "variable": "0",
+                                            "__collapse": true
+                                        }
+                                    },
+                                    {
                                         "id": "d62dfe47-b137-46c6-ac5d-130b683c0e7d",
                                         "command": "EVENT_SET_TRUE",
                                         "args": {
                                             "variable": "1",
-                                            "__collapse": true
+                                            "__collapse": false
                                         }
                                     },
                                     {
@@ -24675,6 +24683,17 @@
                     }
                 },
                 {
+                    "id": "b3a90d21-194a-4c3f-a53c-0fd767d4f5cb",
+                    "command": "EVENT_SWITCH_SCENE",
+                    "args": {
+                        "sceneId": "c42cdfe0-f62f-4850-bc57-87939005f6fd",
+                        "x": 0,
+                        "y": 0,
+                        "direction": "",
+                        "fadeSpeed": "2"
+                    }
+                },
+                {
                     "id": "4eef42e6-4bbe-4a78-9428-a7fa1fe3bee5",
                     "command": "EVENT_END"
                 }
@@ -26499,6 +26518,17 @@
                                 "command": "EVENT_END"
                             }
                         ]
+                    }
+                },
+                {
+                    "id": "8775e6bf-8f5c-40fa-8878-7dd32ef7fb37",
+                    "command": "EVENT_SWITCH_SCENE",
+                    "args": {
+                        "sceneId": "c42cdfe0-f62f-4850-bc57-87939005f6fd",
+                        "x": 0,
+                        "y": 0,
+                        "direction": "",
+                        "fadeSpeed": "2"
                     }
                 },
                 {
@@ -28437,6 +28467,17 @@
                                 "command": "EVENT_END"
                             }
                         ]
+                    }
+                },
+                {
+                    "id": "41bae7e9-7d5e-4be0-bc0c-cdd6fcc7226e",
+                    "command": "EVENT_SWITCH_SCENE",
+                    "args": {
+                        "sceneId": "c42cdfe0-f62f-4850-bc57-87939005f6fd",
+                        "x": 0,
+                        "y": 0,
+                        "direction": "",
+                        "fadeSpeed": "2"
                     }
                 },
                 {
@@ -30380,6 +30421,17 @@
                     }
                 },
                 {
+                    "id": "cd856aff-d6d9-4828-8802-53de3e4f0d41",
+                    "command": "EVENT_SWITCH_SCENE",
+                    "args": {
+                        "sceneId": "c42cdfe0-f62f-4850-bc57-87939005f6fd",
+                        "x": 0,
+                        "y": 0,
+                        "direction": "",
+                        "fadeSpeed": "2"
+                    }
+                },
+                {
                     "id": "457c93de-f491-4d14-ac01-463ca7bf2f44",
                     "command": "EVENT_END"
                 }
@@ -31921,7 +31973,7 @@
                     "args": {
                         "actorId": "$self$",
                         "animate": true,
-                        "__collapse": true
+                        "__collapse": false
                     }
                 },
                 {
@@ -31932,7 +31984,7 @@
                         "speedOut": "0",
                         "speed": "2",
                         "allowFastForward": false,
-                        "__collapse": true
+                        "__collapse": false
                     }
                 },
                 {
@@ -31940,7 +31992,7 @@
                     "command": "EVENT_MUSIC_STOP",
                     "args": {
                         "__comment": false,
-                        "__collapse": true
+                        "__collapse": false
                     }
                 },
                 {
@@ -33677,7 +33729,7 @@
                     "command": "EVENT_GROUP",
                     "args": {
                         "__label": "CHRIS Stop Talking",
-                        "__collapse": true
+                        "__collapse": false
                     },
                     "children": {
                         "true": [
@@ -33714,7 +33766,7 @@
                     "command": "EVENT_GROUP",
                     "args": {
                         "__label": "NPC Dialog",
-                        "__collapse": true
+                        "__collapse": false
                     },
                     "children": {
                         "true": [
@@ -33760,8 +33812,7 @@
                                 "command": "EVENT_TEXT",
                                 "args": {
                                     "text": [
-                                        "You ready?",
-                                        ""
+                                        "You ready?"
                                     ],
                                     "avatarId": "",
                                     "__collapse": false
@@ -33812,6 +33863,15 @@
                     }
                 },
                 {
+                    "id": "731ee46b-5f72-42db-9878-9a87dff93301",
+                    "command": "EVENT_ACTOR_SET_SPRITE",
+                    "args": {
+                        "actorId": "$self$",
+                        "spriteSheetId": "05a64a1a-1153-4c46-9119-467c9411b74e",
+                        "__collapse": false
+                    }
+                },
+                {
                     "id": "939ccc9e-7184-4075-bc6b-d0ff1ebc224a",
                     "command": "EVENT_END"
                 }
@@ -33842,6 +33902,28 @@
                     "x": 9,
                     "y": 7,
                     "collisionGroup": ""
+                },
+                {
+                    "name": "",
+                    "frame": 0,
+                    "animate": false,
+                    "spriteSheetId": "0a6b1853-3a39-4989-93fa-c1816e9571c5",
+                    "spriteType": "actor",
+                    "direction": "down",
+                    "moveSpeed": 1,
+                    "animSpeed": null,
+                    "paletteId": "",
+                    "isPinned": false,
+                    "collisionGroup": "",
+                    "script": [],
+                    "startScript": [],
+                    "updateScript": [],
+                    "hit1Script": [],
+                    "hit2Script": [],
+                    "hit3Script": [],
+                    "id": "570f689d-8150-4f48-bca3-ba5e8916fa8d",
+                    "x": 13,
+                    "y": 5
                 }
             ],
             "triggers": [
@@ -34051,7 +34133,7 @@
                                             "variable": "L0",
                                             "trueText": "Confident",
                                             "falseText": "Casual",
-                                            "__collapse": true
+                                            "__collapse": false
                                         }
                                     },
                                     {
@@ -34059,7 +34141,7 @@
                                         "command": "EVENT_IF_TRUE",
                                         "args": {
                                             "variable": "L0",
-                                            "__collapseElse": true,
+                                            "__collapseElse": false,
                                             "__collapse": false
                                         },
                                         "children": {
@@ -34071,13 +34153,13 @@
                                                         "text": [
                                                             "Coffee is the #1\nenergizer in the\nworld.",
                                                             "People working\nall\naround the world",
-                                                            "drink coffee as\na\nsocial activity,",
+                                                            "drink coffee as\na social\nactivity,",
                                                             "on their way to\nwork,",
                                                             "on their breaks,",
                                                             "some even drink\ncoffee before\nbedtime?"
                                                         ],
                                                         "avatarId": "6ed6d52f-e987-43ae-8843-8bee03dbb6e4",
-                                                        "__collapse": true
+                                                        "__collapse": false
                                                     }
                                                 },
                                                 {
@@ -34093,7 +34175,7 @@
                                                                 "id": "837a630b-5ffa-428a-94d4-642183d971d5",
                                                                 "command": "EVENT_ACTOR_EMOTE",
                                                                 "args": {
-                                                                    "actorId": "415b863c-344a-468f-9614-3aacbb8e8e1c",
+                                                                    "actorId": "570f689d-8150-4f48-bca3-ba5e8916fa8d",
                                                                     "emoteId": "2"
                                                                 }
                                                             },
@@ -34142,7 +34224,7 @@
                                                                         "Nice"
                                                                     ],
                                                                     "avatarId": "",
-                                                                    "__collapse": true
+                                                                    "__collapse": false
                                                                 }
                                                             },
                                                             {
@@ -34213,7 +34295,7 @@
                                                             "Especially we at\nthe Grinder."
                                                         ],
                                                         "avatarId": "6ed6d52f-e987-43ae-8843-8bee03dbb6e4",
-                                                        "__collapse": true
+                                                        "__collapse": false
                                                     }
                                                 },
                                                 {
@@ -34465,7 +34547,7 @@
                                                     "command": "EVENT_GROUP",
                                                     "args": {
                                                         "__label": "NPC Dialog",
-                                                        "__collapse": true
+                                                        "__collapse": false
                                                     },
                                                     "children": {
                                                         "true": [
@@ -34473,7 +34555,7 @@
                                                                 "id": "69cbf042-3b6a-4b5e-9503-00cf2719cf06",
                                                                 "command": "EVENT_ACTOR_EMOTE",
                                                                 "args": {
-                                                                    "actorId": "415b863c-344a-468f-9614-3aacbb8e8e1c",
+                                                                    "actorId": "570f689d-8150-4f48-bca3-ba5e8916fa8d",
                                                                     "emoteId": "2"
                                                                 }
                                                             },
@@ -34600,7 +34682,7 @@
                                                     "command": "EVENT_GROUP",
                                                     "args": {
                                                         "__label": "NPC Dialog",
-                                                        "__collapse": true
+                                                        "__collapse": false
                                                     },
                                                     "children": {
                                                         "true": [
@@ -34649,7 +34731,7 @@
                                                                         "Ok..."
                                                                     ],
                                                                     "avatarId": "",
-                                                                    "__collapse": true
+                                                                    "__collapse": false
                                                                 }
                                                             },
                                                             {
@@ -39483,7 +39565,7 @@
                     "args": {
                         "spriteSheetId": "0ff6fde5-00ed-4e3f-96dd-0ac2d06f90a3",
                         "persist": false,
-                        "__collapse": true
+                        "__collapse": false
                     }
                 },
                 {
@@ -44765,6 +44847,441 @@
                 }
             ],
             "triggers": []
+        },
+        {
+            "name": "THEEND",
+            "backgroundId": "d5cecf54-6c90-4672-8a98-3dc9d5ebc3ad",
+            "width": 20,
+            "height": 18,
+            "type": "0",
+            "paletteIds": [],
+            "collisions": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "tileColors": [],
+            "script": [
+                {
+                    "id": "9ca37709-cb09-414d-b39f-cb0662779740",
+                    "command": "EVENT_TEXT",
+                    "args": {
+                        "text": [
+                            "    =THE END=",
+                            "Created by...",
+                            "Bryan Rollins\nmafu  LANKGOD\nJack Thompson"
+                        ],
+                        "avatarId": ""
+                    }
+                },
+                {
+                    "id": "060a5545-b4bc-4f39-9051-f09d08d945c3",
+                    "command": "EVENT_RESET_VARIABLES",
+                    "args": {}
+                },
+                {
+                    "id": "519742ae-ec6e-4469-8c36-11107f9164c7",
+                    "command": "EVENT_SET_VALUE",
+                    "args": {
+                        "variable": "5",
+                        "value": {
+                            "type": "number",
+                            "value": 0
+                        }
+                    }
+                },
+                {
+                    "id": "4954d6b9-404f-4792-8348-797b3086d0fe",
+                    "command": "EVENT_SET_VALUE",
+                    "args": {
+                        "variable": "6",
+                        "value": {
+                            "type": "number",
+                            "value": 0
+                        }
+                    }
+                },
+                {
+                    "id": "f6889a8e-8b9b-40bd-b1f0-ba76d2e2fae5",
+                    "command": "EVENT_SWITCH_SCENE",
+                    "args": {
+                        "sceneId": "6d23b8a3-b674-4654-8a34-a47d4dae84a5",
+                        "x": 0,
+                        "y": 0,
+                        "direction": "",
+                        "fadeSpeed": "5"
+                    }
+                },
+                {
+                    "id": "4eeb2fe3-4b2f-4b79-ab90-e99ed6aa02ac",
+                    "command": "EVENT_END"
+                }
+            ],
+            "playerHit1Script": [],
+            "playerHit2Script": [],
+            "playerHit3Script": [],
+            "id": "c42cdfe0-f62f-4850-bc57-87939005f6fd",
+            "x": 1484.1913887892513,
+            "y": 236.67982479589472,
+            "actors": [],
+            "triggers": []
         }
     ],
     "backgrounds": [
@@ -45481,9 +45998,9 @@
         "startDirection": "right",
         "showCollisions": true,
         "showConnections": true,
-        "worldScrollX": 1218.8680419921875,
-        "worldScrollY": 239.62265014648438,
-        "zoom": 171.5433693822124,
+        "worldScrollX": 761.32080078125,
+        "worldScrollY": 3.773585081100464,
+        "zoom": 130.99999237060547,
         "customColorsEnabled": false,
         "customHead": "",
         "defaultBackgroundPaletteIds": [

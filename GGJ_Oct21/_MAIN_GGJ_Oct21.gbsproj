@@ -9050,7 +9050,7 @@
                     "args": {
                         "actorId": "$self$",
                         "spriteSheetId": "05a64a1a-1153-4c46-9119-467c9411b74e",
-                        "__collapse": true
+                        "__collapse": false
                     }
                 },
                 {
@@ -12564,7 +12564,7 @@
                                                                     "text": [
                                                                         "Not at all. \nTeamwork, right?"
                                                                     ],
-                                                                    "avatarId": ""
+                                                                    "avatarId": "6ed6d52f-e987-43ae-8843-8bee03dbb6e4"
                                                                 }
                                                             },
                                                             {
@@ -12685,7 +12685,7 @@
                                                                     "text": [
                                                                         "See ya!"
                                                                     ],
-                                                                    "avatarId": "daf95270-e30d-423b-9ee7-990ae29f57f6"
+                                                                    "avatarId": "6ed6d52f-e987-43ae-8843-8bee03dbb6e4"
                                                                 }
                                                             },
                                                             {
@@ -12731,7 +12731,7 @@
                                                                     "text": [
                                                                         "No biggie. \nJust paying it\nforward."
                                                                     ],
-                                                                    "avatarId": "daf95270-e30d-423b-9ee7-990ae29f57f6"
+                                                                    "avatarId": "6ed6d52f-e987-43ae-8843-8bee03dbb6e4"
                                                                 }
                                                             },
                                                             {
@@ -12844,7 +12844,7 @@
                                                                     "text": [
                                                                         "See ya!"
                                                                     ],
-                                                                    "avatarId": "daf95270-e30d-423b-9ee7-990ae29f57f6"
+                                                                    "avatarId": "6ed6d52f-e987-43ae-8843-8bee03dbb6e4"
                                                                 }
                                                             },
                                                             {
@@ -17844,7 +17844,7 @@
                     "args": {
                         "variable": "0",
                         "__collapseElse": false,
-                        "__collapse": true
+                        "__collapse": false
                     },
                     "children": {
                         "true": [
@@ -17885,7 +17885,7 @@
                                         "I got two\ntickets and a\ndate to find!"
                                     ],
                                     "avatarId": "6ed6d52f-e987-43ae-8843-8bee03dbb6e4",
-                                    "__collapse": true
+                                    "__collapse": false
                                 }
                             },
                             {
@@ -17951,8 +17951,8 @@
             "playerHit2Script": [],
             "playerHit3Script": [],
             "id": "72b343a1-ef8b-42e3-b11d-4128eb3d5817",
-            "x": 504.1505179232319,
-            "y": 251.69989757858409,
+            "x": 497.66096666093875,
+            "y": 243.68629871300806,
             "actors": [
                 {
                     "name": "",
@@ -18114,7 +18114,7 @@
                             "args": {
                                 "variable": "1",
                                 "__collapseElse": false,
-                                "__collapse": true
+                                "__collapse": false
                             },
                             "children": {
                                 "true": [
@@ -19459,6 +19459,14 @@
             "tileColors": [],
             "script": [
                 {
+                    "id": "96d35873-fc2e-43bc-a4af-8f1b4614e8b0",
+                    "command": "EVENT_SET_TRUE",
+                    "args": {
+                        "variable": "0",
+                        "__collapse": true
+                    }
+                },
+                {
                     "id": "c3a67b13-7137-4bc5-96f0-f0045c75bb91",
                     "command": "EVENT_ACTOR_SET_ANIMATE",
                     "args": {
@@ -19501,7 +19509,7 @@
                     "command": "EVENT_GROUP",
                     "args": {
                         "__label": "Clem Dialog",
-                        "__collapse": true
+                        "__collapse": false
                     },
                     "children": {
                         "true": [
@@ -19633,7 +19641,7 @@
             "playerHit2Script": [],
             "playerHit3Script": [],
             "id": "3a35a783-f0fd-4eea-b44f-7411c201a129",
-            "x": 1253.2767397994194,
+            "x": 1253.6986807548553,
             "y": 282.21601988119676,
             "actors": [
                 {
@@ -19719,84 +19727,339 @@
                             "children": {
                                 "true": [
                                     {
-                                        "id": "a4d70dfe-b9a7-444d-a584-2ce9c3b1aa5a",
-                                        "command": "EVENT_ACTOR_HIDE",
+                                        "id": "ed9669d6-9fcd-4e74-b97c-1834a4d0f82a",
+                                        "command": "EVENT_IF_FALSE",
                                         "args": {
-                                            "actorId": "$self$",
-                                            "__collapse": true
-                                        }
-                                    },
-                                    {
-                                        "id": "4479c72e-2d14-45f5-9afa-1f61045bf45a",
-                                        "command": "EVENT_GROUP",
-                                        "args": {
-                                            "__label": "Confirm Sound",
-                                            "__collapse": true
+                                            "variable": "10",
+                                            "__collapseElse": false
                                         },
                                         "children": {
                                             "true": [
                                                 {
-                                                    "id": "2e90c312-9023-4b3c-ae5c-0c7550d265ec",
-                                                    "command": "EVENT_SOUND_PLAY_EFFECT",
+                                                    "id": "a4d70dfe-b9a7-444d-a584-2ce9c3b1aa5a",
+                                                    "command": "EVENT_ACTOR_HIDE",
                                                     "args": {
-                                                        "type": "tone",
-                                                        "pitch": 1,
-                                                        "frequency": 3600,
-                                                        "duration": 0.02,
-                                                        "wait": true,
+                                                        "actorId": "$self$",
                                                         "__collapse": true
                                                     }
                                                 },
                                                 {
-                                                    "id": "eb0114a1-61b2-4cc9-84e2-b3d3d0b88434",
-                                                    "command": "EVENT_SOUND_PLAY_EFFECT",
+                                                    "id": "4479c72e-2d14-45f5-9afa-1f61045bf45a",
+                                                    "command": "EVENT_GROUP",
                                                     "args": {
-                                                        "type": "tone",
-                                                        "pitch": 1,
-                                                        "frequency": 4800,
-                                                        "duration": 0.04,
-                                                        "wait": true,
+                                                        "__label": "Confirm Sound",
+                                                        "__collapse": true
+                                                    },
+                                                    "children": {
+                                                        "true": [
+                                                            {
+                                                                "id": "2e90c312-9023-4b3c-ae5c-0c7550d265ec",
+                                                                "command": "EVENT_SOUND_PLAY_EFFECT",
+                                                                "args": {
+                                                                    "type": "tone",
+                                                                    "pitch": 1,
+                                                                    "frequency": 3600,
+                                                                    "duration": 0.02,
+                                                                    "wait": true,
+                                                                    "__collapse": true
+                                                                }
+                                                            },
+                                                            {
+                                                                "id": "eb0114a1-61b2-4cc9-84e2-b3d3d0b88434",
+                                                                "command": "EVENT_SOUND_PLAY_EFFECT",
+                                                                "args": {
+                                                                    "type": "tone",
+                                                                    "pitch": 1,
+                                                                    "frequency": 4800,
+                                                                    "duration": 0.04,
+                                                                    "wait": true,
+                                                                    "__collapse": true
+                                                                }
+                                                            },
+                                                            {
+                                                                "id": "0d52544d-305c-4dc6-b249-b6cd29e54e87",
+                                                                "command": "EVENT_END"
+                                                            }
+                                                        ]
+                                                    }
+                                                },
+                                                {
+                                                    "id": "73da8896-e9bc-46e6-a5cd-d90e954056aa",
+                                                    "command": "EVENT_CHOICE",
+                                                    "args": {
+                                                        "variable": "L0",
+                                                        "trueText": "Good morning.",
+                                                        "falseText": "Heyo!",
                                                         "__collapse": true
                                                     }
                                                 },
                                                 {
-                                                    "id": "0d52544d-305c-4dc6-b249-b6cd29e54e87",
-                                                    "command": "EVENT_END"
-                                                }
-                                            ]
-                                        }
-                                    },
-                                    {
-                                        "id": "73da8896-e9bc-46e6-a5cd-d90e954056aa",
-                                        "command": "EVENT_CHOICE",
-                                        "args": {
-                                            "variable": "L0",
-                                            "trueText": "Good morning.",
-                                            "falseText": "Heyo!",
-                                            "__collapse": true
-                                        }
-                                    },
-                                    {
-                                        "id": "b2d6b797-84cc-4f38-9c08-ef8466893cb1",
-                                        "command": "EVENT_IF_TRUE",
-                                        "args": {
-                                            "variable": "L0",
-                                            "__collapseElse": true,
-                                            "__collapse": true
-                                        },
-                                        "children": {
-                                            "true": [
-                                                {
-                                                    "id": "69a4ce07-bb24-4b56-890e-f4e0b7e40b5d",
-                                                    "command": "EVENT_ACTOR_EMOTE",
+                                                    "id": "b2d6b797-84cc-4f38-9c08-ef8466893cb1",
+                                                    "command": "EVENT_IF_TRUE",
                                                     "args": {
-                                                        "actorId": "4678ecba-069d-4c88-ac70-310b6c1fca44",
-                                                        "emoteId": "2",
+                                                        "variable": "L0",
+                                                        "__collapseElse": false,
+                                                        "__collapse": true
+                                                    },
+                                                    "children": {
+                                                        "true": [
+                                                            {
+                                                                "id": "69a4ce07-bb24-4b56-890e-f4e0b7e40b5d",
+                                                                "command": "EVENT_ACTOR_EMOTE",
+                                                                "args": {
+                                                                    "actorId": "4678ecba-069d-4c88-ac70-310b6c1fca44",
+                                                                    "emoteId": "2",
+                                                                    "__collapse": false
+                                                                }
+                                                            },
+                                                            {
+                                                                "id": "3f534cce-5865-4544-8f1d-f2a5f7395661",
+                                                                "command": "EVENT_GROUP",
+                                                                "args": {
+                                                                    "__label": "NPC Dialog",
+                                                                    "__collapse": true
+                                                                },
+                                                                "children": {
+                                                                    "true": [
+                                                                        {
+                                                                            "id": "8fb00142-b058-4d82-a88d-ce9a18edc54d",
+                                                                            "command": "EVENT_GROUP",
+                                                                            "args": {
+                                                                                "__label": "Clem Talking",
+                                                                                "__collapse": true
+                                                                            },
+                                                                            "children": {
+                                                                                "true": [
+                                                                                    {
+                                                                                        "id": "2c6da8d3-dbd8-4c4e-a83d-638dc315e732",
+                                                                                        "command": "EVENT_ACTOR_SET_ANIMATION_SPEED",
+                                                                                        "args": {
+                                                                                            "actorId": "a3a43f04-5e4a-4a88-b043-b05c86b03949",
+                                                                                            "speed": 3,
+                                                                                            "__collapse": true
+                                                                                        }
+                                                                                    },
+                                                                                    {
+                                                                                        "id": "0830a073-9da4-4e29-bfd9-7691f31515bb",
+                                                                                        "command": "EVENT_ACTOR_SET_FRAME",
+                                                                                        "args": {
+                                                                                            "actorId": "a3a43f04-5e4a-4a88-b043-b05c86b03949",
+                                                                                            "frame": {
+                                                                                                "type": "number",
+                                                                                                "value": 0
+                                                                                            },
+                                                                                            "__collapse": true
+                                                                                        }
+                                                                                    },
+                                                                                    {
+                                                                                        "id": "8edab46b-811d-4aa0-86e8-9cdfa0630ccf",
+                                                                                        "command": "EVENT_END"
+                                                                                    }
+                                                                                ]
+                                                                            }
+                                                                        },
+                                                                        {
+                                                                            "id": "c3b78e26-93ae-46b3-a90b-6abfcdba7fd1",
+                                                                            "command": "EVENT_TEXT",
+                                                                            "args": {
+                                                                                "text": [
+                                                                                    "Good to see you\nbeat the rain."
+                                                                                ],
+                                                                                "avatarId": "",
+                                                                                "__collapse": false
+                                                                            }
+                                                                        },
+                                                                        {
+                                                                            "id": "2518b0e3-2b0e-4f53-af34-f228f6ed82d8",
+                                                                            "command": "EVENT_GROUP",
+                                                                            "args": {
+                                                                                "__label": "Clem Stop Talking",
+                                                                                "__collapse": true
+                                                                            },
+                                                                            "children": {
+                                                                                "true": [
+                                                                                    {
+                                                                                        "id": "a9cccc8b-53e7-417d-9e82-455a38d7ec20",
+                                                                                        "command": "EVENT_ACTOR_SET_ANIMATION_SPEED",
+                                                                                        "args": {
+                                                                                            "actorId": "a3a43f04-5e4a-4a88-b043-b05c86b03949",
+                                                                                            "speed": null,
+                                                                                            "__collapse": false
+                                                                                        }
+                                                                                    },
+                                                                                    {
+                                                                                        "id": "7dfb6ba6-7909-44d6-8eda-e61c1f8d9ae5",
+                                                                                        "command": "EVENT_ACTOR_SET_FRAME",
+                                                                                        "args": {
+                                                                                            "actorId": "a3a43f04-5e4a-4a88-b043-b05c86b03949",
+                                                                                            "frame": {
+                                                                                                "type": "number",
+                                                                                                "value": 0
+                                                                                            },
+                                                                                            "__collapse": false
+                                                                                        }
+                                                                                    },
+                                                                                    {
+                                                                                        "id": "8c7b063a-7baf-4470-b1eb-e8b017e8939d",
+                                                                                        "command": "EVENT_END"
+                                                                                    }
+                                                                                ]
+                                                                            }
+                                                                        },
+                                                                        {
+                                                                            "id": "b62c4bfd-b47f-4959-a4ac-49757254b7fa",
+                                                                            "command": "EVENT_END"
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            },
+                                                            {
+                                                                "id": "5fb4dc08-a1f8-4f5b-a707-bf4c41056a5c",
+                                                                "command": "EVENT_INC_VALUE",
+                                                                "args": {
+                                                                    "variable": "6"
+                                                                }
+                                                            },
+                                                            {
+                                                                "id": "c2f8de2a-6c2f-49c0-ba3d-d6f5f53ef27f",
+                                                                "command": "EVENT_END"
+                                                            }
+                                                        ],
+                                                        "false": [
+                                                            {
+                                                                "id": "fd04bf4b-978d-420b-9f3e-2ab9e23f8a34",
+                                                                "command": "EVENT_GROUP",
+                                                                "args": {
+                                                                    "__label": "NPC Dialog",
+                                                                    "__collapse": false
+                                                                },
+                                                                "children": {
+                                                                    "true": [
+                                                                        {
+                                                                            "id": "086a9e78-4504-4757-8dd2-29788168305f",
+                                                                            "command": "EVENT_GROUP",
+                                                                            "args": {
+                                                                                "__label": "Clem Talking",
+                                                                                "__collapse": true
+                                                                            },
+                                                                            "children": {
+                                                                                "true": [
+                                                                                    {
+                                                                                        "id": "2b3cfdfc-4c54-4337-abd1-623e54dbf7ff",
+                                                                                        "command": "EVENT_ACTOR_SET_ANIMATION_SPEED",
+                                                                                        "args": {
+                                                                                            "actorId": "a3a43f04-5e4a-4a88-b043-b05c86b03949",
+                                                                                            "speed": 3,
+                                                                                            "__collapse": true
+                                                                                        }
+                                                                                    },
+                                                                                    {
+                                                                                        "id": "52076a51-0aac-4aa9-86d9-9250e5bc8381",
+                                                                                        "command": "EVENT_ACTOR_SET_FRAME",
+                                                                                        "args": {
+                                                                                            "actorId": "a3a43f04-5e4a-4a88-b043-b05c86b03949",
+                                                                                            "frame": {
+                                                                                                "type": "number",
+                                                                                                "value": 0
+                                                                                            },
+                                                                                            "__collapse": true
+                                                                                        }
+                                                                                    },
+                                                                                    {
+                                                                                        "id": "5da35a8d-c50f-4ca4-89cb-ae6525cd8e40",
+                                                                                        "command": "EVENT_END"
+                                                                                    }
+                                                                                ]
+                                                                            }
+                                                                        },
+                                                                        {
+                                                                            "id": "0d5b0d11-2dac-4795-b361-c6fb204e2f40",
+                                                                            "command": "EVENT_TEXT",
+                                                                            "args": {
+                                                                                "text": [
+                                                                                    "OH!\n",
+                                                                                    "...someone is...\nf-full of energy\ntoday."
+                                                                                ],
+                                                                                "avatarId": "",
+                                                                                "__collapse": false
+                                                                            }
+                                                                        },
+                                                                        {
+                                                                            "id": "975367da-692c-450b-aade-8ecd2b02303f",
+                                                                            "command": "EVENT_GROUP",
+                                                                            "args": {
+                                                                                "__label": "Clem Stop Talking",
+                                                                                "__collapse": true
+                                                                            },
+                                                                            "children": {
+                                                                                "true": [
+                                                                                    {
+                                                                                        "id": "d3b8e489-e0be-4e59-a6d5-5c86630198df",
+                                                                                        "command": "EVENT_ACTOR_SET_ANIMATION_SPEED",
+                                                                                        "args": {
+                                                                                            "actorId": "a3a43f04-5e4a-4a88-b043-b05c86b03949",
+                                                                                            "speed": null,
+                                                                                            "__collapse": false
+                                                                                        }
+                                                                                    },
+                                                                                    {
+                                                                                        "id": "61bbc4c4-d45c-4756-9264-11f775dfd418",
+                                                                                        "command": "EVENT_ACTOR_SET_FRAME",
+                                                                                        "args": {
+                                                                                            "actorId": "a3a43f04-5e4a-4a88-b043-b05c86b03949",
+                                                                                            "frame": {
+                                                                                                "type": "number",
+                                                                                                "value": 0
+                                                                                            },
+                                                                                            "__collapse": false
+                                                                                        }
+                                                                                    },
+                                                                                    {
+                                                                                        "id": "8ee6562f-686c-43d6-9682-ac8c5e74cdd0",
+                                                                                        "command": "EVENT_END"
+                                                                                    }
+                                                                                ]
+                                                                            }
+                                                                        },
+                                                                        {
+                                                                            "id": "ca001588-2904-4fab-a8d3-49f73a884215",
+                                                                            "command": "EVENT_END"
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            },
+                                                            {
+                                                                "id": "f29e0c0d-3948-4832-8635-5140e254e007",
+                                                                "command": "EVENT_TEXT",
+                                                                "args": {
+                                                                    "text": [
+                                                                        "[Maybe that was\na little too\nstrong...]"
+                                                                    ],
+                                                                    "avatarId": "daf95270-e30d-423b-9ee7-990ae29f57f6",
+                                                                    "__collapse": true
+                                                                }
+                                                            },
+                                                            {
+                                                                "id": "93fc2539-108f-4609-9f2b-545a785bfa0e",
+                                                                "command": "EVENT_END"
+                                                            }
+                                                        ]
+                                                    }
+                                                },
+                                                {
+                                                    "id": "99941824-37c7-47c8-858a-57c7a604d95a",
+                                                    "command": "EVENT_TEXT",
+                                                    "args": {
+                                                        "text": [
+                                                            "So...uh.\n",
+                                                            "How was your\nweekend?"
+                                                        ],
+                                                        "avatarId": "6ed6d52f-e987-43ae-8843-8bee03dbb6e4",
                                                         "__collapse": true
                                                     }
                                                 },
                                                 {
-                                                    "id": "3f534cce-5865-4544-8f1d-f2a5f7395661",
+                                                    "id": "f97548b3-2e62-4b39-a3df-07164981e3dc",
                                                     "command": "EVENT_GROUP",
                                                     "args": {
                                                         "__label": "NPC Dialog",
@@ -19805,7 +20068,7 @@
                                                     "children": {
                                                         "true": [
                                                             {
-                                                                "id": "8fb00142-b058-4d82-a88d-ce9a18edc54d",
+                                                                "id": "0db466d2-f8b4-4597-83de-b7c0605edee3",
                                                                 "command": "EVENT_GROUP",
                                                                 "args": {
                                                                     "__label": "Clem Talking",
@@ -19814,7 +20077,7 @@
                                                                 "children": {
                                                                     "true": [
                                                                         {
-                                                                            "id": "2c6da8d3-dbd8-4c4e-a83d-638dc315e732",
+                                                                            "id": "df89ab9d-6345-4ccf-9978-56c2b60a51f5",
                                                                             "command": "EVENT_ACTOR_SET_ANIMATION_SPEED",
                                                                             "args": {
                                                                                 "actorId": "a3a43f04-5e4a-4a88-b043-b05c86b03949",
@@ -19823,7 +20086,7 @@
                                                                             }
                                                                         },
                                                                         {
-                                                                            "id": "0830a073-9da4-4e29-bfd9-7691f31515bb",
+                                                                            "id": "8519e867-cac4-4828-93a5-1ad75a0e2b38",
                                                                             "command": "EVENT_ACTOR_SET_FRAME",
                                                                             "args": {
                                                                                 "actorId": "a3a43f04-5e4a-4a88-b043-b05c86b03949",
@@ -19835,25 +20098,27 @@
                                                                             }
                                                                         },
                                                                         {
-                                                                            "id": "8edab46b-811d-4aa0-86e8-9cdfa0630ccf",
+                                                                            "id": "8402570b-9bb6-458b-a4c2-0b88359e2271",
                                                                             "command": "EVENT_END"
                                                                         }
                                                                     ]
                                                                 }
                                                             },
                                                             {
-                                                                "id": "c3b78e26-93ae-46b3-a90b-6abfcdba7fd1",
+                                                                "id": "190fc9f9-9522-4844-8d17-92476287a7b9",
                                                                 "command": "EVENT_TEXT",
                                                                 "args": {
                                                                     "text": [
-                                                                        "Good to see you\nbeat the rain."
+                                                                        "My weekend?",
+                                                                        "Oh, nothing\nspecial...",
+                                                                        "Just a little rock\nclimbing."
                                                                     ],
                                                                     "avatarId": "",
-                                                                    "__collapse": false
+                                                                    "__collapse": true
                                                                 }
                                                             },
                                                             {
-                                                                "id": "2518b0e3-2b0e-4f53-af34-f228f6ed82d8",
+                                                                "id": "c49c8435-17f9-4789-a97a-3872694a110e",
                                                                 "command": "EVENT_GROUP",
                                                                 "args": {
                                                                     "__label": "Clem Stop Talking",
@@ -19862,7 +20127,7 @@
                                                                 "children": {
                                                                     "true": [
                                                                         {
-                                                                            "id": "a9cccc8b-53e7-417d-9e82-455a38d7ec20",
+                                                                            "id": "fc266f39-0405-49ef-814d-44f9367e8b47",
                                                                             "command": "EVENT_ACTOR_SET_ANIMATION_SPEED",
                                                                             "args": {
                                                                                 "actorId": "a3a43f04-5e4a-4a88-b043-b05c86b03949",
@@ -19871,7 +20136,7 @@
                                                                             }
                                                                         },
                                                                         {
-                                                                            "id": "7dfb6ba6-7909-44d6-8eda-e61c1f8d9ae5",
+                                                                            "id": "fe39dd79-51f0-4bb5-87b7-8936b4cda09c",
                                                                             "command": "EVENT_ACTOR_SET_FRAME",
                                                                             "args": {
                                                                                 "actorId": "a3a43f04-5e4a-4a88-b043-b05c86b03949",
@@ -19883,34 +20148,383 @@
                                                                             }
                                                                         },
                                                                         {
-                                                                            "id": "8c7b063a-7baf-4470-b1eb-e8b017e8939d",
+                                                                            "id": "00e9cb7b-6d17-49eb-97c5-2aa5e236d68e",
                                                                             "command": "EVENT_END"
                                                                         }
                                                                     ]
                                                                 }
                                                             },
                                                             {
-                                                                "id": "b62c4bfd-b47f-4959-a4ac-49757254b7fa",
+                                                                "id": "0c443b65-99ba-4c02-a4af-5ce7d24c32f1",
                                                                 "command": "EVENT_END"
                                                             }
                                                         ]
                                                     }
                                                 },
                                                 {
-                                                    "id": "5fb4dc08-a1f8-4f5b-a707-bf4c41056a5c",
-                                                    "command": "EVENT_INC_VALUE",
+                                                    "id": "50ae133a-a2f4-4d10-bf53-0b4a444e4196",
+                                                    "command": "EVENT_CHOICE",
                                                     "args": {
-                                                        "variable": "6"
+                                                        "variable": "L0",
+                                                        "trueText": "You're strong!",
+                                                        "falseText": "Sounds refreshing",
+                                                        "__collapse": true
                                                     }
                                                 },
                                                 {
-                                                    "id": "c2f8de2a-6c2f-49c0-ba3d-d6f5f53ef27f",
+                                                    "id": "b3aed662-72b1-47dc-a225-7cb59292dd99",
+                                                    "command": "EVENT_IF_TRUE",
+                                                    "args": {
+                                                        "variable": "L0",
+                                                        "__collapseElse": true,
+                                                        "__collapse": true
+                                                    },
+                                                    "children": {
+                                                        "true": [
+                                                            {
+                                                                "id": "c9089015-d012-42cb-b7f4-1554c208e9d8",
+                                                                "command": "EVENT_TEXT",
+                                                                "args": {
+                                                                    "text": [
+                                                                        "Wow! You're as\nstrong as our\ncoffee grinder!"
+                                                                    ],
+                                                                    "avatarId": "6ed6d52f-e987-43ae-8843-8bee03dbb6e4",
+                                                                    "__collapse": true
+                                                                }
+                                                            },
+                                                            {
+                                                                "id": "0916bc7f-ecfd-47b6-9d25-cdd09b5beeae",
+                                                                "command": "EVENT_GROUP",
+                                                                "args": {
+                                                                    "__label": "NPC Dialog",
+                                                                    "__collapse": true
+                                                                },
+                                                                "children": {
+                                                                    "true": [
+                                                                        {
+                                                                            "id": "21744ac3-6137-4fad-8d36-1b8bf81daaff",
+                                                                            "command": "EVENT_GROUP",
+                                                                            "args": {
+                                                                                "__label": "Clem Talking",
+                                                                                "__collapse": true
+                                                                            },
+                                                                            "children": {
+                                                                                "true": [
+                                                                                    {
+                                                                                        "id": "25508ed0-9294-438f-824c-e8d68e0066ea",
+                                                                                        "command": "EVENT_ACTOR_SET_ANIMATION_SPEED",
+                                                                                        "args": {
+                                                                                            "actorId": "a3a43f04-5e4a-4a88-b043-b05c86b03949",
+                                                                                            "speed": 3,
+                                                                                            "__collapse": true
+                                                                                        }
+                                                                                    },
+                                                                                    {
+                                                                                        "id": "5866f2e2-5b75-4ea8-a4e9-55fa2efdb00f",
+                                                                                        "command": "EVENT_ACTOR_SET_FRAME",
+                                                                                        "args": {
+                                                                                            "actorId": "a3a43f04-5e4a-4a88-b043-b05c86b03949",
+                                                                                            "frame": {
+                                                                                                "type": "number",
+                                                                                                "value": 0
+                                                                                            },
+                                                                                            "__collapse": true
+                                                                                        }
+                                                                                    },
+                                                                                    {
+                                                                                        "id": "8133daee-55d2-4f46-82ae-f377b3ed54ce",
+                                                                                        "command": "EVENT_END"
+                                                                                    }
+                                                                                ]
+                                                                            }
+                                                                        },
+                                                                        {
+                                                                            "id": "598f4d26-2dd7-4138-aec7-914fda3a5b82",
+                                                                            "command": "EVENT_TEXT",
+                                                                            "args": {
+                                                                                "text": [
+                                                                                    "...uh",
+                                                                                    "I'm...\nnot so sure about\nthat..."
+                                                                                ],
+                                                                                "avatarId": "",
+                                                                                "__collapse": false
+                                                                            }
+                                                                        },
+                                                                        {
+                                                                            "id": "966cdbf6-2132-433e-80b5-bbcb0dc59b08",
+                                                                            "command": "EVENT_GROUP",
+                                                                            "args": {
+                                                                                "__label": "Clem Stop Talking",
+                                                                                "__collapse": true
+                                                                            },
+                                                                            "children": {
+                                                                                "true": [
+                                                                                    {
+                                                                                        "id": "5d5a017e-af8f-4790-aae0-0c65cfde1707",
+                                                                                        "command": "EVENT_ACTOR_SET_ANIMATION_SPEED",
+                                                                                        "args": {
+                                                                                            "actorId": "a3a43f04-5e4a-4a88-b043-b05c86b03949",
+                                                                                            "speed": null,
+                                                                                            "__collapse": false
+                                                                                        }
+                                                                                    },
+                                                                                    {
+                                                                                        "id": "2ec358a1-bdc6-41aa-b4bb-ec5953ffac59",
+                                                                                        "command": "EVENT_ACTOR_SET_FRAME",
+                                                                                        "args": {
+                                                                                            "actorId": "a3a43f04-5e4a-4a88-b043-b05c86b03949",
+                                                                                            "frame": {
+                                                                                                "type": "number",
+                                                                                                "value": 0
+                                                                                            },
+                                                                                            "__collapse": false
+                                                                                        }
+                                                                                    },
+                                                                                    {
+                                                                                        "id": "6e6c096b-9752-4247-95c1-4fc3902628f9",
+                                                                                        "command": "EVENT_END"
+                                                                                    }
+                                                                                ]
+                                                                            }
+                                                                        },
+                                                                        {
+                                                                            "id": "e2fa401a-7370-455e-82d0-5885afb0b081",
+                                                                            "command": "EVENT_END"
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            },
+                                                            {
+                                                                "id": "b567db3d-21b5-4f18-994a-7ec70037c8ce",
+                                                                "command": "EVENT_TEXT",
+                                                                "args": {
+                                                                    "text": [
+                                                                        "[...]",
+                                                                        "I'll let you\nenjoy\nyour coffee."
+                                                                    ],
+                                                                    "avatarId": "6ed6d52f-e987-43ae-8843-8bee03dbb6e4",
+                                                                    "__collapse": false
+                                                                }
+                                                            },
+                                                            {
+                                                                "id": "719fc07f-ef40-401b-9cad-d10c8d5f1f35",
+                                                                "command": "EVENT_END"
+                                                            }
+                                                        ],
+                                                        "false": [
+                                                            {
+                                                                "id": "e0b1e193-5b67-4e1b-aee7-45011d0c561f",
+                                                                "command": "EVENT_ACTOR_EMOTE",
+                                                                "args": {
+                                                                    "actorId": "4678ecba-069d-4c88-ac70-310b6c1fca44",
+                                                                    "emoteId": "2",
+                                                                    "__collapse": false
+                                                                }
+                                                            },
+                                                            {
+                                                                "id": "65a46152-f16b-4ca3-9e80-7cb3645198d6",
+                                                                "command": "EVENT_TEXT",
+                                                                "args": {
+                                                                    "text": [
+                                                                        "That sounds like\na refreshing\ntime.",
+                                                                        "Like a\nfresh-press.",
+                                                                        "Well, I'll let\nyou enjoy your\ncoffee."
+                                                                    ],
+                                                                    "avatarId": "6ed6d52f-e987-43ae-8843-8bee03dbb6e4",
+                                                                    "__collapse": false
+                                                                }
+                                                            },
+                                                            {
+                                                                "id": "a1016ff4-6e35-4969-bd54-eab145fa7483",
+                                                                "command": "EVENT_END"
+                                                            }
+                                                        ]
+                                                    }
+                                                },
+                                                {
+                                                    "id": "0b84463b-05cf-4ab1-bc42-45e5b1cc1451",
+                                                    "command": "EVENT_GROUP",
+                                                    "args": {
+                                                        "__label": "NPC Dialog",
+                                                        "__collapse": true
+                                                    },
+                                                    "children": {
+                                                        "true": [
+                                                            {
+                                                                "id": "4741ee51-b941-48b5-a72c-374265d8d364",
+                                                                "command": "EVENT_GROUP",
+                                                                "args": {
+                                                                    "__label": "Clem Talking",
+                                                                    "__collapse": true
+                                                                },
+                                                                "children": {
+                                                                    "true": [
+                                                                        {
+                                                                            "id": "1c977485-b480-4fd8-ad16-15cc7b32786e",
+                                                                            "command": "EVENT_ACTOR_SET_ANIMATION_SPEED",
+                                                                            "args": {
+                                                                                "actorId": "a3a43f04-5e4a-4a88-b043-b05c86b03949",
+                                                                                "speed": 3,
+                                                                                "__collapse": true
+                                                                            }
+                                                                        },
+                                                                        {
+                                                                            "id": "ff1b28f3-ade0-410a-a881-02b362aeb933",
+                                                                            "command": "EVENT_ACTOR_SET_FRAME",
+                                                                            "args": {
+                                                                                "actorId": "a3a43f04-5e4a-4a88-b043-b05c86b03949",
+                                                                                "frame": {
+                                                                                    "type": "number",
+                                                                                    "value": 0
+                                                                                },
+                                                                                "__collapse": true
+                                                                            }
+                                                                        },
+                                                                        {
+                                                                            "id": "3e753b5c-c048-4653-a746-abcabdbd659c",
+                                                                            "command": "EVENT_END"
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            },
+                                                            {
+                                                                "id": "f391a7e0-d9e3-4cd8-a56f-4e88c224f838",
+                                                                "command": "EVENT_TEXT",
+                                                                "args": {
+                                                                    "text": [
+                                                                        "See you around."
+                                                                    ],
+                                                                    "avatarId": "",
+                                                                    "__collapse": false
+                                                                }
+                                                            },
+                                                            {
+                                                                "id": "0a37635d-fc7d-47eb-ae18-f30118d688fd",
+                                                                "command": "EVENT_GROUP",
+                                                                "args": {
+                                                                    "__label": "Clem Stop Talking",
+                                                                    "__collapse": true
+                                                                },
+                                                                "children": {
+                                                                    "true": [
+                                                                        {
+                                                                            "id": "0f2d4d3a-a448-4c32-acd1-bc21247e7a10",
+                                                                            "command": "EVENT_ACTOR_SET_ANIMATION_SPEED",
+                                                                            "args": {
+                                                                                "actorId": "a3a43f04-5e4a-4a88-b043-b05c86b03949",
+                                                                                "speed": null,
+                                                                                "__collapse": false
+                                                                            }
+                                                                        },
+                                                                        {
+                                                                            "id": "cda861e1-b660-4c08-9fcc-688454f61b82",
+                                                                            "command": "EVENT_ACTOR_SET_FRAME",
+                                                                            "args": {
+                                                                                "actorId": "a3a43f04-5e4a-4a88-b043-b05c86b03949",
+                                                                                "frame": {
+                                                                                    "type": "number",
+                                                                                    "value": 0
+                                                                                },
+                                                                                "__collapse": false
+                                                                            }
+                                                                        },
+                                                                        {
+                                                                            "id": "182b84ee-3043-4952-b215-50dcebb2fe0f",
+                                                                            "command": "EVENT_END"
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            },
+                                                            {
+                                                                "id": "361309b2-11de-4cdd-a0c0-26a2994dc503",
+                                                                "command": "EVENT_END"
+                                                            }
+                                                        ]
+                                                    }
+                                                },
+                                                {
+                                                    "id": "cb4cb258-9bb1-49b9-beea-a210ec57824a",
+                                                    "command": "EVENT_SET_TRUE",
+                                                    "args": {
+                                                        "variable": "0",
+                                                        "__collapse": true
+                                                    }
+                                                },
+                                                {
+                                                    "id": "65348002-bca3-4e5e-aec6-29ba325ec40e",
+                                                    "command": "EVENT_SET_TRUE",
+                                                    "args": {
+                                                        "variable": "10",
+                                                        "__collapse": true
+                                                    }
+                                                },
+                                                {
+                                                    "id": "01f6b25d-5ca5-4e05-8f31-d235826aa702",
                                                     "command": "EVENT_END"
                                                 }
                                             ],
                                             "false": [
                                                 {
-                                                    "id": "fd04bf4b-978d-420b-9f3e-2ab9e23f8a34",
+                                                    "id": "39c79dee-6c6a-45f8-8692-8165414081b4",
+                                                    "command": "EVENT_ACTOR_HIDE",
+                                                    "args": {
+                                                        "actorId": "$self$",
+                                                        "__collapse": true
+                                                    }
+                                                },
+                                                {
+                                                    "id": "fdc34c7d-c0a0-482e-8ab5-ed9374f29790",
+                                                    "command": "EVENT_GROUP",
+                                                    "args": {
+                                                        "__label": "Confirm Sound",
+                                                        "__collapse": true
+                                                    },
+                                                    "children": {
+                                                        "true": [
+                                                            {
+                                                                "id": "173d6648-e9be-42bc-a49c-6907a71a694c",
+                                                                "command": "EVENT_SOUND_PLAY_EFFECT",
+                                                                "args": {
+                                                                    "type": "tone",
+                                                                    "pitch": 1,
+                                                                    "frequency": 3600,
+                                                                    "duration": 0.02,
+                                                                    "wait": true,
+                                                                    "__collapse": true
+                                                                }
+                                                            },
+                                                            {
+                                                                "id": "a0f640dc-184b-431b-8aa3-cafd8a6dd4da",
+                                                                "command": "EVENT_SOUND_PLAY_EFFECT",
+                                                                "args": {
+                                                                    "type": "tone",
+                                                                    "pitch": 1,
+                                                                    "frequency": 4800,
+                                                                    "duration": 0.04,
+                                                                    "wait": true,
+                                                                    "__collapse": true
+                                                                }
+                                                            },
+                                                            {
+                                                                "id": "c5bd046f-d81a-4e94-b370-2a4a3135b7e5",
+                                                                "command": "EVENT_END"
+                                                            }
+                                                        ]
+                                                    }
+                                                },
+                                                {
+                                                    "id": "19ec3373-1920-4e08-a6c1-59c54fbadf01",
+                                                    "command": "EVENT_TEXT",
+                                                    "args": {
+                                                        "text": [
+                                                            "Anything I can\nhelp you with? "
+                                                        ],
+                                                        "avatarId": "6ed6d52f-e987-43ae-8843-8bee03dbb6e4",
+                                                        "__collapse": true
+                                                    }
+                                                },
+                                                {
+                                                    "id": "038119d3-a5b6-4b39-9478-abcfb056fc94",
                                                     "command": "EVENT_GROUP",
                                                     "args": {
                                                         "__label": "NPC Dialog",
@@ -19919,7 +20533,7 @@
                                                     "children": {
                                                         "true": [
                                                             {
-                                                                "id": "086a9e78-4504-4757-8dd2-29788168305f",
+                                                                "id": "a5795686-2e0b-4c82-9c4b-fd91e0f4ff5e",
                                                                 "command": "EVENT_GROUP",
                                                                 "args": {
                                                                     "__label": "Clem Talking",
@@ -19928,7 +20542,7 @@
                                                                 "children": {
                                                                     "true": [
                                                                         {
-                                                                            "id": "2b3cfdfc-4c54-4337-abd1-623e54dbf7ff",
+                                                                            "id": "8101eb36-a7e9-4a48-ba84-25360df597d6",
                                                                             "command": "EVENT_ACTOR_SET_ANIMATION_SPEED",
                                                                             "args": {
                                                                                 "actorId": "a3a43f04-5e4a-4a88-b043-b05c86b03949",
@@ -19937,7 +20551,7 @@
                                                                             }
                                                                         },
                                                                         {
-                                                                            "id": "52076a51-0aac-4aa9-86d9-9250e5bc8381",
+                                                                            "id": "864c7a1a-c8b8-4d99-8565-089336d72b98",
                                                                             "command": "EVENT_ACTOR_SET_FRAME",
                                                                             "args": {
                                                                                 "actorId": "a3a43f04-5e4a-4a88-b043-b05c86b03949",
@@ -19949,26 +20563,26 @@
                                                                             }
                                                                         },
                                                                         {
-                                                                            "id": "5da35a8d-c50f-4ca4-89cb-ae6525cd8e40",
+                                                                            "id": "05e0ca24-c89d-451c-a3de-e9dda7e342f1",
                                                                             "command": "EVENT_END"
                                                                         }
                                                                     ]
                                                                 }
                                                             },
                                                             {
-                                                                "id": "0d5b0d11-2dac-4795-b361-c6fb204e2f40",
+                                                                "id": "7524498f-3f60-4443-884c-0c75b62a3587",
                                                                 "command": "EVENT_TEXT",
                                                                 "args": {
                                                                     "text": [
-                                                                        "OH!\n",
-                                                                        "...someone is...\nf-full of energy\ntoday."
+                                                                        "Oh... ",
+                                                                        "...maybe later?"
                                                                     ],
                                                                     "avatarId": "",
-                                                                    "__collapse": true
+                                                                    "__collapse": false
                                                                 }
                                                             },
                                                             {
-                                                                "id": "975367da-692c-450b-aade-8ecd2b02303f",
+                                                                "id": "85342757-2f8a-4001-bac1-56d01815790b",
                                                                 "command": "EVENT_GROUP",
                                                                 "args": {
                                                                     "__label": "Clem Stop Talking",
@@ -19977,7 +20591,7 @@
                                                                 "children": {
                                                                     "true": [
                                                                         {
-                                                                            "id": "d3b8e489-e0be-4e59-a6d5-5c86630198df",
+                                                                            "id": "cc39a4ea-17c4-4461-a0f6-0c8cfa09c4ee",
                                                                             "command": "EVENT_ACTOR_SET_ANIMATION_SPEED",
                                                                             "args": {
                                                                                 "actorId": "a3a43f04-5e4a-4a88-b043-b05c86b03949",
@@ -19986,7 +20600,7 @@
                                                                             }
                                                                         },
                                                                         {
-                                                                            "id": "61bbc4c4-d45c-4756-9264-11f775dfd418",
+                                                                            "id": "9d61624e-d406-4d1c-ae76-d407130e4d3d",
                                                                             "command": "EVENT_ACTOR_SET_FRAME",
                                                                             "args": {
                                                                                 "actorId": "a3a43f04-5e4a-4a88-b043-b05c86b03949",
@@ -19998,451 +20612,24 @@
                                                                             }
                                                                         },
                                                                         {
-                                                                            "id": "8ee6562f-686c-43d6-9682-ac8c5e74cdd0",
+                                                                            "id": "6cfa288b-3cca-4e72-8756-a3fa5f7b4a79",
                                                                             "command": "EVENT_END"
                                                                         }
                                                                     ]
                                                                 }
                                                             },
                                                             {
-                                                                "id": "ca001588-2904-4fab-a8d3-49f73a884215",
+                                                                "id": "1a547c3e-c5e8-492b-b7d7-095b4890e620",
                                                                 "command": "EVENT_END"
                                                             }
                                                         ]
                                                     }
                                                 },
                                                 {
-                                                    "id": "f29e0c0d-3948-4832-8635-5140e254e007",
-                                                    "command": "EVENT_TEXT",
-                                                    "args": {
-                                                        "text": [
-                                                            "[Maybe that was\na little too\nstrong...]"
-                                                        ],
-                                                        "avatarId": "daf95270-e30d-423b-9ee7-990ae29f57f6",
-                                                        "__collapse": true
-                                                    }
-                                                },
-                                                {
-                                                    "id": "93fc2539-108f-4609-9f2b-545a785bfa0e",
+                                                    "id": "7b949a2a-958c-457a-a536-a4e887edecca",
                                                     "command": "EVENT_END"
                                                 }
                                             ]
-                                        }
-                                    },
-                                    {
-                                        "id": "99941824-37c7-47c8-858a-57c7a604d95a",
-                                        "command": "EVENT_TEXT",
-                                        "args": {
-                                            "text": [
-                                                "So...uh.\n",
-                                                "How was your\nweekend?"
-                                            ],
-                                            "avatarId": "6ed6d52f-e987-43ae-8843-8bee03dbb6e4",
-                                            "__collapse": true
-                                        }
-                                    },
-                                    {
-                                        "id": "f97548b3-2e62-4b39-a3df-07164981e3dc",
-                                        "command": "EVENT_GROUP",
-                                        "args": {
-                                            "__label": "NPC Dialog",
-                                            "__collapse": true
-                                        },
-                                        "children": {
-                                            "true": [
-                                                {
-                                                    "id": "0db466d2-f8b4-4597-83de-b7c0605edee3",
-                                                    "command": "EVENT_GROUP",
-                                                    "args": {
-                                                        "__label": "Clem Talking",
-                                                        "__collapse": true
-                                                    },
-                                                    "children": {
-                                                        "true": [
-                                                            {
-                                                                "id": "df89ab9d-6345-4ccf-9978-56c2b60a51f5",
-                                                                "command": "EVENT_ACTOR_SET_ANIMATION_SPEED",
-                                                                "args": {
-                                                                    "actorId": "a3a43f04-5e4a-4a88-b043-b05c86b03949",
-                                                                    "speed": 3,
-                                                                    "__collapse": true
-                                                                }
-                                                            },
-                                                            {
-                                                                "id": "8519e867-cac4-4828-93a5-1ad75a0e2b38",
-                                                                "command": "EVENT_ACTOR_SET_FRAME",
-                                                                "args": {
-                                                                    "actorId": "a3a43f04-5e4a-4a88-b043-b05c86b03949",
-                                                                    "frame": {
-                                                                        "type": "number",
-                                                                        "value": 0
-                                                                    },
-                                                                    "__collapse": true
-                                                                }
-                                                            },
-                                                            {
-                                                                "id": "8402570b-9bb6-458b-a4c2-0b88359e2271",
-                                                                "command": "EVENT_END"
-                                                            }
-                                                        ]
-                                                    }
-                                                },
-                                                {
-                                                    "id": "190fc9f9-9522-4844-8d17-92476287a7b9",
-                                                    "command": "EVENT_TEXT",
-                                                    "args": {
-                                                        "text": [
-                                                            "My weekend?",
-                                                            "Oh, nothing\nspecial...",
-                                                            "Just a little rock\nclimbing."
-                                                        ],
-                                                        "avatarId": "",
-                                                        "__collapse": true
-                                                    }
-                                                },
-                                                {
-                                                    "id": "c49c8435-17f9-4789-a97a-3872694a110e",
-                                                    "command": "EVENT_GROUP",
-                                                    "args": {
-                                                        "__label": "Clem Stop Talking",
-                                                        "__collapse": true
-                                                    },
-                                                    "children": {
-                                                        "true": [
-                                                            {
-                                                                "id": "fc266f39-0405-49ef-814d-44f9367e8b47",
-                                                                "command": "EVENT_ACTOR_SET_ANIMATION_SPEED",
-                                                                "args": {
-                                                                    "actorId": "a3a43f04-5e4a-4a88-b043-b05c86b03949",
-                                                                    "speed": null,
-                                                                    "__collapse": false
-                                                                }
-                                                            },
-                                                            {
-                                                                "id": "fe39dd79-51f0-4bb5-87b7-8936b4cda09c",
-                                                                "command": "EVENT_ACTOR_SET_FRAME",
-                                                                "args": {
-                                                                    "actorId": "a3a43f04-5e4a-4a88-b043-b05c86b03949",
-                                                                    "frame": {
-                                                                        "type": "number",
-                                                                        "value": 0
-                                                                    },
-                                                                    "__collapse": false
-                                                                }
-                                                            },
-                                                            {
-                                                                "id": "00e9cb7b-6d17-49eb-97c5-2aa5e236d68e",
-                                                                "command": "EVENT_END"
-                                                            }
-                                                        ]
-                                                    }
-                                                },
-                                                {
-                                                    "id": "0c443b65-99ba-4c02-a4af-5ce7d24c32f1",
-                                                    "command": "EVENT_END"
-                                                }
-                                            ]
-                                        }
-                                    },
-                                    {
-                                        "id": "50ae133a-a2f4-4d10-bf53-0b4a444e4196",
-                                        "command": "EVENT_CHOICE",
-                                        "args": {
-                                            "variable": "L0",
-                                            "trueText": "You're strong!",
-                                            "falseText": "Sounds refreshing",
-                                            "__collapse": true
-                                        }
-                                    },
-                                    {
-                                        "id": "b3aed662-72b1-47dc-a225-7cb59292dd99",
-                                        "command": "EVENT_IF_TRUE",
-                                        "args": {
-                                            "variable": "L0",
-                                            "__collapseElse": true,
-                                            "__collapse": true
-                                        },
-                                        "children": {
-                                            "true": [
-                                                {
-                                                    "id": "c9089015-d012-42cb-b7f4-1554c208e9d8",
-                                                    "command": "EVENT_TEXT",
-                                                    "args": {
-                                                        "text": [
-                                                            "Wow! You're as\nstrong as our\ncoffee grinder!"
-                                                        ],
-                                                        "avatarId": "6ed6d52f-e987-43ae-8843-8bee03dbb6e4",
-                                                        "__collapse": true
-                                                    }
-                                                },
-                                                {
-                                                    "id": "0916bc7f-ecfd-47b6-9d25-cdd09b5beeae",
-                                                    "command": "EVENT_GROUP",
-                                                    "args": {
-                                                        "__label": "NPC Dialog",
-                                                        "__collapse": true
-                                                    },
-                                                    "children": {
-                                                        "true": [
-                                                            {
-                                                                "id": "21744ac3-6137-4fad-8d36-1b8bf81daaff",
-                                                                "command": "EVENT_GROUP",
-                                                                "args": {
-                                                                    "__label": "Clem Talking",
-                                                                    "__collapse": true
-                                                                },
-                                                                "children": {
-                                                                    "true": [
-                                                                        {
-                                                                            "id": "25508ed0-9294-438f-824c-e8d68e0066ea",
-                                                                            "command": "EVENT_ACTOR_SET_ANIMATION_SPEED",
-                                                                            "args": {
-                                                                                "actorId": "a3a43f04-5e4a-4a88-b043-b05c86b03949",
-                                                                                "speed": 3,
-                                                                                "__collapse": true
-                                                                            }
-                                                                        },
-                                                                        {
-                                                                            "id": "5866f2e2-5b75-4ea8-a4e9-55fa2efdb00f",
-                                                                            "command": "EVENT_ACTOR_SET_FRAME",
-                                                                            "args": {
-                                                                                "actorId": "a3a43f04-5e4a-4a88-b043-b05c86b03949",
-                                                                                "frame": {
-                                                                                    "type": "number",
-                                                                                    "value": 0
-                                                                                },
-                                                                                "__collapse": true
-                                                                            }
-                                                                        },
-                                                                        {
-                                                                            "id": "8133daee-55d2-4f46-82ae-f377b3ed54ce",
-                                                                            "command": "EVENT_END"
-                                                                        }
-                                                                    ]
-                                                                }
-                                                            },
-                                                            {
-                                                                "id": "598f4d26-2dd7-4138-aec7-914fda3a5b82",
-                                                                "command": "EVENT_TEXT",
-                                                                "args": {
-                                                                    "text": [
-                                                                        "...uh",
-                                                                        "I'm...\nnot so sure about\nthat..."
-                                                                    ],
-                                                                    "avatarId": "",
-                                                                    "__collapse": false
-                                                                }
-                                                            },
-                                                            {
-                                                                "id": "966cdbf6-2132-433e-80b5-bbcb0dc59b08",
-                                                                "command": "EVENT_GROUP",
-                                                                "args": {
-                                                                    "__label": "Clem Stop Talking",
-                                                                    "__collapse": true
-                                                                },
-                                                                "children": {
-                                                                    "true": [
-                                                                        {
-                                                                            "id": "5d5a017e-af8f-4790-aae0-0c65cfde1707",
-                                                                            "command": "EVENT_ACTOR_SET_ANIMATION_SPEED",
-                                                                            "args": {
-                                                                                "actorId": "a3a43f04-5e4a-4a88-b043-b05c86b03949",
-                                                                                "speed": null,
-                                                                                "__collapse": false
-                                                                            }
-                                                                        },
-                                                                        {
-                                                                            "id": "2ec358a1-bdc6-41aa-b4bb-ec5953ffac59",
-                                                                            "command": "EVENT_ACTOR_SET_FRAME",
-                                                                            "args": {
-                                                                                "actorId": "a3a43f04-5e4a-4a88-b043-b05c86b03949",
-                                                                                "frame": {
-                                                                                    "type": "number",
-                                                                                    "value": 0
-                                                                                },
-                                                                                "__collapse": false
-                                                                            }
-                                                                        },
-                                                                        {
-                                                                            "id": "6e6c096b-9752-4247-95c1-4fc3902628f9",
-                                                                            "command": "EVENT_END"
-                                                                        }
-                                                                    ]
-                                                                }
-                                                            },
-                                                            {
-                                                                "id": "e2fa401a-7370-455e-82d0-5885afb0b081",
-                                                                "command": "EVENT_END"
-                                                            }
-                                                        ]
-                                                    }
-                                                },
-                                                {
-                                                    "id": "b567db3d-21b5-4f18-994a-7ec70037c8ce",
-                                                    "command": "EVENT_TEXT",
-                                                    "args": {
-                                                        "text": [
-                                                            "[...]",
-                                                            "I'll let you\nenjoy\nyour coffee."
-                                                        ],
-                                                        "avatarId": "6ed6d52f-e987-43ae-8843-8bee03dbb6e4",
-                                                        "__collapse": false
-                                                    }
-                                                },
-                                                {
-                                                    "id": "719fc07f-ef40-401b-9cad-d10c8d5f1f35",
-                                                    "command": "EVENT_END"
-                                                }
-                                            ],
-                                            "false": [
-                                                {
-                                                    "id": "e0b1e193-5b67-4e1b-aee7-45011d0c561f",
-                                                    "command": "EVENT_ACTOR_EMOTE",
-                                                    "args": {
-                                                        "actorId": "4678ecba-069d-4c88-ac70-310b6c1fca44",
-                                                        "emoteId": "2",
-                                                        "__collapse": false
-                                                    }
-                                                },
-                                                {
-                                                    "id": "65a46152-f16b-4ca3-9e80-7cb3645198d6",
-                                                    "command": "EVENT_TEXT",
-                                                    "args": {
-                                                        "text": [
-                                                            "That sounds like\na refreshing\ntime.",
-                                                            "Like a\nfresh-press.",
-                                                            "Well, I'll let\nyou enjoy your\ncoffee."
-                                                        ],
-                                                        "avatarId": "6ed6d52f-e987-43ae-8843-8bee03dbb6e4",
-                                                        "__collapse": false
-                                                    }
-                                                },
-                                                {
-                                                    "id": "a1016ff4-6e35-4969-bd54-eab145fa7483",
-                                                    "command": "EVENT_END"
-                                                }
-                                            ]
-                                        }
-                                    },
-                                    {
-                                        "id": "0b84463b-05cf-4ab1-bc42-45e5b1cc1451",
-                                        "command": "EVENT_GROUP",
-                                        "args": {
-                                            "__label": "NPC Dialog",
-                                            "__collapse": true
-                                        },
-                                        "children": {
-                                            "true": [
-                                                {
-                                                    "id": "4741ee51-b941-48b5-a72c-374265d8d364",
-                                                    "command": "EVENT_GROUP",
-                                                    "args": {
-                                                        "__label": "Clem Talking",
-                                                        "__collapse": true
-                                                    },
-                                                    "children": {
-                                                        "true": [
-                                                            {
-                                                                "id": "1c977485-b480-4fd8-ad16-15cc7b32786e",
-                                                                "command": "EVENT_ACTOR_SET_ANIMATION_SPEED",
-                                                                "args": {
-                                                                    "actorId": "a3a43f04-5e4a-4a88-b043-b05c86b03949",
-                                                                    "speed": 3,
-                                                                    "__collapse": true
-                                                                }
-                                                            },
-                                                            {
-                                                                "id": "ff1b28f3-ade0-410a-a881-02b362aeb933",
-                                                                "command": "EVENT_ACTOR_SET_FRAME",
-                                                                "args": {
-                                                                    "actorId": "a3a43f04-5e4a-4a88-b043-b05c86b03949",
-                                                                    "frame": {
-                                                                        "type": "number",
-                                                                        "value": 0
-                                                                    },
-                                                                    "__collapse": true
-                                                                }
-                                                            },
-                                                            {
-                                                                "id": "3e753b5c-c048-4653-a746-abcabdbd659c",
-                                                                "command": "EVENT_END"
-                                                            }
-                                                        ]
-                                                    }
-                                                },
-                                                {
-                                                    "id": "f391a7e0-d9e3-4cd8-a56f-4e88c224f838",
-                                                    "command": "EVENT_TEXT",
-                                                    "args": {
-                                                        "text": [
-                                                            "See you around."
-                                                        ],
-                                                        "avatarId": "",
-                                                        "__collapse": false
-                                                    }
-                                                },
-                                                {
-                                                    "id": "0a37635d-fc7d-47eb-ae18-f30118d688fd",
-                                                    "command": "EVENT_GROUP",
-                                                    "args": {
-                                                        "__label": "Clem Stop Talking",
-                                                        "__collapse": true
-                                                    },
-                                                    "children": {
-                                                        "true": [
-                                                            {
-                                                                "id": "0f2d4d3a-a448-4c32-acd1-bc21247e7a10",
-                                                                "command": "EVENT_ACTOR_SET_ANIMATION_SPEED",
-                                                                "args": {
-                                                                    "actorId": "a3a43f04-5e4a-4a88-b043-b05c86b03949",
-                                                                    "speed": null,
-                                                                    "__collapse": false
-                                                                }
-                                                            },
-                                                            {
-                                                                "id": "cda861e1-b660-4c08-9fcc-688454f61b82",
-                                                                "command": "EVENT_ACTOR_SET_FRAME",
-                                                                "args": {
-                                                                    "actorId": "a3a43f04-5e4a-4a88-b043-b05c86b03949",
-                                                                    "frame": {
-                                                                        "type": "number",
-                                                                        "value": 0
-                                                                    },
-                                                                    "__collapse": false
-                                                                }
-                                                            },
-                                                            {
-                                                                "id": "182b84ee-3043-4952-b215-50dcebb2fe0f",
-                                                                "command": "EVENT_END"
-                                                            }
-                                                        ]
-                                                    }
-                                                },
-                                                {
-                                                    "id": "361309b2-11de-4cdd-a0c0-26a2994dc503",
-                                                    "command": "EVENT_END"
-                                                }
-                                            ]
-                                        }
-                                    },
-                                    {
-                                        "id": "cb4cb258-9bb1-49b9-beea-a210ec57824a",
-                                        "command": "EVENT_SET_TRUE",
-                                        "args": {
-                                            "variable": "0",
-                                            "__collapse": false
-                                        }
-                                    },
-                                    {
-                                        "id": "48c51aee-7725-4dca-bd59-e4a94869b02f",
-                                        "command": "EVENT_SWITCH_SCENE",
-                                        "args": {
-                                            "sceneId": "72b343a1-ef8b-42e3-b11d-4128eb3d5817",
-                                            "x": 34,
-                                            "y": 11,
-                                            "direction": "left",
-                                            "fadeSpeed": "2",
-                                            "__collapse": false
                                         }
                                     },
                                     {
@@ -21220,9 +21407,21 @@
                                         "command": "EVENT_TEXT",
                                         "args": {
                                             "text": [
-                                                "It would be\nkinda\nrude to leave\nright now."
+                                                "[I'll see her\nlater.]"
                                             ],
                                             "avatarId": "6ed6d52f-e987-43ae-8843-8bee03dbb6e4",
+                                            "__collapse": false
+                                        }
+                                    },
+                                    {
+                                        "id": "82c83255-220a-4b6f-8529-1c8b7ec46e8a",
+                                        "command": "EVENT_SWITCH_SCENE",
+                                        "args": {
+                                            "sceneId": "72b343a1-ef8b-42e3-b11d-4128eb3d5817",
+                                            "x": 34,
+                                            "y": 11,
+                                            "direction": "left",
+                                            "fadeSpeed": "2",
                                             "__collapse": false
                                         }
                                     },
@@ -21249,7 +21448,7 @@
                                         "command": "EVENT_GOTO_LABEL",
                                         "args": {
                                             "label": "GoMenu",
-                                            "__collapse": false
+                                            "__collapse": true
                                         }
                                     },
                                     {
@@ -22492,11 +22691,19 @@
                                         }
                                     },
                                     {
+                                        "id": "aca873aa-8423-4f91-a7b8-32224212e3ed",
+                                        "command": "EVENT_SET_TRUE",
+                                        "args": {
+                                            "variable": "0",
+                                            "__collapse": true
+                                        }
+                                    },
+                                    {
                                         "id": "d62dfe47-b137-46c6-ac5d-130b683c0e7d",
                                         "command": "EVENT_SET_TRUE",
                                         "args": {
                                             "variable": "1",
-                                            "__collapse": true
+                                            "__collapse": false
                                         }
                                     },
                                     {
@@ -24675,6 +24882,17 @@
                     }
                 },
                 {
+                    "id": "b3a90d21-194a-4c3f-a53c-0fd767d4f5cb",
+                    "command": "EVENT_SWITCH_SCENE",
+                    "args": {
+                        "sceneId": "c42cdfe0-f62f-4850-bc57-87939005f6fd",
+                        "x": 0,
+                        "y": 0,
+                        "direction": "",
+                        "fadeSpeed": "2"
+                    }
+                },
+                {
                     "id": "4eef42e6-4bbe-4a78-9428-a7fa1fe3bee5",
                     "command": "EVENT_END"
                 }
@@ -26499,6 +26717,17 @@
                                 "command": "EVENT_END"
                             }
                         ]
+                    }
+                },
+                {
+                    "id": "8775e6bf-8f5c-40fa-8878-7dd32ef7fb37",
+                    "command": "EVENT_SWITCH_SCENE",
+                    "args": {
+                        "sceneId": "c42cdfe0-f62f-4850-bc57-87939005f6fd",
+                        "x": 0,
+                        "y": 0,
+                        "direction": "",
+                        "fadeSpeed": "2"
                     }
                 },
                 {
@@ -28437,6 +28666,17 @@
                                 "command": "EVENT_END"
                             }
                         ]
+                    }
+                },
+                {
+                    "id": "41bae7e9-7d5e-4be0-bc0c-cdd6fcc7226e",
+                    "command": "EVENT_SWITCH_SCENE",
+                    "args": {
+                        "sceneId": "c42cdfe0-f62f-4850-bc57-87939005f6fd",
+                        "x": 0,
+                        "y": 0,
+                        "direction": "",
+                        "fadeSpeed": "2"
                     }
                 },
                 {
@@ -30380,6 +30620,17 @@
                     }
                 },
                 {
+                    "id": "cd856aff-d6d9-4828-8802-53de3e4f0d41",
+                    "command": "EVENT_SWITCH_SCENE",
+                    "args": {
+                        "sceneId": "c42cdfe0-f62f-4850-bc57-87939005f6fd",
+                        "x": 0,
+                        "y": 0,
+                        "direction": "",
+                        "fadeSpeed": "2"
+                    }
+                },
+                {
                     "id": "457c93de-f491-4d14-ac01-463ca7bf2f44",
                     "command": "EVENT_END"
                 }
@@ -31921,7 +32172,7 @@
                     "args": {
                         "actorId": "$self$",
                         "animate": true,
-                        "__collapse": true
+                        "__collapse": false
                     }
                 },
                 {
@@ -31932,7 +32183,7 @@
                         "speedOut": "0",
                         "speed": "2",
                         "allowFastForward": false,
-                        "__collapse": true
+                        "__collapse": false
                     }
                 },
                 {
@@ -31940,7 +32191,7 @@
                     "command": "EVENT_MUSIC_STOP",
                     "args": {
                         "__comment": false,
-                        "__collapse": true
+                        "__collapse": false
                     }
                 },
                 {
@@ -33677,7 +33928,7 @@
                     "command": "EVENT_GROUP",
                     "args": {
                         "__label": "CHRIS Stop Talking",
-                        "__collapse": true
+                        "__collapse": false
                     },
                     "children": {
                         "true": [
@@ -33714,7 +33965,7 @@
                     "command": "EVENT_GROUP",
                     "args": {
                         "__label": "NPC Dialog",
-                        "__collapse": true
+                        "__collapse": false
                     },
                     "children": {
                         "true": [
@@ -33760,8 +34011,7 @@
                                 "command": "EVENT_TEXT",
                                 "args": {
                                     "text": [
-                                        "You ready?",
-                                        ""
+                                        "You ready?"
                                     ],
                                     "avatarId": "",
                                     "__collapse": false
@@ -33812,6 +34062,15 @@
                     }
                 },
                 {
+                    "id": "731ee46b-5f72-42db-9878-9a87dff93301",
+                    "command": "EVENT_ACTOR_SET_SPRITE",
+                    "args": {
+                        "actorId": "$self$",
+                        "spriteSheetId": "05a64a1a-1153-4c46-9119-467c9411b74e",
+                        "__collapse": false
+                    }
+                },
+                {
                     "id": "939ccc9e-7184-4075-bc6b-d0ff1ebc224a",
                     "command": "EVENT_END"
                 }
@@ -33842,6 +34101,28 @@
                     "x": 9,
                     "y": 7,
                     "collisionGroup": ""
+                },
+                {
+                    "name": "",
+                    "frame": 0,
+                    "animate": false,
+                    "spriteSheetId": "0a6b1853-3a39-4989-93fa-c1816e9571c5",
+                    "spriteType": "actor",
+                    "direction": "down",
+                    "moveSpeed": 1,
+                    "animSpeed": null,
+                    "paletteId": "",
+                    "isPinned": false,
+                    "collisionGroup": "",
+                    "script": [],
+                    "startScript": [],
+                    "updateScript": [],
+                    "hit1Script": [],
+                    "hit2Script": [],
+                    "hit3Script": [],
+                    "id": "570f689d-8150-4f48-bca3-ba5e8916fa8d",
+                    "x": 13,
+                    "y": 5
                 }
             ],
             "triggers": [
@@ -34051,7 +34332,7 @@
                                             "variable": "L0",
                                             "trueText": "Confident",
                                             "falseText": "Casual",
-                                            "__collapse": true
+                                            "__collapse": false
                                         }
                                     },
                                     {
@@ -34059,7 +34340,7 @@
                                         "command": "EVENT_IF_TRUE",
                                         "args": {
                                             "variable": "L0",
-                                            "__collapseElse": true,
+                                            "__collapseElse": false,
                                             "__collapse": false
                                         },
                                         "children": {
@@ -34071,13 +34352,13 @@
                                                         "text": [
                                                             "Coffee is the #1\nenergizer in the\nworld.",
                                                             "People working\nall\naround the world",
-                                                            "drink coffee as\na\nsocial activity,",
+                                                            "drink coffee as\na social\nactivity,",
                                                             "on their way to\nwork,",
                                                             "on their breaks,",
                                                             "some even drink\ncoffee before\nbedtime?"
                                                         ],
                                                         "avatarId": "6ed6d52f-e987-43ae-8843-8bee03dbb6e4",
-                                                        "__collapse": true
+                                                        "__collapse": false
                                                     }
                                                 },
                                                 {
@@ -34093,7 +34374,7 @@
                                                                 "id": "837a630b-5ffa-428a-94d4-642183d971d5",
                                                                 "command": "EVENT_ACTOR_EMOTE",
                                                                 "args": {
-                                                                    "actorId": "415b863c-344a-468f-9614-3aacbb8e8e1c",
+                                                                    "actorId": "570f689d-8150-4f48-bca3-ba5e8916fa8d",
                                                                     "emoteId": "2"
                                                                 }
                                                             },
@@ -34142,7 +34423,7 @@
                                                                         "Nice"
                                                                     ],
                                                                     "avatarId": "",
-                                                                    "__collapse": true
+                                                                    "__collapse": false
                                                                 }
                                                             },
                                                             {
@@ -34213,7 +34494,7 @@
                                                             "Especially we at\nthe Grinder."
                                                         ],
                                                         "avatarId": "6ed6d52f-e987-43ae-8843-8bee03dbb6e4",
-                                                        "__collapse": true
+                                                        "__collapse": false
                                                     }
                                                 },
                                                 {
@@ -34465,7 +34746,7 @@
                                                     "command": "EVENT_GROUP",
                                                     "args": {
                                                         "__label": "NPC Dialog",
-                                                        "__collapse": true
+                                                        "__collapse": false
                                                     },
                                                     "children": {
                                                         "true": [
@@ -34473,7 +34754,7 @@
                                                                 "id": "69cbf042-3b6a-4b5e-9503-00cf2719cf06",
                                                                 "command": "EVENT_ACTOR_EMOTE",
                                                                 "args": {
-                                                                    "actorId": "415b863c-344a-468f-9614-3aacbb8e8e1c",
+                                                                    "actorId": "570f689d-8150-4f48-bca3-ba5e8916fa8d",
                                                                     "emoteId": "2"
                                                                 }
                                                             },
@@ -34600,7 +34881,7 @@
                                                     "command": "EVENT_GROUP",
                                                     "args": {
                                                         "__label": "NPC Dialog",
-                                                        "__collapse": true
+                                                        "__collapse": false
                                                     },
                                                     "children": {
                                                         "true": [
@@ -34649,7 +34930,7 @@
                                                                         "Ok..."
                                                                     ],
                                                                     "avatarId": "",
-                                                                    "__collapse": true
+                                                                    "__collapse": false
                                                                 }
                                                             },
                                                             {
@@ -39483,7 +39764,7 @@
                     "args": {
                         "spriteSheetId": "0ff6fde5-00ed-4e3f-96dd-0ac2d06f90a3",
                         "persist": false,
-                        "__collapse": true
+                        "__collapse": false
                     }
                 },
                 {
@@ -43588,7 +43869,7 @@
                             "So that's a day.",
                             "Chris did her\nspeech."
                         ],
-                        "avatarId": "daf95270-e30d-423b-9ee7-990ae29f57f6",
+                        "avatarId": "6ed6d52f-e987-43ae-8843-8bee03dbb6e4",
                         "__collapse": true
                     }
                 },
@@ -43628,7 +43909,7 @@
                                     "text": [
                                         "It was good!"
                                     ],
-                                    "avatarId": "daf95270-e30d-423b-9ee7-990ae29f57f6"
+                                    "avatarId": "6ed6d52f-e987-43ae-8843-8bee03dbb6e4"
                                 }
                             },
                             {
@@ -43645,7 +43926,7 @@
                         "text": [
                             "And Clem."
                         ],
-                        "avatarId": "daf95270-e30d-423b-9ee7-990ae29f57f6",
+                        "avatarId": "6ed6d52f-e987-43ae-8843-8bee03dbb6e4",
                         "__collapse": true
                     }
                 },
@@ -43668,7 +43949,7 @@
                                     "text": [
                                         "She made those\nnew models pop!"
                                     ],
-                                    "avatarId": "daf95270-e30d-423b-9ee7-990ae29f57f6"
+                                    "avatarId": "6ed6d52f-e987-43ae-8843-8bee03dbb6e4"
                                 }
                             },
                             {
@@ -43684,7 +43965,7 @@
                                     "text": [
                                         "She made the new\nmodel look ok."
                                     ],
-                                    "avatarId": "daf95270-e30d-423b-9ee7-990ae29f57f6",
+                                    "avatarId": "6ed6d52f-e987-43ae-8843-8bee03dbb6e4",
                                     "__collapse": false
                                 }
                             },
@@ -43703,7 +43984,7 @@
                         "operator": ">",
                         "vectorY": "6",
                         "__collapseElse": false,
-                        "__collapse": false
+                        "__collapse": true
                     },
                     "children": {
                         "true": [
@@ -43714,7 +43995,7 @@
                                     "text": [
                                         "I think I'll ask\nChris out on a\ndate."
                                     ],
-                                    "avatarId": "daf95270-e30d-423b-9ee7-990ae29f57f6"
+                                    "avatarId": "6ed6d52f-e987-43ae-8843-8bee03dbb6e4"
                                 }
                             },
                             {
@@ -44765,6 +45046,441 @@
                 }
             ],
             "triggers": []
+        },
+        {
+            "name": "THEEND",
+            "backgroundId": "d5cecf54-6c90-4672-8a98-3dc9d5ebc3ad",
+            "width": 20,
+            "height": 18,
+            "type": "0",
+            "paletteIds": [],
+            "collisions": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "tileColors": [],
+            "script": [
+                {
+                    "id": "9ca37709-cb09-414d-b39f-cb0662779740",
+                    "command": "EVENT_TEXT",
+                    "args": {
+                        "text": [
+                            "    =THE END=",
+                            "Created by...",
+                            "Bryan Rollins\nmafu  LANKGOD\nJack Thompson"
+                        ],
+                        "avatarId": ""
+                    }
+                },
+                {
+                    "id": "060a5545-b4bc-4f39-9051-f09d08d945c3",
+                    "command": "EVENT_RESET_VARIABLES",
+                    "args": {}
+                },
+                {
+                    "id": "519742ae-ec6e-4469-8c36-11107f9164c7",
+                    "command": "EVENT_SET_VALUE",
+                    "args": {
+                        "variable": "5",
+                        "value": {
+                            "type": "number",
+                            "value": 0
+                        }
+                    }
+                },
+                {
+                    "id": "4954d6b9-404f-4792-8348-797b3086d0fe",
+                    "command": "EVENT_SET_VALUE",
+                    "args": {
+                        "variable": "6",
+                        "value": {
+                            "type": "number",
+                            "value": 0
+                        }
+                    }
+                },
+                {
+                    "id": "f6889a8e-8b9b-40bd-b1f0-ba76d2e2fae5",
+                    "command": "EVENT_SWITCH_SCENE",
+                    "args": {
+                        "sceneId": "6d23b8a3-b674-4654-8a34-a47d4dae84a5",
+                        "x": 0,
+                        "y": 0,
+                        "direction": "",
+                        "fadeSpeed": "5"
+                    }
+                },
+                {
+                    "id": "4eeb2fe3-4b2f-4b79-ab90-e99ed6aa02ac",
+                    "command": "EVENT_END"
+                }
+            ],
+            "playerHit1Script": [],
+            "playerHit2Script": [],
+            "playerHit3Script": [],
+            "id": "c42cdfe0-f62f-4850-bc57-87939005f6fd",
+            "x": 1484.1913887892513,
+            "y": 236.67982479589472,
+            "actors": [],
+            "triggers": []
         }
     ],
     "backgrounds": [
@@ -45463,6 +46179,10 @@
         {
             "id": "3858872a-3df9-437d-a523-f71fd611a79b__L0",
             "name": "Multiple Choice"
+        },
+        {
+            "id": "10",
+            "name": "Clem Morning"
         }
     ],
     "engineFieldValues": [
@@ -45481,9 +46201,9 @@
         "startDirection": "right",
         "showCollisions": true,
         "showConnections": true,
-        "worldScrollX": 269.81134033203125,
-        "worldScrollY": 155.66038513183594,
-        "zoom": 118.54337319690967,
+        "worldScrollX": 2847.169921875,
+        "worldScrollY": 437.7358703613281,
+        "zoom": 236.99998474121094,
         "customColorsEnabled": false,
         "customHead": "",
         "defaultBackgroundPaletteIds": [
