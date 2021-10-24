@@ -5040,7 +5040,7 @@
             ]
         },
         {
-            "name": "Scene 2",
+            "name": "Dodge Game",
             "backgroundId": "c87fb548-3f98-48d4-a1a1-44b9405969db",
             "width": 20,
             "height": 18,
@@ -5411,11 +5411,25 @@
             "tileColors": [],
             "script": [
                 {
+                    "id": "fbc9adb3-bda5-49e8-964b-ebc7a1049bff",
+                    "command": "EVENT_MUSIC_STOP",
+                    "args": {}
+                },
+                {
+                    "id": "21a291cf-4285-4dc0-a561-70c715a455be",
+                    "command": "EVENT_MUSIC_PLAY",
+                    "args": {
+                        "musicId": "1e22452c-bbbf-403e-8d0d-3fd69c570f80",
+                        "loop": true
+                    }
+                },
+                {
                     "id": "747068f3-b04a-418d-b56e-733e4e2bb24c",
                     "command": "EVENT_ACTOR_SET_ANIMATE",
                     "args": {
                         "actorId": "$self$",
-                        "animate": true
+                        "animate": true,
+                        "__collapse": true
                     }
                 },
                 {
@@ -5423,7 +5437,8 @@
                     "command": "EVENT_PLAYER_SET_SPRITE",
                     "args": {
                         "spriteSheetId": "b24bf222-a0fc-4a0b-8ca0-437b14e0221e",
-                        "persist": false
+                        "persist": false,
+                        "__collapse": true
                     }
                 },
                 {
@@ -6889,6 +6904,17 @@
                     "args": {
                         "variable": "9",
                         "value": {
+                            "type": "number",
+                            "value": 8
+                        }
+                    }
+                },
+                {
+                    "id": "f86092b6-0bb3-4777-8673-37354d43aab2",
+                    "command": "EVENT_ACTOR_SET_FRAME",
+                    "args": {
+                        "actorId": "9c42d334-9533-4bc1-8c63-60373d7e3ed3",
+                        "frame": {
                             "type": "number",
                             "value": 8
                         }
@@ -9181,7 +9207,7 @@
         "showCollisions": true,
         "showConnections": true,
         "worldScrollX": 1151,
-        "worldScrollY": 335,
+        "worldScrollY": 281,
         "zoom": 177.17033230513334,
         "customColorsEnabled": false,
         "customHead": "",

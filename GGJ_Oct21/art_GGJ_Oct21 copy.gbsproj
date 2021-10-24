@@ -8713,6 +8713,210 @@
                     "height": 7
                 }
             ]
+        },
+        {
+            "name": "Scene 3",
+            "backgroundId": "91255fa1-a38e-4f4f-8618-fcc759ee3318",
+            "width": 20,
+            "height": 18,
+            "type": "0",
+            "paletteIds": [],
+            "collisions": [],
+            "tileColors": [],
+            "script": [
+                {
+                    "id": "a1832a3a-a381-459b-af30-39d89920d86e",
+                    "command": "EVENT_PLAYER_SET_SPRITE",
+                    "args": {
+                        "spriteSheetId": "a6d57c54-221a-4d0c-b33b-7b2259520dde",
+                        "persist": false
+                    }
+                },
+                {
+                    "id": "8a942bfa-2cf8-4cb8-a2c2-560024f4d7c9",
+                    "command": "EVENT_SET_INPUT_SCRIPT",
+                    "args": {
+                        "input": [
+                            "left",
+                            "up",
+                            "down",
+                            "right"
+                        ],
+                        "persist": false,
+                        "__scriptTabs": "press",
+                        "__collapse": true
+                    },
+                    "children": {
+                        "true": [
+                            {
+                                "id": "15dd7a90-58f7-48ed-a99e-267cc76477b5",
+                                "command": "EVENT_END"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "5dca0653-eb11-41b6-9fb0-34e4b74b10ff",
+                    "command": "EVENT_AWAIT_INPUT",
+                    "args": {
+                        "input": [
+                            "a",
+                            "b",
+                            "start"
+                        ],
+                        "__collapse": true
+                    }
+                },
+                {
+                    "id": "e53dec67-1bc3-49b9-83ce-803645d20cae",
+                    "command": "EVENT_SWITCH_SCENE",
+                    "args": {
+                        "sceneId": "cfa7a841-6df6-4dd7-b8dd-0704e896d8e9",
+                        "x": 0,
+                        "y": 0,
+                        "direction": "right",
+                        "fadeSpeed": "2",
+                        "__collapse": false
+                    }
+                },
+                {
+                    "id": "5e775317-4fb5-4fd4-9fc6-041ee34514c0",
+                    "command": "EVENT_END"
+                }
+            ],
+            "playerHit1Script": [],
+            "playerHit2Script": [],
+            "playerHit3Script": [],
+            "id": "8510b8c6-a4df-4c99-af1b-844f47bf71ad",
+            "x": 879.2228102652238,
+            "y": 54.31043301522411,
+            "actors": [
+                {
+                    "name": "",
+                    "frame": 0,
+                    "animate": false,
+                    "spriteSheetId": "7e7a3be9-b082-4cc8-abdb-18380d86075a",
+                    "spriteType": "static",
+                    "direction": "down",
+                    "moveSpeed": 1,
+                    "animSpeed": 3,
+                    "paletteId": "",
+                    "isPinned": false,
+                    "collisionGroup": "",
+                    "script": [],
+                    "startScript": [],
+                    "updateScript": [
+                        {
+                            "id": "eb16a10b-f6b4-4ff3-a1e3-22781c86beeb",
+                            "command": "EVENT_WAIT",
+                            "args": {
+                                "time": 1,
+                                "__comment": true
+                            }
+                        },
+                        {
+                            "id": "8068b8ec-9af8-4f16-ae24-e496ebc640ab",
+                            "command": "EVENT_ACTOR_MOVE_TO",
+                            "args": {
+                                "actorId": "player",
+                                "x": {
+                                    "type": "number",
+                                    "value": 15
+                                },
+                                "y": {
+                                    "type": "number",
+                                    "value": 7
+                                },
+                                "moveType": "horizontal",
+                                "useCollisions": false
+                            }
+                        },
+                        {
+                            "id": "8eef42dc-3938-4ae0-99b0-a2a64fea00e0",
+                            "command": "EVENT_STOP",
+                            "args": {
+                                "__comment": true
+                            }
+                        },
+                        {
+                            "id": "e91f22dd-3be7-4e86-a992-5087f2b596e2",
+                            "command": "EVENT_END"
+                        }
+                    ],
+                    "hit1Script": [],
+                    "hit2Script": [],
+                    "hit3Script": [],
+                    "id": "d5df849a-112a-498e-9709-d3b05f04be2c",
+                    "x": 17,
+                    "y": 1
+                }
+            ],
+            "triggers": []
+        },
+        {
+            "name": "Scene 4",
+            "backgroundId": "427b7c0f-61b3-4598-a049-68beccb8c8b4",
+            "width": 20,
+            "height": 18,
+            "type": "0",
+            "paletteIds": [],
+            "collisions": [],
+            "tileColors": [],
+            "script": [
+                {
+                    "id": "2f356e8d-f971-4e84-af99-cc782cc9ca1a",
+                    "command": "EVENT_ACTOR_HIDE",
+                    "args": {
+                        "actorId": "$self$",
+                        "__collapse": true
+                    }
+                },
+                {
+                    "id": "45dbad50-fd44-4097-8c5d-353b933a0e23",
+                    "command": "EVENT_MUSIC_PLAY",
+                    "args": {
+                        "musicId": "69a079ff-272c-44cc-8984-dedc44af8be5",
+                        "loop": true,
+                        "__collapse": true
+                    }
+                },
+                {
+                    "id": "5ccfd156-2fb1-4bf5-8fd9-ddafc60f5db5",
+                    "command": "EVENT_AWAIT_INPUT",
+                    "args": {
+                        "input": [
+                            "a",
+                            "b",
+                            "start"
+                        ],
+                        "__collapse": true
+                    }
+                },
+                {
+                    "id": "d5b1fe05-078a-420b-8a6c-c28222452267",
+                    "command": "EVENT_SWITCH_SCENE",
+                    "args": {
+                        "sceneId": "8510b8c6-a4df-4c99-af1b-844f47bf71ad",
+                        "x": 3,
+                        "y": 7,
+                        "direction": "",
+                        "fadeSpeed": "2",
+                        "__collapse": true
+                    }
+                },
+                {
+                    "id": "0fd2bcaa-9393-40fd-9a82-dae1325a2fc0",
+                    "command": "EVENT_END"
+                }
+            ],
+            "playerHit1Script": [],
+            "playerHit2Script": [],
+            "playerHit3Script": [],
+            "id": "cfa7a841-6df6-4dd7-b8dd-0704e896d8e9",
+            "x": 709.8942347092882,
+            "y": 53.70600057783101,
+            "actors": [],
+            "triggers": []
         }
     ],
     "backgrounds": [
@@ -8725,7 +8929,7 @@
             "imageHeight": 144,
             "filename": "BGTemplate.png",
             "inode": "26280937",
-            "_v": 1635093204752
+            "_v": 1635107435757
         },
         {
             "id": "6a036d64-6f9a-4ff5-b903-3485b56885a8",
@@ -8736,7 +8940,7 @@
             "imageHeight": 144,
             "filename": "BG_Clem.png",
             "inode": "26280949",
-            "_v": 1635093204752
+            "_v": 1635107435757
         },
         {
             "id": "34bb721c-fe40-410e-bae6-b027f047781e",
@@ -8747,7 +8951,7 @@
             "imageHeight": 144,
             "filename": "ChrisBG.png",
             "inode": "26313113",
-            "_v": 1635093204752
+            "_v": 1635107435757
         },
         {
             "id": "13a0e36e-f867-4896-a612-8a640a64e76d",
@@ -8758,7 +8962,7 @@
             "imageHeight": 144,
             "filename": "GirlsBG.png",
             "inode": "26313311",
-            "_v": 1635093204752
+            "_v": 1635107435757
         },
         {
             "id": "c87fb548-3f98-48d4-a1a1-44b9405969db",
@@ -8769,7 +8973,7 @@
             "imageHeight": 144,
             "filename": "JoBG.png",
             "inode": "26351889",
-            "_v": 1635093204752
+            "_v": 1635107435757
         },
         {
             "id": "58e8765d-7f08-4d99-bc09-75dd12ccc651",
@@ -8780,7 +8984,7 @@
             "imageHeight": 504,
             "filename": "Map - ver1.png",
             "inode": "26332082",
-            "_v": 1635093204756
+            "_v": 1635107435757
         },
         {
             "id": "6818254a-4a3d-4839-8765-140d5f9b7bbb",
@@ -8791,7 +8995,7 @@
             "imageHeight": 504,
             "filename": "Map.png",
             "inode": "26317897",
-            "_v": 1635093204752
+            "_v": 1635107435757
         },
         {
             "id": "b0f8acd6-4bca-469c-bd12-7a84962e348e",
@@ -8802,7 +9006,29 @@
             "imageHeight": 144,
             "filename": "Portrait_Client01.png",
             "inode": "26280328",
-            "_v": 1635093204752
+            "_v": 1635107435757
+        },
+        {
+            "id": "91255fa1-a38e-4f4f-8618-fcc759ee3318",
+            "name": "TitleCard",
+            "width": 20,
+            "height": 18,
+            "imageWidth": 160,
+            "imageHeight": 144,
+            "filename": "TitleCard.png",
+            "inode": "26375817",
+            "_v": 1635107570974
+        },
+        {
+            "id": "427b7c0f-61b3-4598-a049-68beccb8c8b4",
+            "name": "gbstudio",
+            "width": 20,
+            "height": 18,
+            "imageWidth": 160,
+            "imageHeight": 144,
+            "filename": "gbstudio.png",
+            "inode": "26376501",
+            "_v": 1635107905845
         },
         {
             "id": "a79c78c5-c7f6-4ed8-9370-8db5f75e8fac",
@@ -8813,7 +9039,7 @@
             "imageHeight": 144,
             "filename": "marketing.png",
             "inode": "26338246",
-            "_v": 1635093204752
+            "_v": 1635107435757
         },
         {
             "id": "1e5f9d6a-bdbc-43e6-8c34-22f5bb5dea05",
@@ -8824,7 +9050,7 @@
             "imageHeight": 144,
             "filename": "placeholder.png",
             "inode": "26254473",
-            "_v": 1635093204752
+            "_v": 1635107435757
         }
     ],
     "spriteSheets": [
@@ -8835,7 +9061,43 @@
             "type": "animated",
             "filename": "Cursor.png",
             "inode": "26281871",
-            "_v": 1635093204753
+            "_v": 1635107435757
+        },
+        {
+            "id": "65e43956-776d-4fef-998b-f5a3e6ea5296",
+            "name": "NPC1",
+            "numFrames": 2,
+            "type": "animated",
+            "filename": "NPC1.png",
+            "inode": "26373854",
+            "_v": 1635107435757
+        },
+        {
+            "id": "8bcd5dda-346e-41fb-84a2-74dcef99d81d",
+            "name": "NPC2",
+            "numFrames": 2,
+            "type": "animated",
+            "filename": "NPC2.png",
+            "inode": "26373904",
+            "_v": 1635107435757
+        },
+        {
+            "id": "aab0e6c7-819a-4b21-9e22-09e007a9d463",
+            "name": "NPC3",
+            "numFrames": 2,
+            "type": "animated",
+            "filename": "NPC3.png",
+            "inode": "26373885",
+            "_v": 1635107435757
+        },
+        {
+            "id": "edb4c29f-85f3-4c87-add7-e5d002971f14",
+            "name": "NPC4",
+            "numFrames": 2,
+            "type": "animated",
+            "filename": "NPC4.png",
+            "inode": "26373869",
+            "_v": 1635107435757
         },
         {
             "id": "11b5452b-187c-43a3-afb1-a1f4f74ffda2",
@@ -8844,7 +9106,7 @@
             "type": "actor",
             "filename": "actor.png",
             "inode": "26254479",
-            "_v": 1635093204752
+            "_v": 1635107435757
         },
         {
             "id": "581d34d0-9591-4e6e-a609-1d94f203b0cd",
@@ -8853,7 +9115,7 @@
             "type": "actor_animated",
             "filename": "actor_animated.png",
             "inode": "26254481",
-            "_v": 1635093204753
+            "_v": 1635107435757
         },
         {
             "id": "7e7a3be9-b082-4cc8-abdb-18380d86075a",
@@ -8862,7 +9124,7 @@
             "type": "static",
             "filename": "blank.png",
             "inode": "26352777",
-            "_v": 1635093204753
+            "_v": 1635107435757
         },
         {
             "id": "39e9e4f6-4424-4a6a-8676-248669c7061c",
@@ -8871,7 +9133,7 @@
             "type": "actor_animated",
             "filename": "chris.png",
             "inode": "26338126",
-            "_v": 1635093204753
+            "_v": 1635107435757
         },
         {
             "id": "0231d8d0-ce6a-49fc-b509-855d078a4fc7",
@@ -8880,7 +9142,7 @@
             "type": "animated",
             "filename": "chris_mouth.png",
             "inode": "26312942",
-            "_v": 1635093204753
+            "_v": 1635107435757
         },
         {
             "id": "a2827768-3efa-44ac-9f99-45972cbc042f",
@@ -8889,7 +9151,7 @@
             "type": "actor_animated",
             "filename": "clem.png",
             "inode": "26327832",
-            "_v": 1635093204753
+            "_v": 1635107435757
         },
         {
             "id": "3f1c9edb-857b-4f17-83e7-66b5cc194c68",
@@ -8898,7 +9160,7 @@
             "type": "animated",
             "filename": "clem_mouth.png",
             "inode": "26280428",
-            "_v": 1635093204753
+            "_v": 1635107435757
         },
         {
             "id": "a6d57c54-221a-4d0c-b33b-7b2259520dde",
@@ -8907,7 +9169,7 @@
             "type": "actor_animated",
             "filename": "jo.png",
             "inode": "26346053",
-            "_v": 1635093204753
+            "_v": 1635107435757
         },
         {
             "id": "ac20bda9-fdaa-4d4c-9d28-1852c5610aa4",
@@ -8916,7 +9178,7 @@
             "type": "static",
             "filename": "jo_icon.png",
             "inode": "26347788",
-            "_v": 1635093204753
+            "_v": 1635107435757
         },
         {
             "id": "b24bf222-a0fc-4a0b-8ca0-437b14e0221e",
@@ -8925,7 +9187,16 @@
             "type": "animated",
             "filename": "jo_minigame.png",
             "inode": "26352524",
-            "_v": 1635093204753
+            "_v": 1635107435757
+        },
+        {
+            "id": "5ed33965-57d9-4a9e-b098-6e9ec749d890",
+            "name": "lobby_bg",
+            "numFrames": 10,
+            "type": "animated",
+            "filename": "lobby_bg.png",
+            "inode": "26375175",
+            "_v": 1635107435757
         },
         {
             "id": "f7ed0f76-b047-428a-af35-940fd1783479",
@@ -8934,16 +9205,16 @@
             "type": "animated",
             "filename": "mom_mouth.png",
             "inode": "26267235",
-            "_v": 1635093204753
+            "_v": 1635107435757
         },
         {
             "id": "ddd5ce18-2619-4217-b701-e76de6695def",
             "name": "numbers",
-            "numFrames": 10,
+            "numFrames": 9,
             "type": "animated",
             "filename": "numbers.png",
-            "inode": "26357489",
-            "_v": 1635093204753
+            "inode": "26373712",
+            "_v": 1635107435757
         },
         {
             "id": "daf95270-e30d-423b-9ee7-990ae29f57f6",
@@ -8952,7 +9223,7 @@
             "type": "static",
             "filename": "static.png",
             "inode": "26254483",
-            "_v": 1635093204753
+            "_v": 1635107435757
         }
     ],
     "palettes": [
@@ -9101,7 +9372,7 @@
             "filename": "Another One (no intro).mod",
             "settings": {},
             "inode": "26341503",
-            "_v": 1635093204747
+            "_v": 1635107435748
         },
         {
             "id": "7a894aeb-67e1-41c4-bd96-bf2ec54b07fb",
@@ -9109,7 +9380,7 @@
             "filename": "Another One.mod",
             "settings": {},
             "inode": "26339112",
-            "_v": 1635093204747
+            "_v": 1635107435748
         },
         {
             "id": "a6f3e85d-76d5-4fcd-8493-646981ece65f",
@@ -9117,7 +9388,7 @@
             "filename": "Couple or End theme v1.mod",
             "settings": {},
             "inode": "26324665",
-            "_v": 1635093204747
+            "_v": 1635107435748
         },
         {
             "id": "4631cc13-0c49-453b-a18d-d2cb72641ccc",
@@ -9125,7 +9396,7 @@
             "filename": "Puzzle theme 1.mod",
             "settings": {},
             "inode": "26324666",
-            "_v": 1635093204747
+            "_v": 1635107435748
         },
         {
             "id": "0000b9fd-c8d7-4676-86b8-6a0e7ac67723",
@@ -9133,7 +9404,7 @@
             "filename": "RomCom 1.mod",
             "settings": {},
             "inode": "26337003",
-            "_v": 1635093204747
+            "_v": 1635107435748
         },
         {
             "id": "1e22452c-bbbf-403e-8d0d-3fd69c570f80",
@@ -9141,7 +9412,7 @@
             "filename": "Title theme v1 (no intro).mod",
             "settings": {},
             "inode": "26341504",
-            "_v": 1635093204747
+            "_v": 1635107435748
         },
         {
             "id": "69a079ff-272c-44cc-8984-dedc44af8be5",
@@ -9149,7 +9420,7 @@
             "filename": "Title theme v1.mod",
             "settings": {},
             "inode": "26324668",
-            "_v": 1635093204747
+            "_v": 1635107435748
         },
         {
             "id": "9f18f982-5115-47b2-80db-ad35e65284f4",
@@ -9157,7 +9428,7 @@
             "filename": "Walkin Music 1-Talkin.mod",
             "settings": {},
             "inode": "26324669",
-            "_v": 1635093204747
+            "_v": 1635107435748
         },
         {
             "id": "b9e74024-5a50-4cae-a17e-9d067363c510",
@@ -9165,7 +9436,7 @@
             "filename": "Walkin Music 1.mod",
             "settings": {},
             "inode": "26337004",
-            "_v": 1635093204747
+            "_v": 1635107435748
         },
         {
             "id": "e2f98f97-d268-489d-a0d5-b494249f791b",
@@ -9173,7 +9444,7 @@
             "filename": "Walkin Music 2.mod",
             "settings": {},
             "inode": "26339113",
-            "_v": 1635093204747
+            "_v": 1635107435748
         },
         {
             "id": "f50428ab-a084-4591-9bba-2ba10fe7b1c6",
@@ -9181,7 +9452,7 @@
             "filename": "template.mod",
             "settings": {},
             "inode": "26254476",
-            "_v": 1635093204747
+            "_v": 1635107435748
         }
     ],
     "variables": [
@@ -9197,17 +9468,17 @@
         }
     ],
     "settings": {
-        "startSceneId": "7f10dcb6-5205-48be-8540-d1698780ba77",
+        "startSceneId": "cfa7a841-6df6-4dd7-b8dd-0704e896d8e9",
         "playerSpriteSheetId": "a2827768-3efa-44ac-9f99-45972cbc042f",
-        "startX": 3,
-        "startY": 5,
+        "startX": 1,
+        "startY": 12,
         "startMoveSpeed": 1,
         "startAnimSpeed": 3,
-        "startDirection": "right",
+        "startDirection": "left",
         "showCollisions": true,
         "showConnections": true,
-        "worldScrollX": 1151,
-        "worldScrollY": 281,
+        "worldScrollX": 977,
+        "worldScrollY": 0,
         "zoom": 177.17033230513334,
         "customColorsEnabled": false,
         "customHead": "",
