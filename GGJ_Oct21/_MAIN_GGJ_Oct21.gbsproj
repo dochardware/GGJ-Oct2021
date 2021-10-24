@@ -23107,6 +23107,15 @@
                     }
                 },
                 {
+                    "id": "9e5919d2-3b79-46e9-8349-fee82413d696",
+                    "command": "EVENT_MUSIC_PLAY",
+                    "args": {
+                        "musicId": "db7cccbe-45c7-4881-83ab-772a96d3ed39",
+                        "loop": true,
+                        "__collapse": true
+                    }
+                },
+                {
                     "id": "32c82e42-e0da-4d48-bf1a-a82f4f9e0eff",
                     "command": "EVENT_IF_TRUE",
                     "args": {
@@ -23180,15 +23189,6 @@
                     }
                 },
                 {
-                    "id": "9e5919d2-3b79-46e9-8349-fee82413d696",
-                    "command": "EVENT_MUSIC_PLAY",
-                    "args": {
-                        "musicId": "db7cccbe-45c7-4881-83ab-772a96d3ed39",
-                        "loop": true,
-                        "__collapse": false
-                    }
-                },
-                {
                     "id": "fe1a6cb9-efb8-4b73-8ecb-d64365876cfc",
                     "command": "EVENT_IF_TRUE",
                     "args": {
@@ -23235,7 +23235,7 @@
             "playerHit2Script": [],
             "playerHit3Script": [],
             "id": "72b343a1-ef8b-42e3-b11d-4128eb3d5817",
-            "x": 522.1210246816834,
+            "x": 523.2722615109086,
             "y": 812.2122597826744,
             "actors": [
                 {
@@ -29414,7 +29414,7 @@
         "startDirection": "right",
         "showCollisions": true,
         "showConnections": true,
-        "worldScrollX": 560,
+        "worldScrollX": 196,
         "worldScrollY": 242,
         "zoom": 86.86310015577146,
         "customColorsEnabled": false,
