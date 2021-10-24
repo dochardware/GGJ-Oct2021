@@ -26216,6 +26216,222 @@
                     }
                 },
                 {
+                    "id": "d90874fd-ead3-4295-97dd-389821d9bb93",
+                    "command": "EVENT_GROUP",
+                    "args": {
+                        "__label": "NPC Dialog",
+                        "__collapse": true
+                    },
+                    "children": {
+                        "true": [
+                            {
+                                "id": "f551e8bf-e828-449b-ae04-31d305fa3b6f",
+                                "command": "EVENT_GROUP",
+                                "args": {
+                                    "__label": "Clem Talking",
+                                    "__collapse": true
+                                },
+                                "children": {
+                                    "true": [
+                                        {
+                                            "id": "ac095b7e-dd84-4cd3-ac81-07521a4e9ac9",
+                                            "command": "EVENT_ACTOR_SET_ANIMATION_SPEED",
+                                            "args": {
+                                                "actorId": "a309ff44-1fa5-46e7-b771-9b8d147e8fc3",
+                                                "speed": 3,
+                                                "__collapse": true
+                                            }
+                                        },
+                                        {
+                                            "id": "135e6995-4def-444f-9ff7-f0be96586ae1",
+                                            "command": "EVENT_ACTOR_SET_FRAME",
+                                            "args": {
+                                                "actorId": "a309ff44-1fa5-46e7-b771-9b8d147e8fc3",
+                                                "frame": {
+                                                    "type": "number",
+                                                    "value": 0
+                                                },
+                                                "__collapse": true
+                                            }
+                                        },
+                                        {
+                                            "id": "26d88639-be98-40ea-96bd-7b51954a027e",
+                                            "command": "EVENT_END"
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "id": "e915cd0b-ed36-4c5d-b49b-0d4978783051",
+                                "command": "EVENT_TEXT",
+                                "args": {
+                                    "text": [
+                                        "I'm so thankful...",
+                                        "That you were here\nfor me."
+                                    ],
+                                    "avatarId": "",
+                                    "__collapse": false
+                                }
+                            },
+                            {
+                                "id": "15576ead-9b80-4246-9d16-3c41472417db",
+                                "command": "EVENT_GROUP",
+                                "args": {
+                                    "__label": "Clem Stop Talking",
+                                    "__collapse": true
+                                },
+                                "children": {
+                                    "true": [
+                                        {
+                                            "id": "ebc7b505-1fd6-4278-bd82-3a8cde0548a9",
+                                            "command": "EVENT_ACTOR_SET_ANIMATION_SPEED",
+                                            "args": {
+                                                "actorId": "a309ff44-1fa5-46e7-b771-9b8d147e8fc3",
+                                                "speed": null,
+                                                "__collapse": false
+                                            }
+                                        },
+                                        {
+                                            "id": "6051ff01-8507-4e77-9cd7-abafb38c3431",
+                                            "command": "EVENT_ACTOR_SET_FRAME",
+                                            "args": {
+                                                "actorId": "a309ff44-1fa5-46e7-b771-9b8d147e8fc3",
+                                                "frame": {
+                                                    "type": "number",
+                                                    "value": 0
+                                                },
+                                                "__collapse": false
+                                            }
+                                        },
+                                        {
+                                            "id": "ba27d069-851c-4b9f-891e-2b044340c439",
+                                            "command": "EVENT_END"
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "id": "12f35c33-4fbe-4c7c-a8b1-c6251af2d966",
+                                "command": "EVENT_END"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "13c8f357-7635-446c-ac98-0333dd024201",
+                    "command": "EVENT_TEXT",
+                    "args": {
+                        "text": [
+                            "I was happy to\nhelp.",
+                            "Say... would you\nlike to get\ncoffee with me?"
+                        ],
+                        "avatarId": "6ed6d52f-e987-43ae-8843-8bee03dbb6e4",
+                        "__collapse": true
+                    }
+                },
+                {
+                    "id": "f7dfc2e5-997e-447d-995a-cf4fcde5095b",
+                    "command": "EVENT_GROUP",
+                    "args": {
+                        "__label": "NPC Dialog",
+                        "__collapse": true
+                    },
+                    "children": {
+                        "true": [
+                            {
+                                "id": "955a0e35-02c5-455b-9dac-9fbe45f9128b",
+                                "command": "EVENT_GROUP",
+                                "args": {
+                                    "__label": "Clem Talking",
+                                    "__collapse": true
+                                },
+                                "children": {
+                                    "true": [
+                                        {
+                                            "id": "3a727fc7-243c-43ca-ba96-3dad3a1437fa",
+                                            "command": "EVENT_ACTOR_SET_ANIMATION_SPEED",
+                                            "args": {
+                                                "actorId": "a309ff44-1fa5-46e7-b771-9b8d147e8fc3",
+                                                "speed": 3,
+                                                "__collapse": true
+                                            }
+                                        },
+                                        {
+                                            "id": "606eb6c4-1264-4442-b730-a5b12b5ce0bd",
+                                            "command": "EVENT_ACTOR_SET_FRAME",
+                                            "args": {
+                                                "actorId": "a309ff44-1fa5-46e7-b771-9b8d147e8fc3",
+                                                "frame": {
+                                                    "type": "number",
+                                                    "value": 0
+                                                },
+                                                "__collapse": true
+                                            }
+                                        },
+                                        {
+                                            "id": "af085b3c-d7e6-408e-bd16-22cc8238438e",
+                                            "command": "EVENT_END"
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "id": "e32abd79-215a-4581-a328-8330dbc1b06c",
+                                "command": "EVENT_TEXT",
+                                "args": {
+                                    "text": [
+                                        "Wow... outside of\nthe office?",
+                                        "Yes please..."
+                                    ],
+                                    "avatarId": "",
+                                    "__collapse": false
+                                }
+                            },
+                            {
+                                "id": "db488bf3-0c87-43be-97bc-427f438f514d",
+                                "command": "EVENT_GROUP",
+                                "args": {
+                                    "__label": "Clem Stop Talking",
+                                    "__collapse": true
+                                },
+                                "children": {
+                                    "true": [
+                                        {
+                                            "id": "d9303659-07ee-4059-b4c3-b60aa206e9f0",
+                                            "command": "EVENT_ACTOR_SET_ANIMATION_SPEED",
+                                            "args": {
+                                                "actorId": "a309ff44-1fa5-46e7-b771-9b8d147e8fc3",
+                                                "speed": null,
+                                                "__collapse": false
+                                            }
+                                        },
+                                        {
+                                            "id": "dcecd232-367a-4d7b-9454-5a7862f207d2",
+                                            "command": "EVENT_ACTOR_SET_FRAME",
+                                            "args": {
+                                                "actorId": "a309ff44-1fa5-46e7-b771-9b8d147e8fc3",
+                                                "frame": {
+                                                    "type": "number",
+                                                    "value": 0
+                                                },
+                                                "__collapse": false
+                                            }
+                                        },
+                                        {
+                                            "id": "7d9d75d4-9d4b-4f6f-bf84-8fc8b4447a38",
+                                            "command": "EVENT_END"
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "id": "5c9e6409-84b6-455a-b54f-21f19e3f7ccd",
+                                "command": "EVENT_END"
+                            }
+                        ]
+                    }
+                },
+                {
                     "id": "cad9c4af-d181-40d6-bda7-0aae7d3a53e7",
                     "command": "EVENT_END"
                 }
