@@ -18250,32 +18250,6 @@
                             }
                         },
                         {
-                            "id": "a99f0456-82db-4c7f-be88-bcab78ccfb91",
-                            "command": "EVENT_TEXT",
-                            "args": {
-                                "text": [
-                                    "Oh, right...",
-                                    "There's a\ncompany event\nhappening today.",
-                                    "We're rolling\nout a new\ncoffee machine.",
-                                    "I think\nChristina's\ngiving the\nspeech.",
-                                    "I should check\nin on her.",
-                                    "I guess I should\ntake the\nelevator."
-                                ],
-                                "avatarId": "daf95270-e30d-423b-9ee7-990ae29f57f6",
-                                "__collapse": true
-                            }
-                        },
-                        {
-                            "id": "8cb79920-b6ad-403d-812b-b0a738370d6a",
-                            "command": "EVENT_OVERLAY_MOVE_TO",
-                            "args": {
-                                "x": 0,
-                                "y": 0,
-                                "speed": "0",
-                                "__collapse": true
-                            }
-                        },
-                        {
                             "id": "121d4280-f801-48a5-b321-ed2ebe5438f8",
                             "command": "EVENT_END"
                         }
@@ -39829,8 +39803,8 @@
         "startDirection": "right",
         "showCollisions": true,
         "showConnections": true,
-        "worldScrollX": 1501,
-        "worldScrollY": 842,
+        "worldScrollX": 740,
+        "worldScrollY": 839,
         "zoom": 154.61032830178738,
         "customColorsEnabled": false,
         "customHead": "",
