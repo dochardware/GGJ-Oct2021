@@ -23703,7 +23703,7 @@
                     "id": "d9b41a67-06f2-423d-abc5-f9e5510bfa7b",
                     "command": "EVENT_PLAYER_SET_SPRITE",
                     "args": {
-                        "spriteSheetId": "0a6b1853-3a39-4989-93fa-c1816e9571c5",
+                        "spriteSheetId": "0ff6fde5-00ed-4e3f-96dd-0ac2d06f90a3",
                         "persist": false,
                         "__collapse": true
                     }
@@ -23721,7 +23721,7 @@
                     "command": "EVENT_WAIT",
                     "args": {
                         "time": 1,
-                        "__collapse": false
+                        "__collapse": true
                     }
                 },
                 {
@@ -23741,7 +23741,7 @@
                             "type": "direction",
                             "value": "right"
                         },
-                        "__collapse": false
+                        "__collapse": true
                     }
                 },
                 {
@@ -23749,7 +23749,7 @@
                     "command": "EVENT_WAIT",
                     "args": {
                         "time": 0.4,
-                        "__collapse": false
+                        "__collapse": true
                     }
                 },
                 {
@@ -23775,7 +23775,7 @@
                     "command": "EVENT_WAIT",
                     "args": {
                         "time": 0.5,
-                        "__collapse": false
+                        "__collapse": true
                     }
                 },
                 {
@@ -24345,6 +24345,107 @@
                     }
                 },
                 {
+                    "id": "69f2c1cf-d1e1-41e2-9199-eccbba45d4f8",
+                    "command": "EVENT_GROUP",
+                    "args": {
+                        "__label": "NPC Dialog",
+                        "__collapse": false
+                    },
+                    "children": {
+                        "true": [
+                            {
+                                "id": "205db4fc-8673-48c8-83a0-2bcd4f5c57f3",
+                                "command": "EVENT_GROUP",
+                                "args": {
+                                    "__label": "Clem Talking",
+                                    "__collapse": true
+                                },
+                                "children": {
+                                    "true": [
+                                        {
+                                            "id": "4b7ea666-64ca-4e90-84e5-0fd7b820d57d",
+                                            "command": "EVENT_ACTOR_SET_ANIMATION_SPEED",
+                                            "args": {
+                                                "actorId": "a309ff44-1fa5-46e7-b771-9b8d147e8fc3",
+                                                "speed": 3,
+                                                "__collapse": true
+                                            }
+                                        },
+                                        {
+                                            "id": "472ab3aa-d53e-4244-a459-a6dc7ad23d00",
+                                            "command": "EVENT_ACTOR_SET_FRAME",
+                                            "args": {
+                                                "actorId": "a309ff44-1fa5-46e7-b771-9b8d147e8fc3",
+                                                "frame": {
+                                                    "type": "number",
+                                                    "value": 0
+                                                },
+                                                "__collapse": true
+                                            }
+                                        },
+                                        {
+                                            "id": "3823d143-0404-4efd-a787-fe44dc0fb17c",
+                                            "command": "EVENT_END"
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "id": "c4ad9ee7-5ae7-42e5-a1fc-405fe05d3b22",
+                                "command": "EVENT_TEXT",
+                                "args": {
+                                    "text": [
+                                        "PLACEHOLDER"
+                                    ],
+                                    "avatarId": "",
+                                    "__collapse": false
+                                }
+                            },
+                            {
+                                "id": "92f47a11-9d69-472e-b5dc-8bffec8fec09",
+                                "command": "EVENT_GROUP",
+                                "args": {
+                                    "__label": "Clem Stop Talking",
+                                    "__collapse": true
+                                },
+                                "children": {
+                                    "true": [
+                                        {
+                                            "id": "aa56b5b6-b9f9-47a0-9607-2779b5389d0a",
+                                            "command": "EVENT_ACTOR_SET_ANIMATION_SPEED",
+                                            "args": {
+                                                "actorId": "a309ff44-1fa5-46e7-b771-9b8d147e8fc3",
+                                                "speed": null,
+                                                "__collapse": false
+                                            }
+                                        },
+                                        {
+                                            "id": "595edd5e-c5d0-4330-ab90-07c6c11b5221",
+                                            "command": "EVENT_ACTOR_SET_FRAME",
+                                            "args": {
+                                                "actorId": "a309ff44-1fa5-46e7-b771-9b8d147e8fc3",
+                                                "frame": {
+                                                    "type": "number",
+                                                    "value": 0
+                                                },
+                                                "__collapse": false
+                                            }
+                                        },
+                                        {
+                                            "id": "6313f61e-98be-4b82-a80e-22ddcf645a09",
+                                            "command": "EVENT_END"
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "id": "b30e0d5e-6e63-4a30-b190-990d064cec18",
+                                "command": "EVENT_END"
+                            }
+                        ]
+                    }
+                },
+                {
                     "id": "4eef42e6-4bbe-4a78-9428-a7fa1fe3bee5",
                     "command": "EVENT_END"
                 }
@@ -24470,7 +24571,7 @@
                                         "command": "EVENT_GROUP",
                                         "args": {
                                             "__label": "NPC Dialog",
-                                            "__collapse": false
+                                            "__collapse": true
                                         },
                                         "children": {
                                             "true": [
@@ -24519,7 +24620,7 @@
                                                             "PLACEHOLDER"
                                                         ],
                                                         "avatarId": "",
-                                                        "__collapse": false
+                                                        "__collapse": true
                                                     }
                                                 },
                                                 {
@@ -30884,8 +30985,8 @@
         "startDirection": "right",
         "showCollisions": true,
         "showConnections": true,
-        "worldScrollX": 1117.5999755859375,
-        "worldScrollY": 0,
+        "worldScrollX": 831.2000122070312,
+        "worldScrollY": 827.2000122070312,
         "zoom": 150,
         "customColorsEnabled": false,
         "customHead": "",
