@@ -24428,7 +24428,7 @@
                                 "command": "EVENT_TEXT",
                                 "args": {
                                     "text": [
-                                        "PLACEHOLDER"
+                                        "Thanks for your\nhelp."
                                     ],
                                     "avatarId": "",
                                     "__collapse": false
@@ -24476,6 +24476,132 @@
                                 "command": "EVENT_END"
                             }
                         ]
+                    }
+                },
+                {
+                    "id": "d02727a8-d9b3-4626-823b-b1f0f4bb9009",
+                    "command": "EVENT_TEXT",
+                    "args": {
+                        "text": [
+                            "(Gosh that was\ntiring)",
+                            "I'll get going.",
+                            "Or wait can I\nask you...",
+                            "No it's nothing."
+                        ],
+                        "avatarId": "6ed6d52f-e987-43ae-8843-8bee03dbb6e4",
+                        "__collapse": true
+                    }
+                },
+                {
+                    "id": "c8791fb6-0566-4e5a-8688-36fe459d585a",
+                    "command": "EVENT_GROUP",
+                    "args": {
+                        "__label": "NPC Dialog",
+                        "__collapse": false
+                    },
+                    "children": {
+                        "true": [
+                            {
+                                "id": "a75352b8-1342-4031-a8c3-341a29ae40c1",
+                                "command": "EVENT_GROUP",
+                                "args": {
+                                    "__label": "Clem Talking",
+                                    "__collapse": true
+                                },
+                                "children": {
+                                    "true": [
+                                        {
+                                            "id": "2c9993b1-90f0-4f96-a81c-bc60f8ac8ffe",
+                                            "command": "EVENT_ACTOR_SET_ANIMATION_SPEED",
+                                            "args": {
+                                                "actorId": "a309ff44-1fa5-46e7-b771-9b8d147e8fc3",
+                                                "speed": 3,
+                                                "__collapse": true
+                                            }
+                                        },
+                                        {
+                                            "id": "740d2a0d-fd68-4ff4-a2a1-d46a415025d8",
+                                            "command": "EVENT_ACTOR_SET_FRAME",
+                                            "args": {
+                                                "actorId": "a309ff44-1fa5-46e7-b771-9b8d147e8fc3",
+                                                "frame": {
+                                                    "type": "number",
+                                                    "value": 0
+                                                },
+                                                "__collapse": true
+                                            }
+                                        },
+                                        {
+                                            "id": "5e44a66f-11ce-45f9-9441-a60c4a085de8",
+                                            "command": "EVENT_END"
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "id": "f8166fcb-8e10-4a8f-8392-2cccf250601c",
+                                "command": "EVENT_TEXT",
+                                "args": {
+                                    "text": [
+                                        "Ok.",
+                                        "See you."
+                                    ],
+                                    "avatarId": "",
+                                    "__collapse": false
+                                }
+                            },
+                            {
+                                "id": "ee88b57f-73c8-4b09-bd15-cf677dcbc020",
+                                "command": "EVENT_GROUP",
+                                "args": {
+                                    "__label": "Clem Stop Talking",
+                                    "__collapse": true
+                                },
+                                "children": {
+                                    "true": [
+                                        {
+                                            "id": "06d5493a-5fa3-46d7-869e-a1d04b75b3b2",
+                                            "command": "EVENT_ACTOR_SET_ANIMATION_SPEED",
+                                            "args": {
+                                                "actorId": "a309ff44-1fa5-46e7-b771-9b8d147e8fc3",
+                                                "speed": null,
+                                                "__collapse": false
+                                            }
+                                        },
+                                        {
+                                            "id": "5dd51d8f-813f-484c-be93-29ff220cb0aa",
+                                            "command": "EVENT_ACTOR_SET_FRAME",
+                                            "args": {
+                                                "actorId": "a309ff44-1fa5-46e7-b771-9b8d147e8fc3",
+                                                "frame": {
+                                                    "type": "number",
+                                                    "value": 0
+                                                },
+                                                "__collapse": false
+                                            }
+                                        },
+                                        {
+                                            "id": "37eb9e69-155e-4dee-a35a-e55d8cde4b61",
+                                            "command": "EVENT_END"
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "id": "15d93f24-7fb4-4178-8d46-2ad91c31f00a",
+                                "command": "EVENT_END"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "e373fd6d-4934-4095-b016-d33c1d118853",
+                    "command": "EVENT_TEXT",
+                    "args": {
+                        "text": [
+                            "Bye..."
+                        ],
+                        "avatarId": "6ed6d52f-e987-43ae-8843-8bee03dbb6e4"
                     }
                 },
                 {
@@ -31765,6 +31891,13 @@
                                         }
                                     },
                                     {
+                                        "id": "145dae6e-00e5-464f-9d18-3223b97c30c1",
+                                        "command": "EVENT_SET_TRUE",
+                                        "args": {
+                                            "variable": "4"
+                                        }
+                                    },
+                                    {
                                         "id": "8e1ab035-c7e4-4ed5-9888-88e7bfab6323",
                                         "command": "EVENT_OVERLAY_MOVE_TO",
                                         "args": {
@@ -32734,9 +32867,9 @@
         "startDirection": "right",
         "showCollisions": true,
         "showConnections": true,
-        "worldScrollX": 2708,
-        "worldScrollY": 1653.5999755859375,
-        "zoom": 275,
+        "worldScrollX": 1430.4000244140625,
+        "worldScrollY": 0,
+        "zoom": 150,
         "customColorsEnabled": false,
         "customHead": "",
         "defaultBackgroundPaletteIds": [
