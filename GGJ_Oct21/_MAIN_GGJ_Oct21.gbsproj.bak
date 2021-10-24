@@ -18250,32 +18250,6 @@
                             }
                         },
                         {
-                            "id": "a99f0456-82db-4c7f-be88-bcab78ccfb91",
-                            "command": "EVENT_TEXT",
-                            "args": {
-                                "text": [
-                                    "Oh, right...",
-                                    "There's a\ncompany event\nhappening today.",
-                                    "We're rolling\nout a new\ncoffee machine.",
-                                    "I think\nChristina's\ngiving the\nspeech.",
-                                    "I should check\nin on her.",
-                                    "I guess I should\ntake the\nelevator."
-                                ],
-                                "avatarId": "daf95270-e30d-423b-9ee7-990ae29f57f6",
-                                "__collapse": true
-                            }
-                        },
-                        {
-                            "id": "8cb79920-b6ad-403d-812b-b0a738370d6a",
-                            "command": "EVENT_OVERLAY_MOVE_TO",
-                            "args": {
-                                "x": 0,
-                                "y": 0,
-                                "speed": "0",
-                                "__collapse": true
-                            }
-                        },
-                        {
                             "id": "121d4280-f801-48a5-b321-ed2ebe5438f8",
                             "command": "EVENT_END"
                         }
@@ -33962,7 +33936,7 @@
                                             "variable": "L0",
                                             "trueText": "Confident",
                                             "falseText": "Casual",
-                                            "__collapse": true
+                                            "__collapse": false
                                         }
                                     },
                                     {
@@ -33970,8 +33944,8 @@
                                         "command": "EVENT_IF_TRUE",
                                         "args": {
                                             "variable": "L0",
-                                            "__collapseElse": false,
-                                            "__collapse": true
+                                            "__collapseElse": true,
+                                            "__collapse": false
                                         },
                                         "children": {
                                             "true": [
@@ -34038,10 +34012,20 @@
                                                                 }
                                                             },
                                                             {
+                                                                "id": "837a630b-5ffa-428a-94d4-642183d971d5",
+                                                                "command": "EVENT_ACTOR_EMOTE",
+                                                                "args": {
+                                                                    "actorId": "415b863c-344a-468f-9614-3aacbb8e8e1c",
+                                                                    "emoteId": "2"
+                                                                }
+                                                            },
+                                                            {
                                                                 "id": "0a13ec71-5c1f-4735-9370-d677532ee08d",
                                                                 "command": "EVENT_TEXT",
                                                                 "args": {
-                                                                    "text": "",
+                                                                    "text": [
+                                                                        "Nice"
+                                                                    ],
                                                                     "avatarId": ""
                                                                 }
                                                             },
@@ -34106,7 +34090,7 @@
                                                             "Especially we at\nthe Grinder."
                                                         ],
                                                         "avatarId": "6ed6d52f-e987-43ae-8843-8bee03dbb6e4",
-                                                        "__collapse": false
+                                                        "__collapse": true
                                                     }
                                                 },
                                                 {
@@ -34114,7 +34098,7 @@
                                                     "command": "EVENT_GROUP",
                                                     "args": {
                                                         "__label": "NPC Dialog",
-                                                        "__collapse": false
+                                                        "__collapse": true
                                                     },
                                                     "children": {
                                                         "true": [
@@ -34153,6 +34137,16 @@
                                                                             "command": "EVENT_END"
                                                                         }
                                                                     ]
+                                                                }
+                                                            },
+                                                            {
+                                                                "id": "ec40509c-45a7-4d93-a598-f7aa4ab1d86f",
+                                                                "command": "EVENT_TEXT",
+                                                                "args": {
+                                                                    "text": [
+                                                                        "Ok..."
+                                                                    ],
+                                                                    "avatarId": ""
                                                                 }
                                                             },
                                                             {
@@ -34333,15 +34327,12 @@
                                                     "command": "EVENT_TEXT",
                                                     "args": {
                                                         "text": [
-                                                            "Coffee is the #1\nenergizer in the\nworld.",
-                                                            "People working\nall\naround the world",
-                                                            "drink coffee as\na\nsocial activity,",
-                                                            "on their way to\nwork,",
-                                                            "on their breaks,",
-                                                            "some even drink\ncoffee before\nbedtime?"
+                                                            "We're offering\nIoT integrated,",
+                                                            "Low-maintenance",
+                                                            "High-speed\nbrewing in your\nhomes!"
                                                         ],
                                                         "avatarId": "6ed6d52f-e987-43ae-8843-8bee03dbb6e4",
-                                                        "__collapse": true
+                                                        "__collapse": false
                                                     }
                                                 },
                                                 {
@@ -34394,8 +34385,11 @@
                                                                 "id": "9d839f1a-4fdf-468c-b4cc-7ee609b30111",
                                                                 "command": "EVENT_TEXT",
                                                                 "args": {
-                                                                    "text": "",
-                                                                    "avatarId": ""
+                                                                    "text": [
+                                                                        "Nice"
+                                                                    ],
+                                                                    "avatarId": "",
+                                                                    "__collapse": false
                                                                 }
                                                             },
                                                             {
@@ -34506,6 +34500,16 @@
                                                                             "command": "EVENT_END"
                                                                         }
                                                                     ]
+                                                                }
+                                                            },
+                                                            {
+                                                                "id": "b398a450-e82c-4a89-bae9-3f66fbc826b5",
+                                                                "command": "EVENT_TEXT",
+                                                                "args": {
+                                                                    "text": [
+                                                                        "Ok..."
+                                                                    ],
+                                                                    "avatarId": ""
                                                                 }
                                                             },
                                                             {
@@ -39243,8 +39247,8 @@
             "imageWidth": 160,
             "imageHeight": 144,
             "filename": "BGTemplate.png",
-            "inode": "26280937",
-            "_v": 1635095473343
+            "inode": "10977524092055721",
+            "_v": 1635097571111
         },
         {
             "id": "df2d53fc-6b6f-476a-9a36-cb3540384198",
@@ -39254,8 +39258,8 @@
             "imageWidth": 160,
             "imageHeight": 144,
             "filename": "BG_Clem.png",
-            "inode": "26280949",
-            "_v": 1635095473343
+            "inode": "5066549581132104",
+            "_v": 1635097571111
         },
         {
             "id": "22bf7c2c-7ea5-458d-92fd-5fd1ab28f06b",
@@ -39265,8 +39269,8 @@
             "imageWidth": 160,
             "imageHeight": 144,
             "filename": "ChrisBG.png",
-            "inode": "26313113",
-            "_v": 1635095473343
+            "inode": "5348024557842767",
+            "_v": 1635097571111
         },
         {
             "id": "7e238a07-91b9-4560-9dd3-a61de09fb9af",
@@ -39276,8 +39280,8 @@
             "imageWidth": 160,
             "imageHeight": 144,
             "filename": "GirlsBG.png",
-            "inode": "26313311",
-            "_v": 1635095473343
+            "inode": "8162774324949398",
+            "_v": 1635097571111
         },
         {
             "id": "cbbf0720-698b-45b2-8f86-57a7424b7bf2",
@@ -39287,8 +39291,8 @@
             "imageWidth": 160,
             "imageHeight": 144,
             "filename": "JoBG.png",
-            "inode": "26351889",
-            "_v": 1635095473343
+            "inode": "26458647810826957",
+            "_v": 1635097571111
         },
         {
             "id": "b0228351-cbbc-4089-999e-200032f835a3",
@@ -39298,8 +39302,8 @@
             "imageWidth": 552,
             "imageHeight": 504,
             "filename": "Map - ver1.png",
-            "inode": "26332082",
-            "_v": 1635095473343
+            "inode": "5348024557842846",
+            "_v": 1635097571111
         },
         {
             "id": "c70d189b-e76c-4c8e-8c17-d4e3b7e72255",
@@ -39309,8 +39313,8 @@
             "imageWidth": 552,
             "imageHeight": 504,
             "filename": "Map.png",
-            "inode": "26317897",
-            "_v": 1635095473343
+            "inode": "11540474045477300",
+            "_v": 1635097571111
         },
         {
             "id": "eb5e4998-82c7-470a-8106-25408e95647a",
@@ -39320,8 +39324,8 @@
             "imageWidth": 160,
             "imageHeight": 144,
             "filename": "Portrait_Client01.png",
-            "inode": "26280328",
-            "_v": 1635095473344
+            "inode": "10977524092056015",
+            "_v": 1635097571111
         },
         {
             "id": "6f3b23c1-b1d8-4c79-b702-0fae563e3737",
@@ -39331,8 +39335,8 @@
             "imageWidth": 160,
             "imageHeight": 144,
             "filename": "marketing.png",
-            "inode": "26338246",
-            "_v": 1635095473343
+            "inode": "1688849861340365",
+            "_v": 1635097571111
         },
         {
             "id": "1e5f9d6a-bdbc-43e6-8c34-22f5bb5dea05",
@@ -39342,8 +39346,8 @@
             "imageWidth": 160,
             "imageHeight": 144,
             "filename": "placeholder.png",
-            "inode": "26254473",
-            "_v": 1635095473343
+            "inode": "7599824371481964",
+            "_v": 1635097571111
         }
     ],
     "spriteSheets": [
@@ -39353,8 +39357,8 @@
             "numFrames": 4,
             "type": "animated",
             "filename": "Cursor.png",
-            "inode": "26281871",
-            "_v": 1635095473344
+            "inode": "8725724278371200",
+            "_v": 1635097571111
         },
         {
             "id": "11b5452b-187c-43a3-afb1-a1f4f74ffda2",
@@ -39362,8 +39366,8 @@
             "numFrames": 3,
             "type": "actor",
             "filename": "actor.png",
-            "inode": "26254479",
-            "_v": 1635095473344
+            "inode": "5066549581132109",
+            "_v": 1635097571111
         },
         {
             "id": "581d34d0-9591-4e6e-a609-1d94f203b0cd",
@@ -39371,8 +39375,8 @@
             "numFrames": 6,
             "type": "actor_animated",
             "filename": "actor_animated.png",
-            "inode": "26254481",
-            "_v": 1635095473343
+            "inode": "5066549581132110",
+            "_v": 1635097571111
         },
         {
             "id": "4922883e-d920-46b1-9197-c650b999c396",
@@ -39380,8 +39384,8 @@
             "numFrames": 1,
             "type": "static",
             "filename": "blank.png",
-            "inode": "26352777",
-            "_v": 1635095473344
+            "inode": "35747322042278990",
+            "_v": 1635097571111
         },
         {
             "id": "13aee7b2-5de8-433d-8eab-8b88795ed18d",
@@ -39389,8 +39393,8 @@
             "numFrames": 6,
             "type": "actor_animated",
             "filename": "chris.png",
-            "inode": "26338126",
-            "_v": 1635095473344
+            "inode": "1407374884629724",
+            "_v": 1635097571111
         },
         {
             "id": "9304c7c0-147a-4a4f-b827-5c2bcacc4cf3",
@@ -39398,8 +39402,8 @@
             "numFrames": 2,
             "type": "animated",
             "filename": "chris_mouth.png",
-            "inode": "26312942",
-            "_v": 1635095473344
+            "inode": "7036874418107265",
+            "_v": 1635097571112
         },
         {
             "id": "0a6b1853-3a39-4989-93fa-c1816e9571c5",
@@ -39407,8 +39411,8 @@
             "numFrames": 6,
             "type": "actor_animated",
             "filename": "clem.png",
-            "inode": "26327832",
-            "_v": 1635095473344
+            "inode": "6473924464809453",
+            "_v": 1635097571111
         },
         {
             "id": "0d4af66d-860c-4fc2-89b3-cdf2212decd3",
@@ -39416,8 +39420,8 @@
             "numFrames": 2,
             "type": "animated",
             "filename": "clem_mouth.png",
-            "inode": "26280428",
-            "_v": 1635095473344
+            "inode": "8162774325073644",
+            "_v": 1635097571111
         },
         {
             "id": "0ff6fde5-00ed-4e3f-96dd-0ac2d06f90a3",
@@ -39425,8 +39429,8 @@
             "numFrames": 6,
             "type": "actor_animated",
             "filename": "jo.png",
-            "inode": "26346053",
-            "_v": 1635095473344
+            "inode": "55169095435315061",
+            "_v": 1635097571112
         },
         {
             "id": "6ed6d52f-e987-43ae-8843-8bee03dbb6e4",
@@ -39434,8 +39438,8 @@
             "numFrames": 1,
             "type": "static",
             "filename": "jo_icon.png",
-            "inode": "26347788",
-            "_v": 1635095473344
+            "inode": "28710447624513554",
+            "_v": 1635097571111
         },
         {
             "id": "d57f08d1-9f7f-449e-8f28-4eada205da1f",
@@ -39443,8 +39447,8 @@
             "numFrames": 4,
             "type": "animated",
             "filename": "jo_minigame.png",
-            "inode": "26352524",
-            "_v": 1635095473344
+            "inode": "14918173765691659",
+            "_v": 1635097571112
         },
         {
             "id": "86c5625f-0b34-480a-bc95-180fe62d66ad",
@@ -39452,8 +39456,8 @@
             "numFrames": 2,
             "type": "animated",
             "filename": "mom_mouth.png",
-            "inode": "26267235",
-            "_v": 1635095473344
+            "inode": "7599824371652369",
+            "_v": 1635097571113
         },
         {
             "id": "cbed4fe3-1673-4853-a935-2d5cb4858cd2",
@@ -39461,8 +39465,8 @@
             "numFrames": 10,
             "type": "animated",
             "filename": "numbers.png",
-            "inode": "26357489",
-            "_v": 1635095473344
+            "inode": "45880421203864496",
+            "_v": 1635097571112
         },
         {
             "id": "daf95270-e30d-423b-9ee7-990ae29f57f6",
@@ -39470,8 +39474,8 @@
             "numFrames": 1,
             "type": "static",
             "filename": "static.png",
-            "inode": "26254483",
-            "_v": 1635095473344
+            "inode": "7318349394817373",
+            "_v": 1635097571113
         }
     ],
     "palettes": [
@@ -39619,88 +39623,88 @@
             "name": "Another One (no intro)",
             "filename": "Another One (no intro).mod",
             "settings": {},
-            "inode": "26341503",
-            "_v": 1635095473338
+            "inode": "1688849861340368",
+            "_v": 1635097571108
         },
         {
             "id": "9ab32d21-2a63-45f5-9b80-60d7a5962ffd",
             "name": "Another One",
             "filename": "Another One.mod",
             "settings": {},
-            "inode": "26339112",
-            "_v": 1635095473339
+            "inode": "1688849861340371",
+            "_v": 1635097571109
         },
         {
             "id": "df57e976-cc4b-4c18-969d-bea8ad82eb72",
             "name": "Couple or End theme v1",
             "filename": "Couple or End theme v1.mod",
             "settings": {},
-            "inode": "26324665",
-            "_v": 1635095473339
+            "inode": "8162774324949469",
+            "_v": 1635097571109
         },
         {
             "id": "fac77afb-0725-4c16-80dd-9693875899cf",
             "name": "Puzzle theme 1",
             "filename": "Puzzle theme 1.mod",
             "settings": {},
-            "inode": "26324666",
-            "_v": 1635095473339
+            "inode": "5629499534553797",
+            "_v": 1635097571109
         },
         {
             "id": "8a1be7c2-f110-42e4-b0a7-dbc73790212c",
             "name": "RomCom 1",
             "filename": "RomCom 1.mod",
             "settings": {},
-            "inode": "26337003",
-            "_v": 1635095473339
+            "inode": "6473924464685797",
+            "_v": 1635097571109
         },
         {
             "id": "54c0bc32-b958-4c14-837d-e7bbce043a56",
             "name": "Title theme v1 (no intro)",
             "filename": "Title theme v1 (no intro).mod",
             "settings": {},
-            "inode": "26341504",
-            "_v": 1635095473339
+            "inode": "1407374884629718",
+            "_v": 1635097571109
         },
         {
             "id": "6be0cd5b-1439-40e5-a11b-23e6bc99d5bf",
             "name": "Title theme v1",
             "filename": "Title theme v1.mod",
             "settings": {},
-            "inode": "26324668",
-            "_v": 1635095473339
+            "inode": "6192449487975224",
+            "_v": 1635097571109
         },
         {
             "id": "81b5e52d-0792-4458-a3c1-c41832487819",
             "name": "Walkin Music 1-Talkin",
             "filename": "Walkin Music 1-Talkin.mod",
             "settings": {},
-            "inode": "26324669",
-            "_v": 1635095473339
+            "inode": "13792273859162998",
+            "_v": 1635097571109
         },
         {
             "id": "b5687ef6-ecc6-4baf-bdd0-1575c7d487cd",
             "name": "Walkin Music 1",
             "filename": "Walkin Music 1.mod",
             "settings": {},
-            "inode": "26337004",
-            "_v": 1635095473339
+            "inode": "9851624185213820",
+            "_v": 1635097571109
         },
         {
             "id": "db7cccbe-45c7-4881-83ab-772a96d3ed39",
             "name": "Walkin Music 2",
             "filename": "Walkin Music 2.mod",
             "settings": {},
-            "inode": "26339113",
-            "_v": 1635095473339
+            "inode": "1407374884629721",
+            "_v": 1635097571109
         },
         {
             "id": "f50428ab-a084-4591-9bba-2ba10fe7b1c6",
             "name": "template",
             "filename": "template.mod",
             "settings": {},
-            "inode": "26254476",
-            "_v": 1635095473339
+            "inode": "10133099161923739",
+            "_v": 1635097571109
         }
     ],
     "variables": [
@@ -39731,6 +39735,14 @@
         {
             "id": "6",
             "name": "Clem Doki Points"
+        },
+        {
+            "id": "7",
+            "name": "FailDodge"
+        },
+        {
+            "id": "9",
+            "name": "Health"
         },
         {
             "id": "83df6a14-c8f9-41b7-96f1-538d021f1c4d__L0",
@@ -39803,14 +39815,6 @@
         {
             "id": "395b6a17-7bfd-47a8-bd64-44169aaa2721__L0",
             "name": "Multiple Choice"
-        },
-        {
-            "id": "9",
-            "name": "Health"
-        },
-        {
-            "id": "7",
-            "name": "FailDodge"
         }
     ],
     "engineFieldValues": [
@@ -39829,8 +39833,8 @@
         "startDirection": "right",
         "showCollisions": true,
         "showConnections": true,
-        "worldScrollX": 1501,
-        "worldScrollY": 842,
+        "worldScrollX": 1099,
+        "worldScrollY": 688,
         "zoom": 154.61032830178738,
         "customColorsEnabled": false,
         "customHead": "",
@@ -39846,9 +39850,9 @@
         "defaultUIPaletteId": "default-ui",
         "playerPaletteId": "",
         "navigatorSplitSizes": [
-            458,
+            588,
             30,
-            264
+            338
         ],
         "showNavigator": true,
         "defaultFadeStyle": "white",
