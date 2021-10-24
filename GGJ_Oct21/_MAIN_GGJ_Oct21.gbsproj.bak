@@ -28152,7 +28152,8 @@
                             "So... I was\nthinking...",
                             "We should get\ncoffee..."
                         ],
-                        "avatarId": "6ed6d52f-e987-43ae-8843-8bee03dbb6e4"
+                        "avatarId": "6ed6d52f-e987-43ae-8843-8bee03dbb6e4",
+                        "__collapse": true
                     }
                 },
                 {
@@ -28160,7 +28161,7 @@
                     "command": "EVENT_GROUP",
                     "args": {
                         "__label": "NPC Dialog",
-                        "__collapse": false
+                        "__collapse": true
                     },
                     "children": {
                         "true": [
@@ -28263,7 +28264,8 @@
                         "text": [
                             "... Yeah."
                         ],
-                        "avatarId": "6ed6d52f-e987-43ae-8843-8bee03dbb6e4"
+                        "avatarId": "6ed6d52f-e987-43ae-8843-8bee03dbb6e4",
+                        "__collapse": true
                     }
                 },
                 {
@@ -28271,7 +28273,7 @@
                     "command": "EVENT_GROUP",
                     "args": {
                         "__label": "NPC Dialog",
-                        "__collapse": false
+                        "__collapse": true
                     },
                     "children": {
                         "true": [
@@ -29973,6 +29975,335 @@
                             },
                             {
                                 "id": "f8784a30-02de-4e63-8b1d-1a8ae27cc7a7",
+                                "command": "EVENT_END"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "ddf7b8c1-7920-4e07-9324-a9fbe4261628",
+                    "command": "EVENT_GROUP",
+                    "args": {
+                        "__label": "NPC Dialog",
+                        "__collapse": false
+                    },
+                    "children": {
+                        "true": [
+                            {
+                                "id": "0d2d098f-da74-4159-a7e9-d1953330295f",
+                                "command": "EVENT_GROUP",
+                                "args": {
+                                    "__label": "Chris Talking",
+                                    "__collapse": true
+                                },
+                                "children": {
+                                    "true": [
+                                        {
+                                            "id": "70d65eee-33d0-4000-b3b6-af292e96ac01",
+                                            "command": "EVENT_ACTOR_SET_ANIMATION_SPEED",
+                                            "args": {
+                                                "actorId": "c1dd0411-2620-4cfb-b001-441c31132fba",
+                                                "speed": 3,
+                                                "__collapse": true
+                                            }
+                                        },
+                                        {
+                                            "id": "2b3254a7-b1f3-42fc-aac2-c0f36b815248",
+                                            "command": "EVENT_ACTOR_SET_FRAME",
+                                            "args": {
+                                                "actorId": "c1dd0411-2620-4cfb-b001-441c31132fba",
+                                                "frame": {
+                                                    "type": "number",
+                                                    "value": 0
+                                                },
+                                                "__collapse": true
+                                            }
+                                        },
+                                        {
+                                            "id": "2fca3bfc-5608-4459-aa2c-0cde5eacaa1c",
+                                            "command": "EVENT_END"
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "id": "76d4dabc-2ed1-44ec-a09a-27fc6a89bfd7",
+                                "command": "EVENT_TEXT",
+                                "args": {
+                                    "text": [
+                                        "Wow you pulled a\nreal life-saver.",
+                                        "Gosh I don't know\nwhat I would've\ndone without you."
+                                    ],
+                                    "avatarId": "",
+                                    "__collapse": false
+                                }
+                            },
+                            {
+                                "id": "05342055-9bda-4c60-820b-64cd85eb46d4",
+                                "command": "EVENT_GROUP",
+                                "args": {
+                                    "__label": "Chris Stop Talking",
+                                    "__collapse": true
+                                },
+                                "children": {
+                                    "true": [
+                                        {
+                                            "id": "ab35669f-3b7f-4d0d-96d5-6b3cfefff131",
+                                            "command": "EVENT_ACTOR_SET_ANIMATION_SPEED",
+                                            "args": {
+                                                "actorId": "c1dd0411-2620-4cfb-b001-441c31132fba",
+                                                "speed": null,
+                                                "__collapse": false
+                                            }
+                                        },
+                                        {
+                                            "id": "75faad17-bada-4cfd-a5a9-5a67b340569c",
+                                            "command": "EVENT_ACTOR_SET_FRAME",
+                                            "args": {
+                                                "actorId": "c1dd0411-2620-4cfb-b001-441c31132fba",
+                                                "frame": {
+                                                    "type": "number",
+                                                    "value": 0
+                                                },
+                                                "__collapse": false
+                                            }
+                                        },
+                                        {
+                                            "id": "677dc70e-7ba8-4862-bfa4-8c997f4767a5",
+                                            "command": "EVENT_END"
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "id": "885ac20a-3826-4b99-8b9b-02f223744893",
+                                "command": "EVENT_END"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "ae3b6a05-cbc2-43b5-9045-09fdb3ca3a23",
+                    "command": "EVENT_TEXT",
+                    "args": {
+                        "text": [
+                            "Wow...",
+                            "I've been\nthinking a lot\nabout us...",
+                            "Would you like\nto get coffee\nwith me?"
+                        ],
+                        "avatarId": "6ed6d52f-e987-43ae-8843-8bee03dbb6e4",
+                        "__collapse": false
+                    }
+                },
+                {
+                    "id": "d17a5dcb-2998-44db-8eb7-c73bec4fe4d8",
+                    "command": "EVENT_GROUP",
+                    "args": {
+                        "__label": "NPC Dialog",
+                        "__collapse": false
+                    },
+                    "children": {
+                        "true": [
+                            {
+                                "id": "67aa798e-9c48-44ba-8940-3e7e96741c45",
+                                "command": "EVENT_GROUP",
+                                "args": {
+                                    "__label": "Chris Talking",
+                                    "__collapse": true
+                                },
+                                "children": {
+                                    "true": [
+                                        {
+                                            "id": "ba94f014-396d-449a-98b9-683d92c3f0b4",
+                                            "command": "EVENT_ACTOR_SET_ANIMATION_SPEED",
+                                            "args": {
+                                                "actorId": "c1dd0411-2620-4cfb-b001-441c31132fba",
+                                                "speed": 3,
+                                                "__collapse": true
+                                            }
+                                        },
+                                        {
+                                            "id": "84b9d382-339c-4893-8a75-0c81173ca674",
+                                            "command": "EVENT_ACTOR_SET_FRAME",
+                                            "args": {
+                                                "actorId": "c1dd0411-2620-4cfb-b001-441c31132fba",
+                                                "frame": {
+                                                    "type": "number",
+                                                    "value": 0
+                                                },
+                                                "__collapse": true
+                                            }
+                                        },
+                                        {
+                                            "id": "f5a23289-97a0-407d-a166-2d4089ceaeaa",
+                                            "command": "EVENT_END"
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "id": "a5300433-38a7-43e1-9c5d-94f4c1e785c6",
+                                "command": "EVENT_TEXT",
+                                "args": {
+                                    "text": [
+                                        "Are you asking me\nout?"
+                                    ],
+                                    "avatarId": "",
+                                    "__collapse": false
+                                }
+                            },
+                            {
+                                "id": "699a9c00-013b-4689-8a2a-6137daff8317",
+                                "command": "EVENT_GROUP",
+                                "args": {
+                                    "__label": "Chris Stop Talking",
+                                    "__collapse": true
+                                },
+                                "children": {
+                                    "true": [
+                                        {
+                                            "id": "ce94e54d-4979-4cec-96f7-63bd7be6a007",
+                                            "command": "EVENT_ACTOR_SET_ANIMATION_SPEED",
+                                            "args": {
+                                                "actorId": "c1dd0411-2620-4cfb-b001-441c31132fba",
+                                                "speed": null,
+                                                "__collapse": false
+                                            }
+                                        },
+                                        {
+                                            "id": "f19588a4-715a-4955-aae2-9d08bbc2c007",
+                                            "command": "EVENT_ACTOR_SET_FRAME",
+                                            "args": {
+                                                "actorId": "c1dd0411-2620-4cfb-b001-441c31132fba",
+                                                "frame": {
+                                                    "type": "number",
+                                                    "value": 0
+                                                },
+                                                "__collapse": false
+                                            }
+                                        },
+                                        {
+                                            "id": "94d85b18-9083-4835-813b-067919701df2",
+                                            "command": "EVENT_END"
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "id": "408f2a7c-669a-48c9-87dd-b46bbc81a021",
+                                "command": "EVENT_END"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "6cc36bf0-3756-4327-b26e-8cd9446b3ce3",
+                    "command": "EVENT_TEXT",
+                    "args": {
+                        "text": [
+                            "Yes."
+                        ],
+                        "avatarId": "6ed6d52f-e987-43ae-8843-8bee03dbb6e4"
+                    }
+                },
+                {
+                    "id": "ce2765f3-ed99-4e25-bd28-7f39704954f9",
+                    "command": "EVENT_GROUP",
+                    "args": {
+                        "__label": "NPC Dialog",
+                        "__collapse": false
+                    },
+                    "children": {
+                        "true": [
+                            {
+                                "id": "cf6af810-b923-4788-bace-d13ed0d307e7",
+                                "command": "EVENT_GROUP",
+                                "args": {
+                                    "__label": "Chris Talking",
+                                    "__collapse": true
+                                },
+                                "children": {
+                                    "true": [
+                                        {
+                                            "id": "7407b834-274b-4122-9ae5-ac8e212f790b",
+                                            "command": "EVENT_ACTOR_SET_ANIMATION_SPEED",
+                                            "args": {
+                                                "actorId": "c1dd0411-2620-4cfb-b001-441c31132fba",
+                                                "speed": 3,
+                                                "__collapse": true
+                                            }
+                                        },
+                                        {
+                                            "id": "a50c46ef-fe9d-4c83-a93b-dd3f8558b5fd",
+                                            "command": "EVENT_ACTOR_SET_FRAME",
+                                            "args": {
+                                                "actorId": "c1dd0411-2620-4cfb-b001-441c31132fba",
+                                                "frame": {
+                                                    "type": "number",
+                                                    "value": 0
+                                                },
+                                                "__collapse": true
+                                            }
+                                        },
+                                        {
+                                            "id": "54fb6604-6906-466a-a373-9ec65f4c5f89",
+                                            "command": "EVENT_END"
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "id": "3c2f97a7-cd7c-4b40-9823-0f8bc697bed4",
+                                "command": "EVENT_TEXT",
+                                "args": {
+                                    "text": [
+                                        "You cutie.",
+                                        "Don't worry, it's\non the house!",
+                                        "Hahahaha!"
+                                    ],
+                                    "avatarId": "",
+                                    "__collapse": false
+                                }
+                            },
+                            {
+                                "id": "a829dcd6-cdf8-4c83-9f8c-fe03ad5a9d84",
+                                "command": "EVENT_GROUP",
+                                "args": {
+                                    "__label": "Chris Stop Talking",
+                                    "__collapse": true
+                                },
+                                "children": {
+                                    "true": [
+                                        {
+                                            "id": "42e27e17-0f03-4493-a672-b7cfcd62fac7",
+                                            "command": "EVENT_ACTOR_SET_ANIMATION_SPEED",
+                                            "args": {
+                                                "actorId": "c1dd0411-2620-4cfb-b001-441c31132fba",
+                                                "speed": null,
+                                                "__collapse": false
+                                            }
+                                        },
+                                        {
+                                            "id": "12d359e5-23be-4214-9844-fd567aaad408",
+                                            "command": "EVENT_ACTOR_SET_FRAME",
+                                            "args": {
+                                                "actorId": "c1dd0411-2620-4cfb-b001-441c31132fba",
+                                                "frame": {
+                                                    "type": "number",
+                                                    "value": 0
+                                                },
+                                                "__collapse": false
+                                            }
+                                        },
+                                        {
+                                            "id": "c835491a-0674-4c3b-a817-2cec7411eb68",
+                                            "command": "EVENT_END"
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "id": "7e0df7f7-2f97-4b8a-adb3-5db46c910122",
                                 "command": "EVENT_END"
                             }
                         ]
@@ -33409,7 +33740,7 @@
         "showCollisions": true,
         "showConnections": true,
         "worldScrollX": 1524.800048828125,
-        "worldScrollY": 0,
+        "worldScrollY": 300,
         "zoom": 150,
         "customColorsEnabled": false,
         "customHead": "",
