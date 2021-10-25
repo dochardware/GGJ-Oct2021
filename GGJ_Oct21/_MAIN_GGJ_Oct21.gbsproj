@@ -38286,9 +38286,9 @@
                             "id": "ae194aed-766f-4de6-8d17-6e764d8356fe",
                             "command": "EVENT_WAIT",
                             "args": {
-                                "time": 0.2,
+                                "time": 2,
                                 "__label": ".3",
-                                "__collapse": true
+                                "__collapse": false
                             }
                         },
                         {
@@ -39784,6 +39784,14 @@
                     }
                 },
                 {
+                    "id": "160260a5-2ead-43e4-88e4-025f82f7c7d7",
+                    "command": "EVENT_WAIT",
+                    "args": {
+                        "time": 2,
+                        "__collapse": false
+                    }
+                },
+                {
                     "id": "b90b35c0-a5c4-4342-a320-5195d44bc364",
                     "command": "EVENT_SWITCH_SCENE",
                     "args": {
@@ -39792,14 +39800,6 @@
                         "y": 12,
                         "direction": "",
                         "fadeSpeed": "2",
-                        "__collapse": true
-                    }
-                },
-                {
-                    "id": "160260a5-2ead-43e4-88e4-025f82f7c7d7",
-                    "command": "EVENT_WAIT",
-                    "args": {
-                        "time": 2,
                         "__collapse": true
                     }
                 },
@@ -45492,8 +45492,8 @@
             "imageWidth": 160,
             "imageHeight": 144,
             "filename": "BGTemplate.png",
-            "inode": "5066549581010391",
-            "_v": 1635113240623
+            "inode": "26280937",
+            "_v": 1635129420318
         },
         {
             "id": "df2d53fc-6b6f-476a-9a36-cb3540384198",
@@ -45503,8 +45503,8 @@
             "imageWidth": 160,
             "imageHeight": 144,
             "filename": "BG_Clem.png",
-            "inode": "5066549581010392",
-            "_v": 1635113240622
+            "inode": "26280949",
+            "_v": 1635129420318
         },
         {
             "id": "22bf7c2c-7ea5-458d-92fd-5fd1ab28f06b",
@@ -45514,8 +45514,8 @@
             "imageWidth": 160,
             "imageHeight": 144,
             "filename": "ChrisBG.png",
-            "inode": "14355223812495211",
-            "_v": 1635113240623
+            "inode": "26313113",
+            "_v": 1635129420318
         },
         {
             "id": "7e238a07-91b9-4560-9dd3-a61de09fb9af",
@@ -45525,8 +45525,8 @@
             "imageWidth": 160,
             "imageHeight": 144,
             "filename": "GirlsBG.png",
-            "inode": "12384898975520622",
-            "_v": 1635113240623
+            "inode": "26313311",
+            "_v": 1635129420318
         },
         {
             "id": "cbbf0720-698b-45b2-8f86-57a7424b7bf2",
@@ -45536,8 +45536,8 @@
             "imageWidth": 160,
             "imageHeight": 144,
             "filename": "JoBG.png",
-            "inode": "12103423998686719",
-            "_v": 1635113240623
+            "inode": "26351889",
+            "_v": 1635129420318
         },
         {
             "id": "f44f6424-fe17-4740-abdd-c11a9e28589b",
@@ -45547,8 +45547,8 @@
             "imageWidth": 160,
             "imageHeight": 144,
             "filename": "JoChris.png",
-            "inode": "33214047252043610",
-            "_v": 1635113240623
+            "inode": "26380006",
+            "_v": 1635129420318
         },
         {
             "id": "144f4211-9092-4a7b-8427-ee2d9d6c2498",
@@ -45558,8 +45558,8 @@
             "imageWidth": 160,
             "imageHeight": 144,
             "filename": "JoClem.png",
-            "inode": "17451448556247138",
-            "_v": 1635113240623
+            "inode": "26380057",
+            "_v": 1635129420318
         },
         {
             "id": "b0228351-cbbc-4089-999e-200032f835a3",
@@ -45569,8 +45569,8 @@
             "imageWidth": 552,
             "imageHeight": 504,
             "filename": "Map - ver1.png",
-            "inode": "10977524091844099",
-            "_v": 1635113240623
+            "inode": "26380334",
+            "_v": 1635129420318
         },
         {
             "id": "c70d189b-e76c-4c8e-8c17-d4e3b7e72255",
@@ -45580,8 +45580,8 @@
             "imageWidth": 552,
             "imageHeight": 504,
             "filename": "Map.png",
-            "inode": "25051272927409674",
-            "_v": 1635113240623
+            "inode": "26317897",
+            "_v": 1635129420318
         },
         {
             "id": "eb5e4998-82c7-470a-8106-25408e95647a",
@@ -45591,8 +45591,8 @@
             "imageWidth": 160,
             "imageHeight": 144,
             "filename": "Portrait_Client01.png",
-            "inode": "23362423067177717",
-            "_v": 1635113240623
+            "inode": "26280328",
+            "_v": 1635129420318
         },
         {
             "id": "30f6ce37-8797-4b36-bdd4-88bb569bbda4",
@@ -45602,8 +45602,8 @@
             "imageWidth": 160,
             "imageHeight": 144,
             "filename": "TitleCard.png",
-            "inode": "18577348463089784",
-            "_v": 1635113240623
+            "inode": "26375817",
+            "_v": 1635129420318
         },
         {
             "id": "d5cecf54-6c90-4672-8a98-3dc9d5ebc3ad",
@@ -45613,8 +45613,8 @@
             "imageWidth": 160,
             "imageHeight": 144,
             "filename": "TitleCard_clementine.png",
-            "inode": "21673573206907266",
-            "_v": 1635113240623
+            "inode": "26379135",
+            "_v": 1635129420318
         },
         {
             "id": "99c33762-3dca-4a76-a603-0124f5b6d509",
@@ -45624,8 +45624,8 @@
             "imageWidth": 160,
             "imageHeight": 144,
             "filename": "gbstudio.png",
-            "inode": "23643898043882190",
-            "_v": 1635113240623
+            "inode": "26376501",
+            "_v": 1635129420318
         },
         {
             "id": "c60e1780-37d0-41e5-b68d-3026d534a34c",
@@ -45635,8 +45635,8 @@
             "imageWidth": 160,
             "imageHeight": 144,
             "filename": "lobby_bg.png",
-            "inode": "35465847065729814",
-            "_v": 1635113240623
+            "inode": "26380168",
+            "_v": 1635129420318
         },
         {
             "id": "6f3b23c1-b1d8-4c79-b702-0fae563e3737",
@@ -45646,8 +45646,8 @@
             "imageWidth": 160,
             "imageHeight": 144,
             "filename": "marketing.png",
-            "inode": "12103423998686725",
-            "_v": 1635113240623
+            "inode": "26338246",
+            "_v": 1635129420318
         },
         {
             "id": "1e5f9d6a-bdbc-43e6-8c34-22f5bb5dea05",
@@ -45657,8 +45657,8 @@
             "imageWidth": 160,
             "imageHeight": 144,
             "filename": "placeholder.png",
-            "inode": "10696049115187654",
-            "_v": 1635113240623
+            "inode": "26254473",
+            "_v": 1635129420318
         }
     ],
     "spriteSheets": [
@@ -45668,8 +45668,8 @@
             "numFrames": 4,
             "type": "animated",
             "filename": "Cursor.png",
-            "inode": "5066549581010395",
-            "_v": 1635113240623
+            "inode": "26281871",
+            "_v": 1635129420318
         },
         {
             "id": "69da302d-7740-4c42-9102-2709d1e4390a",
@@ -45677,8 +45677,8 @@
             "numFrames": 2,
             "type": "animated",
             "filename": "NPC1.png",
-            "inode": "51791395714812469",
-            "_v": 1635113240623
+            "inode": "26373854",
+            "_v": 1635129420318
         },
         {
             "id": "4ed2c38e-25ae-40f9-b558-6457847346c0",
@@ -45686,8 +45686,8 @@
             "numFrames": 2,
             "type": "animated",
             "filename": "NPC2.png",
-            "inode": "58265320179211544",
-            "_v": 1635113240623
+            "inode": "26373904",
+            "_v": 1635129420318
         },
         {
             "id": "0b624ed3-922b-4563-bd20-532c12e1f827",
@@ -45695,8 +45695,8 @@
             "numFrames": 2,
             "type": "animated",
             "filename": "NPC3.png",
-            "inode": "75153818781785748",
-            "_v": 1635113240623
+            "inode": "26373885",
+            "_v": 1635129420318
         },
         {
             "id": "9e17bf2d-3fda-45e9-b950-ed4a8af4eee1",
@@ -45704,8 +45704,8 @@
             "numFrames": 2,
             "type": "animated",
             "filename": "NPC4.png",
-            "inode": "33214047252042097",
-            "_v": 1635113240623
+            "inode": "26373869",
+            "_v": 1635129420318
         },
         {
             "id": "f3246efd-77db-430f-92e5-60e855355175",
@@ -45713,8 +45713,8 @@
             "numFrames": 6,
             "type": "actor_animated",
             "filename": "NPC5.png",
-            "inode": "46161896180679831",
-            "_v": 1635113240623
+            "inode": "26384720",
+            "_v": 1635129420318
         },
         {
             "id": "11b5452b-187c-43a3-afb1-a1f4f74ffda2",
@@ -45722,8 +45722,8 @@
             "numFrames": 3,
             "type": "actor",
             "filename": "actor.png",
-            "inode": "8444249301513823",
-            "_v": 1635113240623
+            "inode": "26254479",
+            "_v": 1635129420318
         },
         {
             "id": "581d34d0-9591-4e6e-a609-1d94f203b0cd",
@@ -45731,8 +45731,8 @@
             "numFrames": 6,
             "type": "actor_animated",
             "filename": "actor_animated.png",
-            "inode": "18295873486386785",
-            "_v": 1635113240623
+            "inode": "26254481",
+            "_v": 1635129420318
         },
         {
             "id": "4922883e-d920-46b1-9197-c650b999c396",
@@ -45740,8 +45740,8 @@
             "numFrames": 1,
             "type": "static",
             "filename": "blank.png",
-            "inode": "45598946227255100",
-            "_v": 1635113240623
+            "inode": "26352777",
+            "_v": 1635129420318
         },
         {
             "id": "13aee7b2-5de8-433d-8eab-8b88795ed18d",
@@ -45749,8 +45749,8 @@
             "numFrames": 6,
             "type": "actor_animated",
             "filename": "chris.png",
-            "inode": "59109745109366604",
-            "_v": 1635113240623
+            "inode": "26338126",
+            "_v": 1635129420318
         },
         {
             "id": "9304c7c0-147a-4a4f-b827-5c2bcacc4cf3",
@@ -45758,8 +45758,8 @@
             "numFrames": 2,
             "type": "animated",
             "filename": "chris_mouth.png",
-            "inode": "14355223812495220",
-            "_v": 1635113240623
+            "inode": "26312942",
+            "_v": 1635129420318
         },
         {
             "id": "0a6b1853-3a39-4989-93fa-c1816e9571c5",
@@ -45767,8 +45767,8 @@
             "numFrames": 6,
             "type": "actor_animated",
             "filename": "clem.png",
-            "inode": "7881299348114899",
-            "_v": 1635113240623
+            "inode": "26327832",
+            "_v": 1635129420318
         },
         {
             "id": "0d4af66d-860c-4fc2-89b3-cdf2212decd3",
@@ -45776,8 +45776,8 @@
             "numFrames": 2,
             "type": "animated",
             "filename": "clem_mouth.png",
-            "inode": "5066549581010397",
-            "_v": 1635113240623
+            "inode": "26280428",
+            "_v": 1635129420318
         },
         {
             "id": "0ff6fde5-00ed-4e3f-96dd-0ac2d06f90a3",
@@ -45785,8 +45785,8 @@
             "numFrames": 6,
             "type": "actor_animated",
             "filename": "jo.png",
-            "inode": "49539595901204301",
-            "_v": 1635113240623
+            "inode": "26346053",
+            "_v": 1635129420318
         },
         {
             "id": "6ed6d52f-e987-43ae-8843-8bee03dbb6e4",
@@ -45794,8 +45794,8 @@
             "numFrames": 1,
             "type": "static",
             "filename": "jo_icon.png",
-            "inode": "69524319247660882",
-            "_v": 1635113240623
+            "inode": "26347788",
+            "_v": 1635129420318
         },
         {
             "id": "d57f08d1-9f7f-449e-8f28-4eada205da1f",
@@ -45803,8 +45803,8 @@
             "numFrames": 4,
             "type": "animated",
             "filename": "jo_minigame.png",
-            "inode": "32088147345143649",
-            "_v": 1635113240623
+            "inode": "26352524",
+            "_v": 1635129420318
         },
         {
             "id": "86c5625f-0b34-480a-bc95-180fe62d66ad",
@@ -45812,8 +45812,8 @@
             "numFrames": 2,
             "type": "animated",
             "filename": "mom_mouth.png",
-            "inode": "29554872554812150",
-            "_v": 1635113240623
+            "inode": "26267235",
+            "_v": 1635129420318
         },
         {
             "id": "cbed4fe3-1673-4853-a935-2d5cb4858cd2",
@@ -45821,8 +45821,8 @@
             "numFrames": 9,
             "type": "animated",
             "filename": "numbers.png",
-            "inode": "51228445761468341",
-            "_v": 1635113240623
+            "inode": "26373712",
+            "_v": 1635129420318
         },
         {
             "id": "daf95270-e30d-423b-9ee7-990ae29f57f6",
@@ -45830,8 +45830,8 @@
             "numFrames": 1,
             "type": "static",
             "filename": "static.png",
-            "inode": "8162774324803170",
-            "_v": 1635113240623
+            "inode": "26254483",
+            "_v": 1635129420318
         }
     ],
     "palettes": [
@@ -45979,88 +45979,88 @@
             "name": "Another One (no intro)",
             "filename": "Another One (no intro).mod",
             "settings": {},
-            "inode": "52072870691599886",
-            "_v": 1635113240614
+            "inode": "26341503",
+            "_v": 1635129420306
         },
         {
             "id": "9ab32d21-2a63-45f5-9b80-60d7a5962ffd",
             "name": "Another One",
             "filename": "Another One.mod",
             "settings": {},
-            "inode": "49821070877914645",
-            "_v": 1635113240614
+            "inode": "26339112",
+            "_v": 1635129420307
         },
         {
             "id": "df57e976-cc4b-4c18-969d-bea8ad82eb72",
             "name": "Couple or End theme v1",
             "filename": "Couple or End theme v1.mod",
             "settings": {},
-            "inode": "8444249301536206",
-            "_v": 1635113240614
+            "inode": "26324665",
+            "_v": 1635129420307
         },
         {
             "id": "fac77afb-0725-4c16-80dd-9693875899cf",
             "name": "Puzzle theme 1",
             "filename": "Puzzle theme 1.mod",
             "settings": {},
-            "inode": "7881299348114898",
-            "_v": 1635113240614
+            "inode": "26324666",
+            "_v": 1635129420307
         },
         {
             "id": "8a1be7c2-f110-42e4-b0a7-dbc73790212c",
             "name": "RomCom 1",
             "filename": "RomCom 1.mod",
             "settings": {},
-            "inode": "16325548649411359",
-            "_v": 1635113240614
+            "inode": "26337003",
+            "_v": 1635129420307
         },
         {
             "id": "54c0bc32-b958-4c14-837d-e7bbce043a56",
             "name": "Title theme v1 (no intro)",
             "filename": "Title theme v1 (no intro).mod",
             "settings": {},
-            "inode": "48976645947782937",
-            "_v": 1635113240614
+            "inode": "26341504",
+            "_v": 1635129420307
         },
         {
             "id": "6be0cd5b-1439-40e5-a11b-23e6bc99d5bf",
             "name": "Title theme v1",
             "filename": "Title theme v1.mod",
             "settings": {},
-            "inode": "7318349394693588",
-            "_v": 1635113240614
+            "inode": "26324668",
+            "_v": 1635129420307
         },
         {
             "id": "81b5e52d-0792-4458-a3c1-c41832487819",
             "name": "Walkin Music 1-Talkin",
             "filename": "Walkin Music 1-Talkin.mod",
             "settings": {},
-            "inode": "7318349394693589",
-            "_v": 1635113240614
+            "inode": "26324669",
+            "_v": 1635129420307
         },
         {
             "id": "b5687ef6-ecc6-4baf-bdd0-1575c7d487cd",
             "name": "Walkin Music 1",
             "filename": "Walkin Music 1.mod",
             "settings": {},
-            "inode": "16325548649405264",
-            "_v": 1635113240614
+            "inode": "26384718",
+            "_v": 1635129420307
         },
         {
             "id": "db7cccbe-45c7-4881-83ab-772a96d3ed39",
             "name": "Walkin Music 2",
             "filename": "Walkin Music 2.mod",
             "settings": {},
-            "inode": "57702370225813289",
-            "_v": 1635113240615
+            "inode": "26384719",
+            "_v": 1635129420307
         },
         {
             "id": "f50428ab-a084-4591-9bba-2ba10fe7b1c6",
             "name": "template",
             "filename": "template.mod",
             "settings": {},
-            "inode": "23080948090467925",
-            "_v": 1635113240614
+            "inode": "26254476",
+            "_v": 1635129420307
         }
     ],
     "variables": [
@@ -46099,6 +46099,10 @@
         {
             "id": "9",
             "name": "Health"
+        },
+        {
+            "id": "10",
+            "name": "Clem Morning"
         },
         {
             "id": "83df6a14-c8f9-41b7-96f1-538d021f1c4d__L0",
@@ -46179,10 +46183,6 @@
         {
             "id": "3858872a-3df9-437d-a523-f71fd611a79b__L0",
             "name": "Multiple Choice"
-        },
-        {
-            "id": "10",
-            "name": "Clem Morning"
         }
     ],
     "engineFieldValues": [
@@ -46201,9 +46201,9 @@
         "startDirection": "right",
         "showCollisions": true,
         "showConnections": true,
-        "worldScrollX": 2847.169921875,
-        "worldScrollY": 437.7358703613281,
-        "zoom": 236.99998474121094,
+        "worldScrollX": 516,
+        "worldScrollY": 42,
+        "zoom": 73.23476099967957,
         "customColorsEnabled": false,
         "customHead": "",
         "defaultBackgroundPaletteIds": [
@@ -46218,9 +46218,9 @@
         "defaultUIPaletteId": "default-ui",
         "playerPaletteId": "",
         "navigatorSplitSizes": [
-            764,
+            459,
             30,
-            437
+            263
         ],
         "showNavigator": true,
         "defaultFadeStyle": "white",
