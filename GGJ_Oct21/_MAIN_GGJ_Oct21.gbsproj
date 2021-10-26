@@ -17922,7 +17922,7 @@
                         ],
                         "persist": false,
                         "__scriptTabs": "press",
-                        "__collapse": true
+                        "__collapse": false
                     },
                     "children": {
                         "true": [
@@ -43882,7 +43882,7 @@
                         "operator": ">=",
                         "comparator": 3,
                         "__collapseElse": false,
-                        "__collapse": true
+                        "__collapse": false
                     },
                     "children": {
                         "true": [
@@ -46202,8 +46202,8 @@
         "startDirection": "right",
         "showCollisions": true,
         "showConnections": true,
-        "worldScrollX": 689,
-        "worldScrollY": 530,
+        "worldScrollX": 520,
+        "worldScrollY": 460,
         "zoom": 119.14570511877537,
         "customColorsEnabled": false,
         "customHead": "",
