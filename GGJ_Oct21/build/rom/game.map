@@ -88,12 +88,12 @@ Area                       Addr        Size        Decimal Bytes (Attributes)
      00000008  l__HEADER |    0000002C  l__HEADER |    00000033  l__HEADER
      0000003A  l__BSS    |    0000007E  l__HEADER |    000000E6  l__HOME  
      00000200  s__CODE   |    000002D5  l__BASE   |    000005A9  l__GSINIT
-     00000E48  l__DATA   |    000024AB  l__CODE_5 |    000028EF  l__CODE  
+     00000E48  l__DATA   |    000024B4  l__CODE_5 |    000028EF  l__CODE  
      00002AEF  s__HOME   |    00002BD5  s__BASE   |    00002EAA  s__CODE_0
      00002EAA  s__GSINIT |    00002EAA  s__LIT    |    00003101  l__CODE_4
-     000032D4  l__CODE_1 |    00003453  s__GSFINA |    00003C5D  l__CODE_1
-     00003C77  l__CODE_1 |    00003DB6  l__CODE_1 |    00003FEC  l__CODE_8
-     00003FF1  l__CODE_7 |    00003FFB  l__CODE_9 |    00003FFF  l__CODE_6
+     000032D4  l__CODE_1 |    00003453  s__GSFINA |    00003C77  l__CODE_1
+     00003DB6  l__CODE_1 |    00003F9B  l__CODE_1 |    00003FEC  l__CODE_8
+     00003FF0  l__CODE_9 |    00003FF8  l__CODE_7 |    00003FFC  l__CODE_6
      0000C000  _shadow_O |    0000C0A0  s__DATA   |    0000CEE8  s__BSS   
      0000CF22  s__HEAP   |    0000E000  .STACK    |    0000FF80  .refresh_
      00014000  s__CODE_1 |    00044000  s__CODE_4 |    00054000  s__CODE_5
@@ -587,7 +587,7 @@ Hexadecimal  [32-Bits]
 
 Area                       Addr        Size        Decimal Bytes (Attributes)
 --------------------       ----        ----        ------- ----- ------------
-_CODE_10               000A4000    00003C5D =       15453. bytes (REL,CON)
+_CODE_10               000A4000    00003F9B =       16283. bytes (REL,CON)
 
         Value  Global            Value  Global            Value  Global    
         -----  ------            -----  ------            -----  ------    
@@ -597,7 +597,7 @@ Hexadecimal  [32-Bits]
 
 Area                       Addr        Size        Decimal Bytes (Attributes)
 --------------------       ----        ----        ------- ----- ------------
-_CODE_6                00064000    00003FFF =       16383. bytes (REL,CON)
+_CODE_6                00064000    00003FFC =       16380. bytes (REL,CON)
 
         Value  Global            Value  Global            Value  Global    
         -----  ------            -----  ------            -----  ------    
@@ -607,7 +607,7 @@ Hexadecimal  [32-Bits]
 
 Area                       Addr        Size        Decimal Bytes (Attributes)
 --------------------       ----        ----        ------- ----- ------------
-_CODE_7                00074000    00003FF1 =       16369. bytes (REL,CON)
+_CODE_7                00074000    00003FF8 =       16376. bytes (REL,CON)
 
         Value  Global            Value  Global            Value  Global    
         -----  ------            -----  ------            -----  ------    
@@ -627,7 +627,7 @@ Hexadecimal  [32-Bits]
 
 Area                       Addr        Size        Decimal Bytes (Attributes)
 --------------------       ----        ----        ------- ----- ------------
-_CODE_9                00094000    00003FFB =       16379. bytes (REL,CON)
+_CODE_9                00094000    00003FF0 =       16368. bytes (REL,CON)
 
         Value  Global            Value  Global            Value  Global    
         -----  ------            -----  ------            -----  ------    
@@ -637,17 +637,17 @@ Hexadecimal  [32-Bits]
 
 Area                       Addr        Size        Decimal Bytes (Attributes)
 --------------------       ----        ----        ------- ----- ------------
-_CODE_5                00054000    000024AB =        9387. bytes (REL,CON)
+_CODE_5                00054000    000024B4 =        9396. bytes (REL,CON)
 
         Value  Global            Value  Global            Value  Global    
         -----  ------            -----  ------            -----  ------    
-     00054000  _tileset_ |    00054015  _backgrou |    00054036  _backgrou
-     0005408D  _palette_ |    00054090  _sprite_b |    000540BD  _scene_ba
-     00054114  _collisio |    0005416B  _avatar_b |    00054171  _music_tr
-     00054183  _music_ba |    0005418C  _Start_Ad |    000541A1  _Update_A
-     00054715  _BasicPla |    00054AD6  _Start_Pl |    00054B80  _Update_P
-     000557C1  _Start_Po |    000557EA  _Update_P |    00055A63  _Start_Sh
-     00055AEF  _Update_S |    00056024  _Start_To |    00056087  _Update_T
+     00054000  _tileset_ |    00054015  _backgrou |    00054039  _backgrou
+     00054090  _palette_ |    00054093  _sprite_b |    000540C6  _scene_ba
+     0005411D  _collisio |    00054174  _avatar_b |    0005417A  _music_tr
+     0005418C  _music_ba |    00054195  _Start_Ad |    000541AA  _Update_A
+     0005471E  _BasicPla |    00054ADF  _Start_Pl |    00054B89  _Update_P
+     000557CA  _Start_Po |    000557F3  _Update_P |    00055A6C  _Start_Sh
+     00055AF8  _Update_S |    0005602D  _Start_To |    00056090  _Update_T
 ASxxxx Linker V03.00 + NoICE + sdld,  page 39.
 Hexadecimal  [32-Bits]
 
@@ -1251,151 +1251,151 @@ _HEADER_LCD0           00000000    00000003 =           3. bytes (ABS,CON)
 
 Files Linked                              [ module(s) ]
 
-C:\Users\Jack\AppData\Local\Temp/_gbstools/gbdk/lib/small/asxxxx/gb/crt0.o
+/Users/bryanrollins/GBStudio/TEMP//_gbstools/gbdk/lib/small/asxxxx/gb/crt0.o
                                           [ Runtime ]
-C:/Users/Jack/AppData/Local/Temp/_gbsbuild/obj/Actor_a.o
+/Users/bryanrollins/GBStudio/TEMP/_gbsbuild/obj/Actor_a.o
                                           [  ]
-C:/Users/Jack/AppData/Local/Temp/_gbsbuild/obj/Actor_b.o
+/Users/bryanrollins/GBStudio/TEMP/_gbsbuild/obj/Actor_b.o
                                           [ Actor_b ]
-C:/Users/Jack/AppData/Local/Temp/_gbsbuild/obj/Actor.o
+/Users/bryanrollins/GBStudio/TEMP/_gbsbuild/obj/Actor.o
                                           [ Actor ]
-C:/Users/Jack/AppData/Local/Temp/_gbsbuild/obj/asm.macros.o
+/Users/bryanrollins/GBStudio/TEMP/_gbsbuild/obj/asm.macros.o
                                           [  ]
-C:/Users/Jack/AppData/Local/Temp/_gbsbuild/obj/BankData.o
+/Users/bryanrollins/GBStudio/TEMP/_gbsbuild/obj/BankData.o
                                           [ BankData ]
-C:/Users/Jack/AppData/Local/Temp/_gbsbuild/obj/BankManager.o
+/Users/bryanrollins/GBStudio/TEMP/_gbsbuild/obj/BankManager.o
                                           [ BankManager ]
-C:/Users/Jack/AppData/Local/Temp/_gbsbuild/obj/Camera_a.o
+/Users/bryanrollins/GBStudio/TEMP/_gbsbuild/obj/Camera_a.o
                                           [  ]
-C:/Users/Jack/AppData/Local/Temp/_gbsbuild/obj/Camera.o
+/Users/bryanrollins/GBStudio/TEMP/_gbsbuild/obj/Camera.o
                                           [ Camera ]
-C:/Users/Jack/AppData/Local/Temp/_gbsbuild/obj/Collision.o
+/Users/bryanrollins/GBStudio/TEMP/_gbsbuild/obj/Collision.o
                                           [ Collision ]
-C:/Users/Jack/AppData/Local/Temp/_gbsbuild/obj/Core_Main.o
+/Users/bryanrollins/GBStudio/TEMP/_gbsbuild/obj/Core_Main.o
                                           [ Core_Main ]
-C:/Users/Jack/AppData/Local/Temp/_gbsbuild/obj/DataManager.o
+/Users/bryanrollins/GBStudio/TEMP/_gbsbuild/obj/DataManager.o
                                           [ DataManager ]
-C:/Users/Jack/AppData/Local/Temp/_gbsbuild/obj/FadeManager_b.o
+/Users/bryanrollins/GBStudio/TEMP/_gbsbuild/obj/FadeManager_b.o
                                           [ FadeManager_b ]
-C:/Users/Jack/AppData/Local/Temp/_gbsbuild/obj/FadeManager.o
+/Users/bryanrollins/GBStudio/TEMP/_gbsbuild/obj/FadeManager.o
                                           [ FadeManager ]
-C:/Users/Jack/AppData/Local/Temp/_gbsbuild/obj/gbt_player_bank1.o
+/Users/bryanrollins/GBStudio/TEMP/_gbsbuild/obj/gbt_player_bank1.o
                                           [  ]
-C:/Users/Jack/AppData/Local/Temp/_gbsbuild/obj/gbt_player.o
+/Users/bryanrollins/GBStudio/TEMP/_gbsbuild/obj/gbt_player.o
                                           [  ]
-C:/Users/Jack/AppData/Local/Temp/_gbsbuild/obj/Input.o
+/Users/bryanrollins/GBStudio/TEMP/_gbsbuild/obj/Input.o
                                           [ Input ]
-C:/Users/Jack/AppData/Local/Temp/_gbsbuild/obj/Math.o
+/Users/bryanrollins/GBStudio/TEMP/_gbsbuild/obj/Math.o
                                           [ Math ]
-C:/Users/Jack/AppData/Local/Temp/_gbsbuild/obj/MusicManager.o
+/Users/bryanrollins/GBStudio/TEMP/_gbsbuild/obj/MusicManager.o
                                           [ MusicManager ]
-C:/Users/Jack/AppData/Local/Temp/_gbsbuild/obj/Palette.o
+/Users/bryanrollins/GBStudio/TEMP/_gbsbuild/obj/Palette.o
                                           [ Palette ]
-C:/Users/Jack/AppData/Local/Temp/_gbsbuild/obj/Projectiles_b.o
+/Users/bryanrollins/GBStudio/TEMP/_gbsbuild/obj/Projectiles_b.o
                                           [ Projectiles_b ]
-C:/Users/Jack/AppData/Local/Temp/_gbsbuild/obj/Projectiles.o
+/Users/bryanrollins/GBStudio/TEMP/_gbsbuild/obj/Projectiles.o
                                           [ Projectiles ]
-C:/Users/Jack/AppData/Local/Temp/_gbsbuild/obj/ScriptRunner_b.o
+/Users/bryanrollins/GBStudio/TEMP/_gbsbuild/obj/ScriptRunner_b.o
                                           [ ScriptRunner_b ]
-C:/Users/Jack/AppData/Local/Temp/_gbsbuild/obj/ScriptRunner.o
+/Users/bryanrollins/GBStudio/TEMP/_gbsbuild/obj/ScriptRunner.o
                                           [ ScriptRunner ]
-C:/Users/Jack/AppData/Local/Temp/_gbsbuild/obj/Scroll_a.o
+/Users/bryanrollins/GBStudio/TEMP/_gbsbuild/obj/Scroll_a.o
                                           [  ]
-C:/Users/Jack/AppData/Local/Temp/_gbsbuild/obj/Scroll_b.o
+/Users/bryanrollins/GBStudio/TEMP/_gbsbuild/obj/Scroll_b.o
                                           [ Scroll_b ]
-C:/Users/Jack/AppData/Local/Temp/_gbsbuild/obj/Scroll.o
+/Users/bryanrollins/GBStudio/TEMP/_gbsbuild/obj/Scroll.o
                                           [ Scroll ]
-C:/Users/Jack/AppData/Local/Temp/_gbsbuild/obj/Sprite_b.o
+/Users/bryanrollins/GBStudio/TEMP/_gbsbuild/obj/Sprite_b.o
                                           [ Sprite_b ]
-C:/Users/Jack/AppData/Local/Temp/_gbsbuild/obj/Sprite.o
+/Users/bryanrollins/GBStudio/TEMP/_gbsbuild/obj/Sprite.o
                                           [ Sprite ]
-C:/Users/Jack/AppData/Local/Temp/_gbsbuild/obj/Stack.o
+/Users/bryanrollins/GBStudio/TEMP/_gbsbuild/obj/Stack.o
                                           [ Stack ]
-C:/Users/Jack/AppData/Local/Temp/_gbsbuild/obj/Trigger_b.o
+/Users/bryanrollins/GBStudio/TEMP/_gbsbuild/obj/Trigger_b.o
                                           [ Trigger_b ]
-C:/Users/Jack/AppData/Local/Temp/_gbsbuild/obj/Trigger.o
+/Users/bryanrollins/GBStudio/TEMP/_gbsbuild/obj/Trigger.o
                                           [ Trigger ]
-C:/Users/Jack/AppData/Local/Temp/_gbsbuild/obj/UI_a.o
+/Users/bryanrollins/GBStudio/TEMP/_gbsbuild/obj/UI_a.o
                                           [  ]
-C:/Users/Jack/AppData/Local/Temp/_gbsbuild/obj/UI_b.o
+/Users/bryanrollins/GBStudio/TEMP/_gbsbuild/obj/UI_b.o
                                           [ UI_b ]
-C:/Users/Jack/AppData/Local/Temp/_gbsbuild/obj/UI.o
+/Users/bryanrollins/GBStudio/TEMP/_gbsbuild/obj/UI.o
                                           [ UI ]
-C:/Users/Jack/AppData/Local/Temp/_gbsbuild/obj/bank_10.o
+/Users/bryanrollins/GBStudio/TEMP/_gbsbuild/obj/bank_10.o
                                           [ bank_10 ]
-C:/Users/Jack/AppData/Local/Temp/_gbsbuild/obj/bank_6.o
+/Users/bryanrollins/GBStudio/TEMP/_gbsbuild/obj/bank_6.o
                                           [ bank_6 ]
-C:/Users/Jack/AppData/Local/Temp/_gbsbuild/obj/bank_7.o
+/Users/bryanrollins/GBStudio/TEMP/_gbsbuild/obj/bank_7.o
                                           [ bank_7 ]
-C:/Users/Jack/AppData/Local/Temp/_gbsbuild/obj/bank_8.o
+/Users/bryanrollins/GBStudio/TEMP/_gbsbuild/obj/bank_8.o
                                           [ bank_8 ]
-C:/Users/Jack/AppData/Local/Temp/_gbsbuild/obj/bank_9.o
+/Users/bryanrollins/GBStudio/TEMP/_gbsbuild/obj/bank_9.o
                                           [ bank_9 ]
-C:/Users/Jack/AppData/Local/Temp/_gbsbuild/obj/data_ptrs.o
+/Users/bryanrollins/GBStudio/TEMP/_gbsbuild/obj/data_ptrs.o
                                           [ data_ptrs ]
-C:/Users/Jack/AppData/Local/Temp/_gbsbuild/obj/main.o
+/Users/bryanrollins/GBStudio/TEMP/_gbsbuild/obj/main.o
                                           [ main ]
-C:/Users/Jack/AppData/Local/Temp/_gbsbuild/obj/music_bank_11.o
+/Users/bryanrollins/GBStudio/TEMP/_gbsbuild/obj/music_bank_11.o
                                           [ music_bank_11 ]
-C:/Users/Jack/AppData/Local/Temp/_gbsbuild/obj/music_bank_12.o
+/Users/bryanrollins/GBStudio/TEMP/_gbsbuild/obj/music_bank_12.o
                                           [ music_bank_12 ]
-C:/Users/Jack/AppData/Local/Temp/_gbsbuild/obj/Adventure.o
+/Users/bryanrollins/GBStudio/TEMP/_gbsbuild/obj/Adventure.o
                                           [ Adventure ]
-C:/Users/Jack/AppData/Local/Temp/_gbsbuild/obj/Platform.o
+/Users/bryanrollins/GBStudio/TEMP/_gbsbuild/obj/Platform.o
                                           [ Platform ]
-C:/Users/Jack/AppData/Local/Temp/_gbsbuild/obj/PointNClick.o
+/Users/bryanrollins/GBStudio/TEMP/_gbsbuild/obj/PointNClick.o
                                           [ PointNClick ]
-C:/Users/Jack/AppData/Local/Temp/_gbsbuild/obj/Shmup.o
+/Users/bryanrollins/GBStudio/TEMP/_gbsbuild/obj/Shmup.o
                                           [ Shmup ]
-C:/Users/Jack/AppData/Local/Temp/_gbsbuild/obj/TopDown.o
+/Users/bryanrollins/GBStudio/TEMP/_gbsbuild/obj/TopDown.o
                                           [ TopDown ]
 
 
 Libraries Linked                          [ object file ]
 
-C:\Users\Jack\AppData\Local\Temp/_gbstools/gbdk/lib/small/asxxxx/gb/gb.lib
+/Users/bryanrollins/GBStudio/TEMP//_gbstools/gbdk/lib/small/asxxxx/gb/gb.lib
                                           [ fill_rect_wi.o ]
-C:\Users\Jack\AppData\Local\Temp/_gbstools/gbdk/lib/small/asxxxx/gbz80/gbz80.lib
+/Users/bryanrollins/GBStudio/TEMP//_gbstools/gbdk/lib/small/asxxxx/gbz80/gbz80.lib
                                           [ _strcpy.o ]
-C:\Users\Jack\AppData\Local\Temp/_gbstools/gbdk/lib/small/asxxxx/gb/gb.lib
+/Users/bryanrollins/GBStudio/TEMP//_gbstools/gbdk/lib/small/asxxxx/gb/gb.lib
                                           [ rand.o ]
-C:\Users\Jack\AppData\Local\Temp/_gbstools/gbdk/lib/small/asxxxx/gb/gb.lib
+/Users/bryanrollins/GBStudio/TEMP//_gbstools/gbdk/lib/small/asxxxx/gb/gb.lib
                                           [ sfr.o ]
-C:\Users\Jack\AppData\Local\Temp/_gbstools/gbdk/lib/small/asxxxx/gbz80/gbz80.lib
+/Users/bryanrollins/GBStudio/TEMP//_gbstools/gbdk/lib/small/asxxxx/gbz80/gbz80.lib
                                           [ itoa.o ]
-C:\Users\Jack\AppData\Local\Temp/_gbstools/gbdk/lib/small/asxxxx/gbz80/gbz80.lib
+/Users/bryanrollins/GBStudio/TEMP//_gbstools/gbdk/lib/small/asxxxx/gbz80/gbz80.lib
                                           [ div.o ]
-C:\Users\Jack\AppData\Local\Temp/_gbstools/gbdk/lib/small/asxxxx/gb/gb.lib
+/Users/bryanrollins/GBStudio/TEMP//_gbstools/gbdk/lib/small/asxxxx/gb/gb.lib
                                           [ tim.o ]
-C:\Users\Jack\AppData\Local\Temp/_gbstools/gbdk/lib/small/asxxxx/gbz80/gbz80.lib
+/Users/bryanrollins/GBStudio/TEMP//_gbstools/gbdk/lib/small/asxxxx/gbz80/gbz80.lib
                                           [ mul.o ]
-C:\Users\Jack\AppData\Local\Temp/_gbstools/gbdk/lib/small/asxxxx/gb/gb.lib
+/Users/bryanrollins/GBStudio/TEMP//_gbstools/gbdk/lib/small/asxxxx/gb/gb.lib
                                           [ set_wi_t.o ]
-C:\Users\Jack\AppData\Local\Temp/_gbstools/gbdk/lib/small/asxxxx/gb/gb.lib
+/Users/bryanrollins/GBStudio/TEMP//_gbstools/gbdk/lib/small/asxxxx/gb/gb.lib
                                           [ set_data.o ]
-C:\Users\Jack\AppData\Local\Temp/_gbstools/gbdk/lib/small/asxxxx/gb/gb.lib
+/Users/bryanrollins/GBStudio/TEMP//_gbstools/gbdk/lib/small/asxxxx/gb/gb.lib
                                           [ fill_rect.o ]
-C:\Users\Jack\AppData\Local\Temp/_gbstools/gbdk/lib/small/asxxxx/gb/gb.lib
+/Users/bryanrollins/GBStudio/TEMP//_gbstools/gbdk/lib/small/asxxxx/gb/gb.lib
                                           [ pad.o ]
-C:\Users\Jack\AppData\Local\Temp/_gbstools/gbdk/lib/small/asxxxx/gbz80/gbz80.lib
+/Users/bryanrollins/GBStudio/TEMP//_gbstools/gbdk/lib/small/asxxxx/gbz80/gbz80.lib
                                           [ __sdcc_call_hl.o ]
-C:\Users\Jack\AppData\Local\Temp/_gbstools/gbdk/lib/small/asxxxx/gbz80/gbz80.lib
+/Users/bryanrollins/GBStudio/TEMP//_gbstools/gbdk/lib/small/asxxxx/gbz80/gbz80.lib
                                           [ _memset.o ]
-C:\Users\Jack\AppData\Local\Temp/_gbstools/gbdk/lib/small/asxxxx/gbz80/gbz80.lib
+/Users/bryanrollins/GBStudio/TEMP//_gbstools/gbdk/lib/small/asxxxx/gbz80/gbz80.lib
                                           [ _memcpy.o ]
-C:\Users\Jack\AppData\Local\Temp/_gbstools/gbdk/lib/small/asxxxx/gb/gb.lib
+/Users/bryanrollins/GBStudio/TEMP//_gbstools/gbdk/lib/small/asxxxx/gb/gb.lib
                                           [ ___sdcc_bcall_ehl.o ]
-C:\Users\Jack\AppData\Local\Temp/_gbstools/gbdk/lib/small/asxxxx/gb/gb.lib
+/Users/bryanrollins/GBStudio/TEMP//_gbstools/gbdk/lib/small/asxxxx/gb/gb.lib
                                           [ bgb_emu.o ]
-C:\Users\Jack\AppData\Local\Temp/_gbstools/gbdk/lib/small/asxxxx/gbz80/gbz80.lib
+/Users/bryanrollins/GBStudio/TEMP//_gbstools/gbdk/lib/small/asxxxx/gbz80/gbz80.lib
                                           [ strcat.o ]
-C:\Users\Jack\AppData\Local\Temp/_gbstools/gbdk/lib/small/asxxxx/gbz80/gbz80.lib
+/Users/bryanrollins/GBStudio/TEMP//_gbstools/gbdk/lib/small/asxxxx/gbz80/gbz80.lib
                                           [ strlen.o ]
-C:\Users\Jack\AppData\Local\Temp/_gbstools/gbdk/lib/small/asxxxx/gb/gb.lib
+/Users/bryanrollins/GBStudio/TEMP//_gbstools/gbdk/lib/small/asxxxx/gb/gb.lib
                                           [ lcd.o ]
-C:\Users\Jack\AppData\Local\Temp/_gbstools/gbdk/lib/small/asxxxx/gb/gb.lib
+/Users/bryanrollins/GBStudio/TEMP//_gbstools/gbdk/lib/small/asxxxx/gb/gb.lib
                                           [ cpy_data.o ]
-C:\Users\Jack\AppData\Local\Temp/_gbstools/gbdk/lib/small/asxxxx/gb/gb.lib
+/Users/bryanrollins/GBStudio/TEMP//_gbstools/gbdk/lib/small/asxxxx/gb/gb.lib
                                           [ set_xy_t.o ]
 
 ASxxxx Linker V03.00 + NoICE + sdld,  page 100.
